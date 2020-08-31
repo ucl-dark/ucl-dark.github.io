@@ -136,7 +136,7 @@ const start = () => {
     d3.json('papers.json').then(papers => {
         console.log(papers, "--- papers");
 
-        shuffleArray(papers);
+        /* shuffleArray(papers); */
 
         allPapers = papers;
         calcAllKeys(allPapers, allKeys);
@@ -263,11 +263,12 @@ const card_html = openreview => `
                 <h6 class="card-subtitle text-muted" align="center">
                         ${openreview.content.authors.join(', ')}
                 </h6>
-                ${card_image(openreview, render_mode !== 'list')}
-                <h6 class="card-subtitle text-muted" align="center">
-                       console.log(openreview.content)
+                <br>
+                <h6 class="card-subtitle text-dark" align="center">
+                       <b>${openreview.content.proceedings}</b>
                        ${openreview.content.year}
                 </h6>
+                ${card_image(openreview, render_mode !== 'list')}
             </div>
                
                 ${card_detail(openreview, (render_mode === 'detail'))}
