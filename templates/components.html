@@ -91,12 +91,18 @@
         <center>
           <img src="{{org.im}}" class="rounded" style="height: 150px;" />
         </center>
+        {% if org.note %}
+        <h6 class="card-subtitle text-muted m-1">
+            {{org.note}}
+        </h6>
+        {% endif %}
       </div>
     </div>
   </div>
   {% endfor %}
 </div>
 {%- endmacro %}
+
 
 {% macro faqgroup(FAQ) -%}
 {% for section in FAQ %}

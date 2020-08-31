@@ -1,4 +1,4 @@
-committee:
+faculty:
   - role: Lecturer
     name: Tim Rocktäschel
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=mWBY8aIAAAAJ&citpid=8
@@ -10,4 +10,30 @@ committee:
   - role: Professor
     name: Sebastian Riedel
     tw: riedelcastro
-    im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=AcCtcrsAAAAJ&citpid=3
+    im: https://pbs.twimg.com/profile_images/1079788897134104576/HDrYfrub_400x400.jpg
+    note: Affiliated Faculty
+
+phd:
+  - role: PhD Student (2020—)
+    name: Zhengyao Jiang
+    im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=J8pFrgwAAAAJ&citpid=2
+    tw: zhengyaojiang
+  - role: PhD Student (2020—)
+    name: Robert Kirk
+    im: https://pbs.twimg.com/profile_images/1219003032270245888/Wt4oxa_g_400x400.jpg 
+    tw: _robertkirk
+    note: CDT in Foundational AI
+  - role: PhD Student (2020—)
+    name: Mikayel Samvelyan
+    im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=2Qs19WAAAAAJ&citpid=11
+    tw: samvelyan
+  - role: PhD Student (2019—)
+    name: Minqi Jiang
+    im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=b7LglM0AAAAJ&citpid=1 
+    tw: MinqiJiang
+
+msc:
+  - role: MRes Student (2020)
+    name: Zhengyao Jiang
+    im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=J8pFrgwAAAAJ&citpid=2
+    tw: zhengyaojiang

@@ -1,12 +1,12 @@
 name: UCL DARK Lab
-tagline: UCL Deciding, Acting, and Reasoning Lab
+tagline: UCL Deciding, Acting, and Reasoning with Knowledge Lab
 date: 
 citation_date: 
 proceedings_title: 
 analytics: UA-
 logo:
   image: static/images/logo.png
-  width: 180px
+  width: 120px
   height: auto
 # uncomment the following line to show the site title next to the logo image
 # site_title: MiniConf
