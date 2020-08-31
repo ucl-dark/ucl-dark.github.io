@@ -123,7 +123,7 @@ def extract_list_field(v, key):
 
 
 def format_paper(v):
-    list_keys = ["authors", "keywords", "session"]
+    list_keys = ["authors", "keywords", "session", "proceedings", "year"]
     list_fields = {}
     for key in list_keys:
         list_fields[key] = extract_list_field(v, key)
@@ -139,6 +139,8 @@ def format_paper(v):
             "TLDR": v["abstract"],
             "recs": [],
             "session": list_fields["session"],
+            "proceedings": list_fields["proceedings"],
+            "year": list_fields["year"],
             "pdf_url": v.get("pdf_url", ""),
         },
     }
