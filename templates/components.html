@@ -88,9 +88,11 @@
             >{% endif %}
           </h6>
         </div>
+        {% if org.im %}
         <center>
           <img src="{{org.im}}" class="rounded" style="height: 150px;" />
         </center>
+        {% endif %}
         {% if org.note %}
         <h6 class="card-subtitle text-muted m-1">
             {{org.note}}

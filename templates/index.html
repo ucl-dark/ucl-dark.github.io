@@ -23,13 +23,13 @@
                   height={{config.logo.height | default("auto") | tojson}}
                   width={{config.logo.width | default("auto") | tojson}}
               />
-        {{config.tagline|safe}}
-      </h2>
-      <!-- <h2 class="p-5">
-        {{config.date|safe}}
-      </h2>
-      -->
-    </div>
+              {{config.tagline|safe}}
+          </h2>
+          <!-- <h2 class="p-5">
+               {{config.date|safe}}
+               </h2>
+          -->
+      </div>
   </div>
 </div>
 {% endblock %}
@@ -44,4 +44,11 @@
 
 {{ components.section("PhD Students") }}
 {{ components.organizergroup(phd) }}
+
+{{ components.section("Master's Students") }}
+{{ components.organizergroup(msc) }}
+
+{{ components.section("Alumni") }}
+{{ components.organizergroup(alumni) }}
+
 {% endblock %}

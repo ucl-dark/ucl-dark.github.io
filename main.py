@@ -69,7 +69,7 @@ def home():
     # data["affiliated"] = site_data["committee"]["affiliated"]
     data["phd"] = site_data["committee"]["phd"]
     data["msc"] = site_data["committee"]["msc"]
-    # data["alumni"] = site_data["committee"]["alumni"]
+    data["alumni"] = site_data["committee"]["alumni"]
     return render_template("index.html", **data)
 
 
