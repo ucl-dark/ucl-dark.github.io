@@ -201,7 +201,7 @@ const keyword = kw => `<a href="papers.html?filter=keywords&search=${kw}"
                        class="text-secondary text-decoration-none">${kw.toLowerCase()}</a>`
 
 const card_image = (openreview, show) => {
-    if (show) return ` <center><img class="lazy-load-img cards_img" data-src="https://iclr.github.io/iclr-images/small/${openreview.id}.jpg" width="80%"/></center>`
+    if (show) return ` <center><img class="lazy-load-img cards_img" data-src="./static/images/papers/${openreview.id}.jpg" width="90%"/></center>`
     else return ''
 }
 
@@ -264,7 +264,10 @@ const card_html = openreview => `
                         ${openreview.content.authors.join(', ')}
                 </h6>
                 ${card_image(openreview, render_mode !== 'list')}
-                
+                <h6 class="card-subtitle text-muted" align="center">
+                       console.log(openreview.content)
+                       ${openreview.content.year}
+                </h6>
             </div>
                
                 ${card_detail(openreview, (render_mode === 'detail'))}
