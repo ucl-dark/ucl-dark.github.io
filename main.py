@@ -65,11 +65,8 @@ def index():
 def home():
     data = _data()
     data["readme"] = open("README.md").read()
-    data["faculty"] = site_data["committee"]["faculty"]
-    # data["affiliated"] = site_data["committee"]["affiliated"]
-    data["phd"] = site_data["committee"]["phd"]
-    data["msc"] = site_data["committee"]["msc"]
-    data["alumni"] = site_data["committee"]["alumni"]
+    for group_name, content in site_data["committee"].items(): 
+        data[group_name] = content
     return render_template("index.html", **data)
 
 
