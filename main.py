@@ -83,6 +83,11 @@ def papers():
     data["papers"] = site_data["papers"]
     return render_template("papers.html", **data)
 
+@app.route("/speakers.html")
+def speakers():
+    data = _data()
+    data["speakers"] = site_data["speakers"]
+    return render_template("speakers.html", **data)
 
 @app.route("/paper_vis.html")
 def paper_vis():
@@ -156,9 +161,7 @@ def format_workshop(v):
         "abstract": v["abstract"],
     }
 
-
 # ITEM PAGES
-
 
 @app.route("/poster_<poster>.html")
 def poster(poster):
@@ -201,6 +204,13 @@ def paper_json():
     json = []
     for v in site_data["papers"]:
         json.append(format_paper(v))
+    return jsonify(json)
+
+@app.route("/speakers.json")
+def speaker_json():
+    json = []
+    for v in site_data["speakers"]:
+        json.append(v)
     return jsonify(json)
 
 

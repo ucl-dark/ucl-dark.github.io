@@ -1,14 +1,14 @@
-{% set active_page = "Workshops" %}
-{% set page_title = "Workshops" %}
+{% set active_page = "Speakers" %}
+{% set page_title = "Speakers" %}
 {% extends "base.html" %}
 
 {% block content %}
 <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
   <div id="day">
     <!-- Workshops -->
-    {{ components.section("Workshops") }}
+    {{ components.section("Speakers") }}
     <div class="speakers">
-      {{ components.workshopgroup(workshops) }}
+      {{ components.speakersgroup(speakers) }}
     </div>
   </div>
 </div>
