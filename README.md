@@ -12,9 +12,9 @@ UCL **DARK** is a group at the [UCL Centre for Artificial Intelligence](https://
 
 ### Do it on the web interface:
 1. Append a new row to https://github.com/ucl-dark/ucl-dark.github.io/blob/master/sitedata/papers.csv
-2. Add an image of the paper to https://github.com/ucl-dark/ucl-dark.github.io/tree/master/static/images/papers
+2. Upload an image of the paper to https://github.com/ucl-dark/ucl-dark.github.io/tree/master/static/images/papers
 
-### update the site
+### Update the site
 The following steps are optional (in case you want your modifications show immediately on the http://dark.cs.ucl.ac.uk/) :
 
 6. `make run` this spins up a local server where you can check the changes that you made to the webpage.
