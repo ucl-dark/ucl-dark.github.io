@@ -7,7 +7,9 @@ UCL **DARK** is a group at the [UCL Centre for Artificial Intelligence](https://
 4. `git commit -am "[YOUR MSG]"`
 5. `git push origin`
 
-The following steps are optional (in case you want your modifications show immediately on the http://dark.cs.ucl.ac.uk/):
+The following steps are optional (in case you want your modifications show immediately on the http://dark.cs.ucl.ac.uk/). Before you do that, :
 
-6. `git add build`
-7. git push origin `git subtree split --prefix build master:gh-pages --force`
+6. `make run` this spins up a local server where you can check the changes that you made to the webpage.
+7. `make freeze` generates the static version of the site.
+8. `git add build`
+9. git push origin `git subtree split --prefix build master:gh-pages --force`
