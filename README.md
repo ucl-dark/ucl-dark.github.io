@@ -20,4 +20,5 @@ The following steps are optional (in case you want your modifications show immed
 6. `make run` this spins up a local server where you can check the changes that you made to the webpage.
 7. `make freeze` generates the static version of the site.
 8. `git add build`
-9. git push origin `git subtree split --prefix build master:gh-pages`
+9. `git commit -am "update build"`
+10. `git subtree push --prefix build origin gh-pages`
