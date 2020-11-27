@@ -8,5 +8,6 @@ UCL **DARK** is a group at the [UCL Centre for Artificial Intelligence](https://
 5. `git push origin`
 
 The following steps are optional (in case you want your modifications show immediately on the http://dark.cs.ucl.ac.uk/):
+
 6. `git add build`
 7. git push origin `git subtree split --prefix build master:gh-pages --force`
