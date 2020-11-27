@@ -2,7 +2,7 @@ UCL **DARK** is a group at the [UCL Centre for Artificial Intelligence](https://
 
 ## Steps to add your papers
 1. Append a new row to https://github.com/ucl-dark/ucl-dark.github.io/blob/master/sitedata/papers.csv
-2. Add a image of the paper to `https://github.com/ucl-dark/ucl-dark.github.io/tree/master/static/images/papers`
+2. Add a image of the paper to https://github.com/ucl-dark/ucl-dark.github.io/tree/master/static/images/papers
 3. `git add static/images/papers`
 4. `git commit -am "[YOUR MSG]"`
 5. `git push origin`
