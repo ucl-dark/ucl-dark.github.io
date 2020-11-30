@@ -16,7 +16,7 @@ by_uid = {}
 
 def main(site_data_path):
     global site_data, extra_files
-    extra_files = ["README.md"]
+    extra_files = ["introduction.md"]
     # Load all for your sitedata one time.
     for f in glob.glob(site_data_path + "/*"):
         extra_files.append(f)
@@ -64,7 +64,7 @@ def index():
 @app.route("/index.html")
 def home():
     data = _data()
-    data["readme"] = open("README.md").read()
+    data["introduction"] = open("introduction.md").read()
     for group_name, content in site_data["committee"].items(): 
         data[group_name] = content
     return render_template("index.html", **data)

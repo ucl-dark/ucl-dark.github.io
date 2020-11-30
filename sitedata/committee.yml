@@ -46,7 +46,7 @@ phd:
 msc:
   - role: MSc Student (2020)
     name: Christina Kouridi
-    im: https://pbs.twimg.com/profile_images/1200100318194868230/KmZWxi5I_400x400.jpg 
+    im: static/images/people/ck.jpeg
     tw: CKouridi
   - role: MSc Student (2020)
     name: Udeepa Meepegama
