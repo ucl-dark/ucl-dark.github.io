@@ -134,7 +134,7 @@ def format_paper(v):
             "session": list_fields["session"],
             "proceedings": list_fields["proceedings"],
             "year": list_fields["year"],
-            "pdf_url": v.get("pdf_url", ""),
+            "url": v.get("url", ""),
         },
     }
 
