@@ -1,5 +1,5 @@
-{% set active_page = "Home" %}
 {% extends "base.html" %}
+{% set active_page = "Home" %}
 
 {% block top %}
 <style>
@@ -38,7 +38,32 @@
 
 {{ introduction | markdown }}
 
-<!-- Organizers -->
+<link rel="stylesheet" href="static/css/news.css" />
+<div class="twitter">
+    <div>
+    <section id="news" class="section-row section-publications homepage-row" >
+        {{ components.section("News") }}
+        <div class="container">
+          <div class="row mb-3">
+              <div class="col-12">
+                <ul class="news-list">
+                    {% for info in news %}
+                        <li>{{ info.date }}: {{  info.message | markdown }}</li>
+                    {% endfor %}
+                </ul>
+              </div>
+          </div>
+          {{ end }}
+        </div>
+    </section>
+    </div>
+    <div>
+        <a class="twitter-timeline" data-width="350" data-height="500" href="https://twitter.com/ucl_dark?ref_src=twsrc%5Etfw">
+        Tweets by ucl_dark</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+</div>
+
+<!-- People -->
 {{ components.section("Faculty") }}
 {{ components.organizergroup(faculty) }}
 

@@ -1,0 +1,50 @@
+.twitter {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.container.content {
+  padding: 0 4rem;
+}
+
+.section-row {
+  padding: 3.6em 2em;
+}
+
+.section-row a {
+  border-color: transparent;
+}
+
+.section-row a:hover {
+  border-bottom: 1px dotted;
+}
+
+.homepage-row {
+  border-bottom: 1px solid #e4eaef;
+  color: var(--text-light);
+}
+
+.homepage-row-light {
+  background: #fff;
+}
+
+.homepage-row-dark, .homepage-row-dark a {
+  color: rgba(255, 255, 255, 0.8);
+  border-bottom: 1px dotted;
+}
+
+.homepage-row-dark, .homepage-row-dark a:hover {
+  color: rgba(255, 255, 255, 1.0);
+  border-color: transparent;
+}
+
+ul.news-list p {
+  display: inline;
+}
+
+ul.news-list {
+  list-style-type: none;
+  padding-left: 0;
+}
