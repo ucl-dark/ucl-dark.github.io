@@ -43,17 +43,16 @@ phd:
     tw: MinqiJiang
     interests:
 
-msc:
+alumni:
   - role: MSc Student (2020)
     name: Christina Kouridi
     im: static/images/people/ck.jpeg
     tw: CKouridi
+    note: Currently a Machine Learning Research Intern at Max Planck Institute for Intelligent Systems, Empirical Inference Group.
   - role: MSc Student (2020)
     name: Udeepa Meepegama
     im: https://pbs.twimg.com/profile_images/1201675803811037184/XXpnLd1e_400x400.jpg
     tw: udeepa_m
-
-alumni:
   - role: MRes Student (2019—2020)
     name: Zhengyao Jiang
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=J8pFrgwAAAAJ&citpid=2
