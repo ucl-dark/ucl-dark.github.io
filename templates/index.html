@@ -40,15 +40,14 @@
 
 <link rel="stylesheet" href="static/css/news.css" />
 <div class="twitter">
-    <div>
-    <section id="news" class="section-row section-publications homepage-row" >
+    <div style="margin-right: 100px">
         {{ components.section("News") }}
-        <div class="container">
+        <div class="container" >
           <div class="row mb-3">
               <div class="col-12 card-text">
                 <ul class="news-list" style="font-family: 'Exo'">
                     {% for info in news %}
-                        <li style="margin-bottom: 80px"><span class="news-item-date" style="font-weight: bold; font-family: 'Lato'; display: inline-block; width: 96px;">
+                        <li style="margin-bottom: 10px"><span class="news-item-date" style="font-weight: bold; font-family: 'Lato'; display: inline-block; width: 96px;">
                             {{ info.date }}:</span>  {{ info.message | markdown }}</li>
                     {% endfor %}
                 </ul>
@@ -56,7 +55,6 @@
           </div>
           {{ end }}
         </div>
-    </section>
     </div>
     <div>
         <a class="twitter-timeline" data-width="350" data-height="500" href="https://twitter.com/ucl_dark?ref_src=twsrc%5Etfw">
