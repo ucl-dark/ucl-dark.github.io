@@ -45,10 +45,11 @@
         {{ components.section("News") }}
         <div class="container">
           <div class="row mb-3">
-              <div class="col-12">
-                <ul class="news-list">
+              <div class="col-12 card-text">
+                <ul class="news-list" style="font-family: 'Exo'">
                     {% for info in news %}
-                        <li>{{ info.date }}: {{  info.message | markdown }}</li>
+                        <li style="margin-bottom: 80px"><span class="news-item-date" style="font-weight: bold; font-family: 'Lato'; display: inline-block; width: 96px;">
+                            {{ info.date }}:</span>  {{ info.message | markdown }}</li>
                     {% endfor %}
                 </ul>
               </div>

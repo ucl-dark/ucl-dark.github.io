@@ -21,11 +21,6 @@
   border-bottom: 1px dotted;
 }
 
-.homepage-row {
-  border-bottom: 1px solid #e4eaef;
-  color: var(--text-light);
-}
-
 .homepage-row-light {
   background: #fff;
 }
