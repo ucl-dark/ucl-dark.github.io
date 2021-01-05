@@ -1,4 +1,4 @@
 make freeze
 git add build
 git commit -am "update build"
-git subtree push --prefix build origin gh-pages --force
+git push origin `git subtree split --prefix build origin`:gh-pages --force
