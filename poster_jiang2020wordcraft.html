@@ -1,0 +1,301 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="static/css/main.css" />
+    <link rel="stylesheet" href="static/css/lazy_load.css" />
+    <link rel="stylesheet" href="static/css/typeahead.css" />
+    <link rel="icon" href="static/images/logo.png">
+
+    <!-- External Javascript libs  -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js" integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js" integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww=" crossorigin="anonymous"></script>
+
+
+    <!-- Library libs -->
+    <script src="static/js/typeahead.bundle.js"></script>
+
+    
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous">
+
+    <!-- External Fonts (no google for china) -->
+    <link
+      href="static/css/Lato.css"
+      rel="stylesheet"
+    />
+    <link href="static/css/Exo.css" rel="stylesheet" />
+    <link
+      href="static/css/Cuprum.css"
+      rel="stylesheet"
+    />
+
+    <title>UCL DARK Lab: WordCraft: An Environment for Benchmarking Commonsense Agents</title>
+    
+<meta name="citation_title" content="WordCraft: An Environment for Benchmarking Commonsense Agents" />
+
+<meta name="citation_author" content="Minqi Jiang" />
+
+<meta name="citation_author" content="Jelena Luketina" />
+
+<meta name="citation_author" content="Nantas Nardelli" />
+
+<meta name="citation_author" content="Pasquale Minervini" />
+
+<meta name="citation_author" content="Philip H.S. Torr" />
+
+<meta name="citation_author" content="Shimon Whiteson" />
+
+<meta name="citation_author" content="Tim Rocktäschel" />
+
+<meta name="citation_publication_date" content="None" />
+<meta name="citation_conference_title" content="Ucl Deciding, Acting, And Reasoning With Knowledge (Dark) Lab" />
+<meta name="citation_inbook_title" content="None" />
+<meta name="citation_abstract" content="The ability to quickly solve a wide range of real-world tasks requires a commonsense understanding of the world. Yet, how to best extract such knowledge from natural language corpora and integrate it with reinforcement learning (RL) agents remains an open challenge. This is partly due to the lack of lightweight simulation environments that sufficiently reflect the semantics of the real world and provide knowledge sources grounded with respect to observations in an RL environment. To better enable research on agents making use of commonsense knowledge, we propose WordCraft, an RL environment based on Little Alchemy 2. This lightweight environment is fast to run and built upon entities and relations inspired by real-world semantics. We evaluate several representation learning methods on this new benchmark and propose a new method for integrating knowledge graphs with an RL agent." />
+
+<meta name="citation_keywords" content="reinforcement learning" />
+
+<meta name="citation_keywords" content="commonsense reasoning" />
+
+<meta name="citation_keywords" content="natural language processing" />
+
+<meta name="citation_keywords" content="procedural content generation" />
+
+<meta name="citation_pdf_url" content="https://arxiv.org/abs/2007.09185" />
+
+
+  </head>
+
+  <body>
+    <!-- NAV -->
+    
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
+      id="main-nav"
+    >
+        <div class="container">
+        <!--
+        <a class="navbar-brand" href="index.html">
+          <img
+             class="logo" src="static/images/logo.png"
+             height="auto"
+             width="120px"
+          />
+        </a>
+        -->
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-right flex-grow-1"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            
+            <li class="nav-item ">
+              <a class="nav-link" href="papers.html">Publications</a>
+            </li>
+            
+            <li class="nav-item ">
+              <a class="nav-link" href="speakers.html">Speakers</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+    
+    <!-- User Overrides -->
+     
+
+    <div class="container">
+      <!-- Tabs -->
+      <div class="tabs">
+         
+      </div>
+      <!-- Content -->
+      <div class="content">
+        
+
+<!-- Title -->
+<div class="pp-card m-3" style="">
+  <div class="card-header">
+    <h2 class="card-title main-title text-center" style="">
+      WordCraft: An Environment for Benchmarking Commonsense Agents
+    </h2>
+    <h3 class="card-subtitle mb-2 text-muted text-center">
+      
+      <a href="papers.html?filter=authors&search=Minqi Jiang" class="text-muted"
+        >Minqi Jiang</a
+      >,
+      
+      <a href="papers.html?filter=authors&search=Jelena Luketina" class="text-muted"
+        >Jelena Luketina</a
+      >,
+      
+      <a href="papers.html?filter=authors&search=Nantas Nardelli" class="text-muted"
+        >Nantas Nardelli</a
+      >,
+      
+      <a href="papers.html?filter=authors&search=Pasquale Minervini" class="text-muted"
+        >Pasquale Minervini</a
+      >,
+      
+      <a href="papers.html?filter=authors&search=Philip H.S. Torr" class="text-muted"
+        >Philip H.S. Torr</a
+      >,
+      
+      <a href="papers.html?filter=authors&search=Shimon Whiteson" class="text-muted"
+        >Shimon Whiteson</a
+      >,
+      
+      <a href="papers.html?filter=authors&search=Tim Rocktäschel" class="text-muted"
+        >Tim Rocktäschel</a
+      >
+      
+    </h3>
+    <p class="card-text text-center">
+      <span class="">Keywords:</span>
+      
+      <a
+        href="papers.html?filter=keywords&search=reinforcement learning"
+        class="text-secondary text-decoration-none"
+        >reinforcement learning</a
+      >,
+      
+      <a
+        href="papers.html?filter=keywords&search=commonsense reasoning"
+        class="text-secondary text-decoration-none"
+        >commonsense reasoning</a
+      >,
+      
+      <a
+        href="papers.html?filter=keywords&search=natural language processing"
+        class="text-secondary text-decoration-none"
+        >natural language processing</a
+      >,
+      
+      <a
+        href="papers.html?filter=keywords&search=procedural content generation"
+        class="text-secondary text-decoration-none"
+        >procedural content generation</a
+      >
+      
+    </p>
+    <div class="text-center p-3">
+      <a class="card-link" data-toggle="collapse" role="button" href="#details">
+        Abstract
+      </a>
+      <a class="card-link" target="_blank" href="https://arxiv.org/abs/2007.09185">
+        Paper
+      </a>
+      
+    </div>
+  </div>
+</div>
+<div id="details" class="pp-card m-3">
+  <div class="card-body">
+    <div class="card-text">
+      <div id="abstractExample">
+        <span class="font-weight-bold">Abstract:</span>
+        The ability to quickly solve a wide range of real-world tasks requires a commonsense understanding of the world. Yet, how to best extract such knowledge from natural language corpora and integrate it with reinforcement learning (RL) agents remains an open challenge. This is partly due to the lack of lightweight simulation environments that sufficiently reflect the semantics of the real world and provide knowledge sources grounded with respect to observations in an RL environment. To better enable research on agents making use of commonsense knowledge, we propose WordCraft, an RL environment based on Little Alchemy 2. This lightweight environment is fast to run and built upon entities and relations inspired by real-world semantics. We evaluate several representation learning methods on this new benchmark and propose a new method for integrating knowledge graphs with an RL agent.
+      </div>
+    </div>
+    <p></p>
+  </div>
+</div>
+
+
+
+      </div>
+    </div>
+    
+    
+
+    <!-- Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-");
+    </script>
+
+    <!-- Footer -->
+    <footer class="footer bg-light p-4">
+      <div class="container">
+        <p class="float-right"><a href="#">Back to Top</a></p>
+        <p class="text-center">© 2020 UCL DARK Lab</p>
+      </div>
+    </footer>
+
+    <!-- Code for hash tags -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        if (location.hash !== "") {
+          $('a[href="' + location.hash + '"]').tab("show");
+        }
+
+        $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+          var hash = $(e.target).attr("href");
+          if (hash.substr(0, 1) == "#") {
+            var position = $(window).scrollTop();
+            location.replace("#" + hash.substr(1));
+            $(window).scrollTop(position);
+          }
+        });
+      });
+    </script>
+    <script src="static/js/lazy_load.js"></script>
+    
+  </body>
+</html>
