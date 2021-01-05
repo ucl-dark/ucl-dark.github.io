@@ -6,7 +6,8 @@ UCL **DARK** is a group at the [UCL Centre for Artificial Intelligence](https://
 0. `git pull origin`
 1. Append a new row to `sitedata/papers.csv`
 2. Add an image of the paper to `static/images/papers`
-    * file name should be "[YOUR PAPER UID].jpg"
+    * file name should be "[YOUR PAPER UID].jpg" (png format not supported currently)
+    * the file size should be less than 500kb
 3. `make run` to check the updates locally
 4. `git add static/images/papers`
 5. `git commit -am "[YOUR MSG]"`
