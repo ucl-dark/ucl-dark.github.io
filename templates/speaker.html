@@ -2,6 +2,7 @@
 {% extends "base.html" %}
 {% block content %}
 
+<link rel="stylesheet" href="static/css/speaker.css" type="text/css"/>
 <!-- Title -->
 <div class="pp-card m-3" style="">
   <div class="card-header">
@@ -29,7 +30,9 @@
         {{speaker.bio|safe}}
       </div>
     </div>
-    <p></p>
+      <div class="videoWrapper">
+          <iframe width="560" height="315" src={{ speaker.video }} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
   </div>
 </div>
 
