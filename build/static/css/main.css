@@ -107,6 +107,11 @@ body .nav-pills .nav-link.active {
   font-family: "Exo";
 }
 
+.iframe {
+    display: block;
+    border-style:none;
+}
+
 .cards.myCard {
   display: flex;
   flex-flow: wrap;
@@ -293,5 +298,4 @@ body .carousel-control-prev {
     -webkit-text-fill-color: green;
   }
 }
-
 
