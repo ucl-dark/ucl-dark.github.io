@@ -33,41 +33,6 @@
 </div>
 {%- endmacro %}
 
-{% macro speakergroup(speakers) -%}
-{% for speaker in speakers %}
-<div class="row p-4">
-  <div class="col-md-12">
-    <div class="card">
-      <div class="card-header">
-        <div class="row">
-          <div class="col-md-2 col-sm-5">
-            <img src="{{speaker.image}}" width="100%" class="img-thumbnail" />
-          </div>
-          <div class="col-md-10 col-sm-6">
-            <div class="m-3 text-muted">
-              <h3>
-                <a href="speaker_{{speaker.UID}}.html" class="main-title">
-                  {{speaker.title}}
-                </a>
-              </h3>
-            </div>
-            <div class="m-3 text-muted">
-              <span class="card-title h3">
-                {{speaker.speaker}}  /  {{speaker.institution}}
-              </span>
-            </div>
-            <div class="m-3">
-              {{speaker.abstract|safe}}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-{% endfor %}
-{%- endmacro %}
-
 {% macro organizergroup(committee) -%}
 <div class="row">
   {% for org in committee %}
@@ -222,6 +187,9 @@
         </a>
         <div class="card-subtitle text-muted">
           {{ speaker.speaker}} / {{ speaker.institution }}
+        </div>
+        <div class="card-subtitle text-muted">
+          {{ speaker.date}}
         </div>
         <div class="m-3 text-left card-subtitle font-italic">
           {{speaker.abstract|safe}}

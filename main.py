@@ -28,7 +28,6 @@ def main(site_data_path):
         elif typ == "yml":
             site_data[name] = yaml.load(open(f).read(), Loader=yaml.SafeLoader)
 
-
     for typ in ["papers", "speakers", "workshops"]:
         by_uid[typ] = {}
         for p in site_data[typ]:
