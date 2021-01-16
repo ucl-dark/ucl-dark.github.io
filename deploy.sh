@@ -1,4 +1,5 @@
 make freeze
+echo "DARK.CS.UCL.AC.UK" > CNAME
 git add build
 git add static
 git commit -am "update build"
