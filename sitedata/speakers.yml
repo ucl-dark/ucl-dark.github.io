@@ -1,3 +1,11 @@
+- title: Increasing generality in reinforcement learning through procedural content generation (or have fun trying)
+  speaker: Julian Togelius
+  institution: New York University
+  date: Jan 18, 2021
+  abstract: 'Julian Togelius will be giving a talk with the title: "Increasing generality in reinforcement learning through procedural content generation (or have fun trying)", exploring how to make reinforcement learning algorithms overfit to their training environments less, and the use of procedural content generation in reinforcement learning.'
+  bio: Julian Togelius is an associate professor at the Department of Computer Science and Engineering at the New York University Tandon School of Engineering, and the co-founder of modl.ai. He's done seminal research in procedural content generation for games and artificial intelligence, including co-authoring the textbook Artificial Intelligence and Games. Previously, he was an associate professor at the Center for Computer Games Research, IT University of Copenhagen. He holds a BA from Lund University, an MSc from the University of Sussex, and a PhD from the University of Essex.
+  video: https://www.youtube.com/embed/9KPcUgnjpMg
+  UID: "4"
 - title: Intuitive Reasoning as (Un)supervised Neural Generation
   speaker: Yejin Choi
   institution: University of Washington
