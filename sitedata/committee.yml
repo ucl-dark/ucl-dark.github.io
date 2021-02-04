@@ -43,6 +43,30 @@ phd:
     tw: MinqiJiang
     interests:
 
+msc:
+  - role: MSc Student (2021)
+    name: Mikey Matthews
+    tw: mitrma
+    im: static/images/people/mikey.jpg
+  - role: MSc Student (2021)
+    name: Robert McHardy
+    tw: robert_mchardy
+    im: static/images/people/robertm.jpg
+  - role: MSc Student (2021)
+    name: Ian Wu
+    tw: IanWu74457919
+    im: static/images/people/ian.jpg
+  - role: MSc Student (2021)
+    name: Matthew Jackson
+    tw: JacksonMattT
+    im: static/images/people/matt.jpg
+  - role: MSc Student (2021)
+    name: Andy Ehrenberg
+    tw: andy_ehrenberg
+    im: static/images/people/andy.jpg
+  - role: MSc Student (2021)
+    name: Hannah Teufel
+
 alumni:
   - role: MSc Student (2020)
     name: Christina Kouridi
