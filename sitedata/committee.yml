@@ -45,6 +45,9 @@ phd:
 
 msc:
   - role: MSc Student (2021)
+    name: Hannah Teufel
+    im: static/images/people/hannah.jpg
+  - role: MSc Student (2021)
     name: Mikey Matthews
     tw: mitrma
     im: static/images/people/mikey.jpg
@@ -64,8 +67,6 @@ msc:
     name: Andy Ehrenberg
     tw: andy_ehrenberg
     im: static/images/people/andy.jpg
-  - role: MSc Student (2021)
-    name: Hannah Teufel
 
 alumni:
   - role: MSc Student (2020)

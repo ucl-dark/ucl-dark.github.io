@@ -1,9 +1,11 @@
-- date: 12/01/2020
+- date: 12/01/2021
   message: "[Learning with AMIGo: Adversarially Motivated Intrinsic Goals](https://openreview.net/forum?id=ETBc_MIMgoX) has been accepted by ICLR2021."
-- date: 12/01/2020
+- date: 12/01/2021
   message: "[My Body is a Cage: the Role of Morphology in Graph-Based Incompatible Control](https://openreview.net/forum?id=N3zUDGN5lO) has been accepted by ICLR2021."
-- date: 12/01/2020
+- date: 12/01/2021
   message: "[Complex Query Answering with Neural Link Predictors](https://openreview.net/forum?id=Mos9F9kDwkz) has been accepted by ICLR2021."
+- date: 18/12/2020
+  message: "[Grid-to-Graph: Flexible Spatial Relational Inductive Biases for Reinforcement Learning](arxiv.org/abs/2102.04220) has been accepted by AAMAS2021."
 - date: 25/09/2020
   message: "[The NetHack Learning Environment](https://arxiv.org/abs/2006.13760) has been accepted by NeurIPS2020."
 - date: 14/06/2020
