@@ -21,6 +21,11 @@ researchers:
     tw: pminervini
 
 phd:
+  - role: PhD Student (2021—)
+    name: Yingchen Xu
+    im: static/images/people/yingchen.jpg
+    tw: YingchenX
+    interests:
   - role: PhD Student (2020—)
     name: Zhengyao Jiang
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=J8pFrgwAAAAJ&citpid=2
