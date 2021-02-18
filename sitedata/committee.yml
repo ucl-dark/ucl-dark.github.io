@@ -22,6 +22,11 @@ researchers:
 
 phd:
   - role: PhD Student (2021—)
+    name: Laura Ruis
+    im: static/images/people/laura.jpg
+    tw: LauraRuis
+    interests:
+  - role: PhD Student (2021—)
     name: Yingchen Xu
     im: static/images/people/yingchen.jpg
     tw: YingchenX
