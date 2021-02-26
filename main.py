@@ -66,7 +66,7 @@ def home():
     data = _data()
     data["introduction"] = open("introduction.md").read()
     data["news"] = site_data["news"]
-    for group_name, content in site_data["committee"].items(): 
+    for group_name, content in site_data["people"].items():
         data[group_name] = content
     return render_template("index.html", **data)
 

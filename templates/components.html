@@ -71,9 +71,9 @@
 {% endfor %}
 {%- endmacro %}
 
-{% macro organizergroup(committee) -%}
+{% macro organizergroup(people) -%}
 <div class="row">
-  {% for org in committee %}
+  {% for org in people %}
   <div class="col-md-4 col-xs-6">
     <div class="pp-card">
       <div class="pp-card-header" class="text-muted">
