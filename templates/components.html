@@ -85,11 +85,24 @@
         </div>
         <div>
           <h6 class="card-subtitle text-muted m-1" align="center">
-            {{org.aff}}{% if org.tw %} /
+            {% if org.tw %}
             <a class="text-muted" href="http://twitter.com/{{org.tw}}"
-              >@{{org.tw}}</a
+              ><i class="fab fa-twitter-square"></i></a
+            >{% endif %}
+            {% if org.scholar %}
+            <a class="text-muted" href="http://{{org.scholar}}"
+              ><i class="fas fa-graduation-cap"></i></a
+            >{% endif %}
+            {% if org.github %}
+            <a class="text-muted" href="https://github.com/{{org.github}}"
+              ><i class="fab fa-github-square"></i></a
+            >{% endif %}
+            {% if org.home %}
+            <a class="text-muted" href="http://{{org.home}}"
+              ><i class="fas fa-home"></i></a
             >{% endif %}
           </h6>
+
         </div>
         {% if org.im %}
         <center>

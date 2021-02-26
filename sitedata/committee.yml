@@ -3,20 +3,31 @@ faculty:
     name: Tim Rocktäschel
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=mWBY8aIAAAAJ&citpid=8
     tw: _rockt
+    scholar: scholar.google.de/citations?user=mWBY8aIAAAAJ&hl=en
+    home: rockt.github.io
+    github: rockt
     note:
   - role: Honorary Associate Professor
     name: Edward Grefenstette
     tw: egrefen
+    github: egrefen
+    home: www.egrefen.com
+    scholar: scholar.google.com/citations?user=ezllEwMAAAAJ&hl=en
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=ezllEwMAAAAJ&citpid=3
   - role: Professor
     name: Sebastian Riedel
     tw: riedelcastro
+    home: www.riedelcastro.org
+    scholar: scholar.google.com/citations?user=AcCtcrsAAAAJ&hl=en
     im: https://pbs.twimg.com/profile_images/1079788897134104576/HDrYfrub_400x400.jpg
     note: Affiliated Faculty
 
 researchers:
   - role: Senior Research Fellow
     name: Pasquale Minervini
+    home: www.neuralnoise.com/
+    github: pminervini
+    scholar: scholar.google.it/citations?user=9sk6CSgAAAAJ&hl=it
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=9sk6CSgAAAAJ&citpid=3
     tw: pminervini
 
@@ -25,6 +36,8 @@ phd:
     name: Laura Ruis
     im: static/images/people/laura.jpg
     tw: LauraRuis
+    scholar: scholar.google.com/citations?user=k0vrm6kAAAAJ&hl=en
+    home: www.lauraruis.com/
     interests:
   - role: PhD Student (2021—)
     name: Yingchen Xu
@@ -35,22 +48,31 @@ phd:
     name: Zhengyao Jiang
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=J8pFrgwAAAAJ&citpid=2
     tw: zhengyaojiang
-    interests:
+    scholar: scholar.google.co.jp/citations?user=J8pFrgwAAAAJ&hl=en
+    github: ZhengyaoJiang
+    interests: reinforcement learning
   - role: PhD Student (2020—)
     name: Robert Kirk
     im: https://pbs.twimg.com/profile_images/1219003032270245888/Wt4oxa_g_400x400.jpg 
     tw: _robertkirk
+    github: RobertKirk
     note: CDT in Foundational AI
     interests:
   - role: PhD Student (2020—)
     name: Mikayel Samvelyan
+    home: www.samvelyan.com
+    scholar: scholar.google.co.uk/citations?user=2Qs19WAAAAAJ&hl=en
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=2Qs19WAAAAAJ&citpid=11
     tw: samveIyan
+    github: samvelyan
     interests:
   - role: PhD Student (2019—)
     name: Minqi Jiang
-    im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=b7LglM0AAAAJ&citpid=1 
+    im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=b7LglM0AAAAJ&citpid=1
+    scholar: scholar.google.com/citations?user=b7LglM0AAAAJ&hl=en
+    home: minch.co
     tw: MinqiJiang
+    github: minqi
     interests:
 
 msc:
