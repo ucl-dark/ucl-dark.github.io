@@ -1,5 +1,8 @@
 UCL **DARK** is a group at the [UCL Centre for Artificial Intelligence](https://www.ucl.ac.uk/ai-centre/) focusing on reinforcement learning and deep learning.
 
+## Update your information
+Edit `sitedata/people.csv`
+
 ## Steps to add your papers
 
 ### To do it on commandline:
