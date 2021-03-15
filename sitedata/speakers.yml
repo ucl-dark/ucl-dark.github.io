@@ -1,3 +1,27 @@
+- title: On Question Answering on Images and Databases
+  speaker: Dzmitry Bahdanau
+  institution: McGill University
+  date: Mar 15, 2021
+  abstract: The AI's ability to answer questions that are grounded in context is interesting from both academic and practical perspectives. In this talk, I will present two projects that study question answering (QA) in visual and symbolic database context respectively. In the first project my collaborators and I show that a neuro-symbolic visual QA system can learn variable bindings from the top-down QA training signal only. The system successfully learns both conventional bindings (e.g. objects) and less trivial ones (e.g. groups). In our second project my colleagues at Element AI and I explore text2sql systems for answering questions about databases. We perform extensive ablation testing to understand what is really necessary for such systems to achieve best performance. I will end the talk with a quick preview of our on-going few-shot text2sql research efforts.
+  bio: Dzmitry Bahdanau is an Adjunct Professor at McGill University and a research scientist at ServiceNow Element AI. Prior to that, he obtained his PhD at Mila and Université de Montréal working with Yoshua Bengio. He is interested in fundamental and applied questions concerning natural language understanding. His main research areas include semantic parsing, language user interfaces, systematic generalization and hybrid neural-symbolic systems. He invented the content-based neural attention that is now a core tool in deep-learning-based natural language processing.
+  video:
+  UID: "7"
+- title: Learning to Cooperate, Communicate and Coordinate
+  speaker: Jakob Foerster
+  institution: Facebook AI Research
+  date: Mar 08, 2021
+  abstract: In recent years we have seen rapid progress on a number of zero-sum benchmark problems in artificial intelligence, e.g. Go, Poker and Dota. In contrast to these competitive settings, success in the real world typically requires humans, and will require AI agents, to cooperate, communicate and coordinate with others. Crucially, from a learning point of view, these three Cs require fundamentally novel approaches, methods and theory, which has been at the heart of my research agenda. In my talk I will cover recent progress, including how agents can learn to entice others to cooperate in settings of conflicting goals by accounting for their learning behaviour, how they can learn to communicate by reasoning over (public) beliefs and how they can learn policies that can coordinate with other agents at test time by exploiting the symmetries in the environment. I will finish the talk by outlining some of the promising directions for future work.
+  bio: Jakob Foerster is a research scientist at Facebook AI Research, incoming assistant professor at the University of Toronto and a Canada CIFAR AI Chair. His work focuses on multi-agent reinforcement learning, emergent communication, human-AI coordination, game theory & planning. He earned his PhD under Shimon Whiteson at the University of Oxford, where he helped bring deep multi-agent reinforcement learning to the forefront of AI research and interned at Google Brain, OpenAI and DeepMind. He was the lead organiser of the first Emergent Communication (EmeCom) workshop at NeurIPS in 2017, which he has helped organise ever since.
+  video: https://www.youtube.com/embed/TMTT2z8lifA
+  UID: "6"
+- title: Grounded Language Learning Without Grounded Supervision
+  speaker: Jacob Andreas
+  institution: MIT
+  date: Mar 01, 2021
+  abstract: Central to tasks like instruction following and question answering is the ability to ground linguistic understanding in perception and action. Machine learning models for these tasks typically rely on grounded supervision, e.g. actions paired with human-generated instructions or images paired with human-generated questions and answers. Indeed, several recent papers have argued that general-purpose language understanding (even in text-only tasks like machine reading and text generation) is impossible without grounding. In this talk, I'll present two studies on improving grounded language learning without grounded supervision. First, I'll describe an approach for using multi-agent interaction to fine-tune models for instruction following and instruction generation---without additional human-generated text. Next, I'll describe some very recent work suggesting that language models trained on text alone---without any grounding---are capable of building implicit world models and simulating interactions between entities described in discourse.
+  bio: Jacob Andreas is the X Consortium Assistant Professor at MIT. His research focuses on building intelligent systems that can communicate effectively using language and learn from human guidance. Jacob earned his Ph.D. from UC Berkeley, his M.Phil. from Cambridge (where he studied as a Churchill scholar) and his B.S. from Columbia. He has been the recipient of an NSF graduate fellowship, a Facebook fellowship, and paper awards at NAACL and ICML.
+  video:
+  UID: "5"
 - title: Increasing generality in reinforcement learning through procedural content generation (or have fun trying)
   speaker: Julian Togelius
   institution: New York University
