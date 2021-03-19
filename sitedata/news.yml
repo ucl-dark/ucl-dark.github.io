@@ -1,5 +1,11 @@
+- date: 19/01/2021
+  message: "Ed Grefenstette has been promoted to Honorary Professor of UCL."
+- date: 04/03/2021
+  message: "Tim Rockäschel [appeared on the W&B Podcast](https://www.youtube.com/watch?v=oYSNXTkeCtw) to promote [recent work in designing challenging environemnts](https://github.com/facebookresearch/nle) for research in Reinforcement Learning."
 - date: 10/03/2021
   message: "[How to Motivate Your Dragon: Teaching Goal-Driven Agents to Speak and Act in Fantasy Worlds](https://arxiv.org/abs/2010.00685) has been accepted by NAACL2021."
+- date: 12/01/2021
+  message: "[Learning with AMIGo: Adversarially Motivated Intrinsic Goals](https://openreview.net/forum?id=ETBc_MIMgoX) has been accepted by ICLR2021."
 - date: 12/01/2021
   message: "[My Body is a Cage: the Role of Morphology in Graph-Based Incompatible Control](https://openreview.net/forum?id=N3zUDGN5lO) has been accepted by ICLR2021."
 - date: 12/01/2021
