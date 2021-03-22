@@ -1,4 +1,4 @@
-UCL **DARK** is a group at the [UCL Centre for Artificial Intelligence](https://www.ucl.ac.uk/ai-centre/) focusing on reinforcement learning and deep learning.
+The [UCL Deciding, Acting, and Reasoning with Knowledge (**DARK**) Lab](https://dark.cs.ucl.ac.uk/) is a Reinforcement Learning research group at the [UCL Centre for Artificial Intelligence](https://www.ucl.ac.uk/ai-centre/). We focus on research in [complex open-ended environments](https://arxiv.org/abs/2006.13760) that provide a constant stream of novel observations without reliable reward functions, often requiring agents to [create their own curricula](https://arxiv.org/abs/2010.03934) and to deal with [external knowledge](https://arxiv.org/abs/1910.08210), [natural language](https://arxiv.org/abs/1906.03926), and [hard exploration problems](https://arxiv.org/abs/2002.12292).
 
 ## Update your information
 Edit `sitedata/people.csv`
@@ -37,9 +37,4 @@ Edit `sitedata/people.csv`
 
 ## Steps to update the site
 The following steps are optional (in case you want your modifications show immediately on the http://dark.cs.ucl.ac.uk/) :
-
-6. `make run` this spins up a local server where you can check the changes that you made to the webpage.
-7. `make freeze` generates the static version of the site.
-8. `git add build`
-9. `git commit -am "update build"`
-10. `git subtree push --prefix build origin gh-pages`
+`bash deploy.sh`
