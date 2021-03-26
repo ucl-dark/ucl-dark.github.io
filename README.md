@@ -3,6 +3,12 @@ The [UCL Deciding, Acting, and Reasoning with Knowledge (**DARK**) Lab](https://
 ## Update your information
 Edit `sitedata/people.yml`
 
+* `interests:` Your research interests. Can be a single sentence or keywords seperated by `;`
+* `home:` Homepage
+* `tw:` Twitter handle
+* `im:` Your photo. It can either be a web link or the link to the picture under `static/images/people/`
+* `github:` Your GitHub acount name
+
 ## Steps to add your papers
 
 ### To do it on commandline:
