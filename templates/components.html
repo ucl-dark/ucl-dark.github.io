@@ -110,13 +110,8 @@
         </center>
         {% endif %}
         <left>
-        {% if org.interests %}
-        <h6 class="card-subtitle text-muted m-2">
-            <b>Research Interests</b>: {{org.interests}}
-        </h6>
-        {% endif %}
         </left>
-        {% if org.note and not org.interests %}
+        {% if org.note %}
           <h6 class="card-subtitle text-muted m-1" align="center">
               {{org.note}}
           </h6>
