@@ -1,9 +1,13 @@
+- date: 01/04/2021
+  message: "Our paper [Complex Query Answering with Neural Link Predictors](https://arxiv.org/abs/2011.03459), won an [Outstanding Paper Award](https://iclr-conf.medium.com/announcing-iclr-2021-outstanding-paper-awards-9ae0514734ab) at [ICLR 2021](https://iclr.cc/)!"
 - date: 19/03/2021
   message: "Ed Grefenstette has been promoted to Honorary Professor of UCL."
 - date: 04/03/2021
   message: "Tim Rockäschel [appeared on the W&B Podcast](https://www.youtube.com/watch?v=oYSNXTkeCtw) to promote [recent work in designing challenging environemnts](https://github.com/facebookresearch/nle) for research in Reinforcement Learning."
 - date: 10/03/2021
   message: "[How to Motivate Your Dragon: Teaching Goal-Driven Agents to Speak and Act in Fantasy Worlds](https://arxiv.org/abs/2010.00685) has been accepted by NAACL2021."
+- date: 12/01/2021
+  message: "[Complex Query Answering with Neural Link Predictors](https://arxiv.org/abs/2011.03459), our state-of-the-art approach for answering complex queries on large and incomplete Knowledge Graphs, will appear at ICLR 2021 as an Oral -- top 2% of all publications!"
 - date: 12/01/2021
   message: "[Learning with AMIGo: Adversarially Motivated Intrinsic Goals](https://openreview.net/forum?id=ETBc_MIMgoX) has been accepted by ICLR2021."
 - date: 12/01/2021
