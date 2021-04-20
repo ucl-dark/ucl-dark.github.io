@@ -1,10 +1,18 @@
+- title: Finding Good Representation for Search and Exploration in RL
+  speaker: Yuandong Tian
+  institution: Facebook AI Research
+  date: Apr 12, 2021
+  abstract: How to learn good latent representations is an important topic in the modern era of machine learning. For reinforcement learning, using a good representation makes the decision-making process much more efficient. In this talk, I will cover our work that constructs task-specific latent action space for search-based optimization of black-box functions, finds a representation for policy change that enables joint policy search in imperfect information collaborative games and how different representations affect RL exploration.
+  bio: Yuandong Tian is a Research Scientist and Manager in Facebook AI Research, working on deep reinforcement learning and representation learning. He is the lead scientist and engineer for ELF OpenGo and DarkForest Go projects. Prior to that, he was in Google Self-driving Car team in 2013-2014. He received a Ph.D in Robotics Institute, Carnegie Mellon University in 2013. He is the recipient of 2013 ICCV Marr Prize Honorable Mentions.
+  video: https://www.youtube.com/embed/sH4a2a0ntUA
+  UID: "9"
 - title: Evolutionary Algorithms and Game AI
   speaker: Simon Lucas
   institution: Queen Mary University of London
   date: Mar 29, 2021
   abstract: Evolutionary algorithms are powerful black-box optimisers that find many applications in Game AI. They can be applied in real-time to provide robust policies across a range of games, or at design time for procedural content generation or game parameter tuning. I’ll outline the key concepts, give some insights into why they often work surprisingly well, and discuss future directions.
   bio: Simon Lucas is a professor of Artificial Intelligence and Head of the School of Electronic Engineering and Computer Science at Queen Mary University of London where he also heads the Game AI Research Group. He holds a PhD degree (1991) in Electronics and Computer Science from the University of Southampton. He is the founding Editor-in-Chief of the IEEE Transactions on Games and co-founded the IEEE Conference on Conference on Games. His research involves simulation-based AI and evolutionary algorithms applied to Game AI, and work towards Artificial General Intelligence. He is a fellow of the Alan Turing Institute, and a visiting researcher at Facebook
-  video: www.youtube.com/embed/MM3JoMYcAYQ
+  video: https://www.youtube.com/embed/MM3JoMYcAYQ
   UID: "8"
 - title: On Question Answering on Images and Databases
   speaker: Dzmitry Bahdanau
