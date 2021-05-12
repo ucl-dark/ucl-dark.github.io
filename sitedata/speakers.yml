@@ -1,12 +1,12 @@
-- title: Mental Simulation, Imagination, and  Model-Based Deep RL
+- title: 'Mental Simulation, Imagination, and  Model-Based Deep RL'
   speaker: Jessica Hamrick
   institution: DeepMind
   date: May 10, 2021
-  abstract: "Mental simulation—the capacity to imagine what will or what could be—is a salient feature of human cognition, playing a key role in a wide range of cognitive abilities. In artificial intelligence, the last few years have seen the development of model-based deep reinforcement learning methods, which seemingly share many similarities with mental simulation. In this talk, I will discuss how closely such methods actually capture the qualitative characteristics exhibited by human mental simulation, with a particular focus on: (1) the extent to which the performance of such agents is driven by model-based reasoning and planning, and (2) how effectively such agents can leverage planning for generalization. While a number of challenges remain in matching the capacity of human mental simulation, I will highlight some recent progress on developing more compositional model-based algorithms through the use of graph neural networks and tree search."
+  abstract: 'Mental simulation—the capacity to imagine what will or what could be—is a salient feature of human cognition, playing a key role in a wide range of cognitive abilities. In artificial intelligence, the last few years have seen the development of model-based deep reinforcement learning methods, which seemingly share many similarities with mental simulation. In this talk, I will discuss how closely such methods actually capture the qualitative characteristics exhibited by human mental simulation, with a particular focus on: (1) the extent to which the performance of such agents is driven by model-based reasoning and planning, and (2) how effectively such agents can leverage planning for generalization. While a number of challenges remain in matching the capacity of human mental simulation, I will highlight some recent progress on developing more compositional model-based algorithms through the use of graph neural networks and tree search.'
   bio: Jessica Hamrick is a Senior Research Scientist at DeepMind, where she studies how to build machines that can flexibly build and deploy models of the world. Her work combines insights from cognitive science with structured relational architectures, model-based deep reinforcement learning, and planning. She completed my PhD in Psychology at UC Berkeley in Tom Griffiths’ Computational Cognitive Science Lab. Before that, she researched intuitive physics in Josh Tenenbaum’s Computational Cognitive Science Group at MIT.
   video:
   UID: "11"
-- title: Towards multi-agent emergent communication as a building block of human-centric AI
+- title: 'Towards multi-agent emergent communication as a building block of human-centric AI'
   speaker: Angeliki Lazaridou
   institution: DeepMind
   date: Apr 26, 2021
