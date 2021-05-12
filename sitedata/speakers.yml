@@ -52,7 +52,7 @@
   date: Mar 01, 2021
   abstract: Central to tasks like instruction following and question answering is the ability to ground linguistic understanding in perception and action. Machine learning models for these tasks typically rely on grounded supervision, e.g. actions paired with human-generated instructions or images paired with human-generated questions and answers. Indeed, several recent papers have argued that general-purpose language understanding (even in text-only tasks like machine reading and text generation) is impossible without grounding. In this talk, I'll present two studies on improving grounded language learning without grounded supervision. First, I'll describe an approach for using multi-agent interaction to fine-tune models for instruction following and instruction generation---without additional human-generated text. Next, I'll describe some very recent work suggesting that language models trained on text alone---without any grounding---are capable of building implicit world models and simulating interactions between entities described in discourse.
   bio: Jacob Andreas is the X Consortium Assistant Professor at MIT. His research focuses on building intelligent systems that can communicate effectively using language and learn from human guidance. Jacob earned his Ph.D. from UC Berkeley, his M.Phil. from Cambridge (where he studied as a Churchill scholar) and his B.S. from Columbia. He has been the recipient of an NSF graduate fellowship, a Facebook fellowship, and paper awards at NAACL and ICML.
-  video:
+  video: https://www.youtube.com/embed/el7CvuYLvIA
   UID: "5"
 - title: Increasing generality in reinforcement learning through procedural content generation (or have fun trying)
   speaker: Julian Togelius
