@@ -1,3 +1,11 @@
+- title: 'Exploring Context for Better Generalization in Reinforcement Learning'
+  speaker: Amy Zhang
+  institution: UC Berkeley and Facebook AI Research
+  date: June 7, 2021
+  abstract: "The benefit of multi-task learning over single-task learning relies on the ability to use relations across tasks to improve performance on any single task. While sharing representations is an important mechanism to share information across tasks, its success depends on how well the structure underlying the tasks is captured. In some real-world situations, we have access to metadata, or additional information about a task, that may not provide any new insight in the context of a single task setup alone but inform relations across multiple tasks. While this metadata can be useful for improving multi-task learning performance, effectively incorporating it can be an additional challenge. In this talk, we explore various ways to utilize context to improve positive transfer in multi-task reinforcement learning."
+  bio: "Amy is a postdoctoral scholar at UC Berkeley and a research scientist at Facebook AI Research. She works on state abstractions, model-based reinforcement learning, representation learning, and generalization in RL. Amy completed her PhD at McGill University and Mila - Quebec AI Institute, co-supervised by Joelle Pineau and Doina Precup. She has an M.Eng. in EECS and dual B.Sci. degrees in Mathematics and EECS from MIT."
+  video: https://www.youtube.com/embed/akeUVn6WQoU
+  UID: "13"
 - title: 'Some Reasons To Do Embodied Machine Learning'
   speaker: Felix Hill
   institution: DeepMind
