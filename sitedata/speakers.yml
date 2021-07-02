@@ -1,3 +1,11 @@
+- title: 'Using Video Games To Reverse Engineer Human Intelligence'
+  speaker: Sam Gershman
+  institution: Harvard University
+  date: June 21, 2021
+  abstract: "Video games have become an attractive testbed for evaluating AI systems, by capturing some aspects of real-world complexity (rich visual stimuli and non-trivial decision policies) while abstracting away from other sources of complexity (e.g., sensory transduction and motor planning). Some AI researchers have reported human-level performance of their systems, but we still have very little insight into how humans actually learn to play video games. This talk will present new data on human video game learning indicating that humans learn very differently from most current AI systems, particularly those based on deep learning. Humans can induce object-oriented, relational models from a small amount of experience, which allow them to learn quickly, explore intelligently, plan efficiently, and generalize flexibly. These aspects of human-like learning can be captured by a model that learns through a form of program induction."
+  bio: "Sam is an Associate Professor in the Department of Psychology and Center for Brain Science at Harvard, where he leads the Computational Cognitive Neuroscience Lab. His research focuses on computational cognitive neuroscience approaches to learning, memory and decision making. He received my B.A. in Neuroscience and Behavior from Columbia University in 2007 and his Ph.D. in Psychology and Neuroscience from Princeton University in 2013, where he worked with Ken Norman and Yael Niv. From 2013-2015 he was a postdoctoral fellow in the Department of Brain and Cognitive Sciences at MIT, working with Josh Tenenbaum and Nancy Kanwisher."
+  video: https://www.youtube.com/embed/vIAOuj-7gRM
+  UID: "14"
 - title: 'Exploring Context for Better Generalization in Reinforcement Learning'
   speaker: Amy Zhang
   institution: UC Berkeley and Facebook AI Research
