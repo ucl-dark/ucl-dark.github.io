@@ -33,13 +33,18 @@ researchers:
 
 phd:
   - role: PhD Student (2021—)
+    name: Akbir Khan
+    im: static/images/people/Akbir.jpeg
+    tw: akbirkhan
+    scholar: https://scholar.google.co.uk/citations?user=zRyMIW0AAAAJ&hl=en
+    interests:
+  - role: PhD Student (2021—)
     name: Laura Ruis
     im: static/images/people/laura.jpg
     tw: LauraRuis
     scholar: scholar.google.com/citations?user=k0vrm6kAAAAJ&hl=en
     home: www.lauraruis.com/
     interests:
-    note: CDT in Foundational AI
   - role: PhD Student (2021—)
     name: Yingchen Xu
     im: static/images/people/yingchen.jpg
@@ -57,7 +62,6 @@ phd:
     im: https://pbs.twimg.com/profile_images/1219003032270245888/Wt4oxa_g_400x400.jpg 
     tw: _robertkirk
     github: RobertKirk
-    note: CDT in Foundational AI
     interests:
   - role: PhD Student (2020—)
     name: Mikayel Samvelyan

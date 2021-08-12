@@ -1,3 +1,11 @@
+- title: Towards Knowledge Grounded Text Agents
+  speaker: Matthew Hausknecht
+  institution: Microsoft Research
+  date: July 8, 2021
+  abstract: "Learning agents in text-based games are faced with the challenge of understanding and generating language to accomplish various goals. Decomposing this primary challenge, I will highlight recent work to address sub-challenges of knowledge representation, affordance detection, commonsense reasoning, and language grounding. Specifically, I will discuss knowledge graphs as a means of tracking agent state, language models as generators for valid actions, and ALFWorld, a new environment that aligns text and embodied modalities for the study of language grounding."
+  bio: "Matthew is a Senior Researcher in the Reinforcement Learning Group at Microsoft Research, Redmond. He previously obtained his PhD in Computer Science from the University of Texas at Austin advised by Professor Peter Stone. He's worked on a variety of topics within reinforcement learning and machine learning, including introducing deep recurrent Q-networks and working on the Arcade Learning Environment. Most recently his research has focused on text-based games and agents."
+  video: https://www.youtube.com/embed/jhIPJH1ghhg
+  UID: "15"
 - title: 'Using Video Games To Reverse Engineer Human Intelligence'
   speaker: Sam Gershman
   institution: Harvard University
