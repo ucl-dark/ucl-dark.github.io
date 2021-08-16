@@ -37,6 +37,8 @@ phd:
     im: static/images/people/Akbir.jpeg
     tw: akbirkhan
     scholar: https://scholar.google.co.uk/citations?user=zRyMIW0AAAAJ&hl=en
+    github: akbir
+    home: www.akbir.dev/about
     interests:
   - role: PhD Student (2021—)
     name: Laura Ruis
@@ -49,6 +51,7 @@ phd:
     name: Yingchen Xu
     im: static/images/people/yingchen.jpg
     tw: YingchenX
+    home: yingchenxu.com
     interests:
   - role: PhD Student (2020—)
     name: Zhengyao Jiang
