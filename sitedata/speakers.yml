@@ -1,3 +1,19 @@
+- title: Training Virtual Robots in Realistic Simulators
+  speaker: Erik Wijmans
+  institution: Georgia Institute of Technology
+  date: September 2, 2021
+  abstract: "Recently there has been a shift in computer vision research from static vision, e.g., object detection, to Embodied AI, e.g., robot navigation. In this talk, I will focus on the task of PointGoal navigation (PointNav) where an embodied agent (virtual robot) is tasked with navigating to a point specified relative to its initial location in an unknown environment and without a map. I will ask and answer: Given only a depth camera and localization sensor, is this task learnable with generic tools, model-free reinforcement learning (RL) and generic neural networks? To answer this question, my collaborators and I developed a new distributed system for RL designed to meet the needs of training in realistic simulation. We showed that this task is entirely learnable by training an agent for the equivalent of 80 years of human experience. We then designed a new simulation paradigm specifically for the needs of RL centered on large batch simulation, where the simulator simulates many agents in many environments at once and is responsible for its own parallelization, reducing training wall-clock time from 6 GPU months to 36 GPU hours, an over 100x improvement."
+  bio: "Erik is a PhD student at Georgia Institute of Technology, advised by Irfan Essa and Dhruv Batra. His work is primarily focused on computer vision and its applications to artificial intelligence, with the long-term research goal of developing fundamental techniques, algorithms, and large-scale systems for robotic assistants. This work focuses on sim2real transfer and embodied AI. He's worked on the AI Habitat platform for Embodied AI, as well as being the lead organiser for two Embodied AI workshops at CVPR (2020, 2021)."
+  video: https://www.youtube.com/embed/plgA5gmj8ZQ
+  UID: "17"
+- title: Towards Human-Like And Collaborative AI in Video Games
+  speaker: Katja Hofmann
+  institution: Microsoft Research
+  date: August 19, 2021
+  abstract: "Developing agents capable of learning complex human-like behaviors is a key goal of artificial intelligence research. Progress towards this goal has exciting potential for applications in video games, from new tools that empower game developers to realize new creative visions, to enabling new kinds of immersive player experiences. In this talk I will share insights recently developed by my team and myself on how reinforcement learning, and other AI techniques can give rise to more human-like bot or NPC behaviors, focusing on the following components. First, I motivate the need for accurately evaluating human-likeness, propose a solution within a single-agent navigation task, and show that achieving highly skilled behavior is insufficient for human-likeness. Second, I demonstrate the first agent that passes our bar for human-likeness. Finally, I discuss how to go beyond single agent tasks and towards learning to collaborate, using structured models for predicting other agents’ behavior."
+  bio: "Katja is a Principal Researcher and lead of Game Intelligence at Microsoft Research Cambridge. Her research focuses on reinforcement learning, driven by current and future applications in video games, with the long-term goal of developing AI systems that learn to collaborate with people, to empower their users and help solve complex real-world problems. Her team is behind Project Malmo, a sophisticated AI experimentation platform built on top of Minecraft. She completed her PhD in Computer Science as part of the Information and Language Processing Systems group at the University of Amsterdam, supervised by Maarten de Rijke and Shimon Whiteson."
+  video: https://www.youtube.com/embed/64Dxl1z633Q
+  UID: "16"
 - title: Towards Knowledge Grounded Text Agents
   speaker: Matthew Hausknecht
   institution: Microsoft Research
