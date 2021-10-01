@@ -91,12 +91,12 @@ alumni:
     name: Mikey Matthews
     tw: mitrma
     im: static/images/people/mikey.jpg
-    note: now a Machine Learning Researcher at Vivacity Labs
+    note: Now a Machine Learning Researcher at Vivacity Labs
   - role: MSc Student (2021)
     name: Robert McHardy
     tw: robert_mchardy
     im: static/images/people/robertm.jpg
-    note: now an AI Research Engineer at InstaDeep
+    note: Now an AI Research Engineer at InstaDeep
   - role: MSc Student (2021)
     name: Ian Wu
     tw: IanWu74457919
@@ -106,7 +106,7 @@ alumni:
     tw: JacksonMattT
     im: static/images/people/matt.jpg
     home: https://matthewtjackson.com/
-    note: now a PhD student at Oxford
+    note: Now a PhD student at Oxford
   - role: MSc Student (2021)
     name: Andy Ehrenberg
     tw: andy_ehrenberg
