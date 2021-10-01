@@ -83,7 +83,7 @@ phd:
     github: minqi
     interests:
 
-msc:
+alumni:
   - role: MSc Student (2021)
     name: Hannah Teufel
     im: static/images/people/hannah.jpg
@@ -107,8 +107,6 @@ msc:
     name: Andy Ehrenberg
     tw: andy_ehrenberg
     im: static/images/people/andy.jpg
-
-alumni:
   - role: MSc Student (2020)
     name: Christina Kouridi
     im: static/images/people/ck.jpeg
