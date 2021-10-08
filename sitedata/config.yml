@@ -6,7 +6,7 @@ proceedings_title:
 analytics: UA-
 logo:
   image: static/images/logo.png
-  width: 120px
+  width: 130px
   height: auto
 # uncomment the following line to show the site title next to the logo image
 # site_title: MiniConf
