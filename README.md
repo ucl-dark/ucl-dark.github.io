@@ -11,7 +11,7 @@ Edit `sitedata/people.yml`
 
 ## Steps to add your papers
 
-### To do it on commandline:
+### On commandline:
 0. `git pull origin`
 1. Append a new row to `sitedata/papers.csv`
 2. Add an image of the paper to `static/images/papers`
@@ -22,13 +22,13 @@ Edit `sitedata/people.yml`
 5. `git commit -am "[YOUR MSG]"`
 6. `git push origin`
 
-### To do it on the web interface:
+### On the web interface:
 1. Append a new row to https://github.com/ucl-dark/ucl-dark.github.io/blob/master/sitedata/papers.csv
 2. Upload an image of the paper to https://github.com/ucl-dark/ucl-dark.github.io/tree/master/static/images/papers
     * file name should be "[YOUR PAPER UID].jpg"
 
 ## Add a news
-### To do it on commandline:
+### On commandline:
 0. `git pull origin`
 1. Append a new item to `sitedata/news.yml`
     * message is in markdown format
@@ -37,7 +37,7 @@ Edit `sitedata/people.yml`
 4. `git commit -am "[YOUR MSG]"`
 5. `git push origin`
 
-### To do it on the web interface:
+### On the web interface:
 1. Append a new row to https://github.com/ucl-dark/ucl-dark.github.io/blob/master/sitedata/news.yml
     * message is in markdown format
 
