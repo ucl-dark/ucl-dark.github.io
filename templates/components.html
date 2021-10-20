@@ -33,43 +33,6 @@
 </div>
 {%- endmacro %}
 
-{% macro speakergroup(speakers) -%}
-{% for speaker in speakers %}
-<div class="row p-4">
-  <div class="col-md-12">
-    <div class="card">
-      <div class="card-header">
-        <div class="row">
-          <div class="col-md-2 col-sm-5">
-            <img src="{{speaker.image}}" width="100%" class="img-thumbnail" />
-          </div>
-          <div class="col-md-10 col-sm-6">
-            <div class="m-3 text-muted">
-              <h3>
-                <a href="speaker_{{speaker.UID}}.html" class="main-title">
-                  {{speaker.title}}
-                </a>
-              </h3>
-            </div>
-            <div class="m-3 text-muted">
-              <span class="card-title h3">
-                {{speaker.speaker}}  /  {{speaker.institution}}
-              </span>
-                <span class="card-title h3">
-                {{speaker.date}}
-              </span>
-            </div>
-            <div class="m-3">
-              {{speaker.abstract|safe}}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-{% endfor %}
-{%- endmacro %}
 
 {% macro organizergroup(people) -%}
 <div class="row">
@@ -244,9 +207,18 @@
         <div class="card-subtitle text-muted">
           {{ speaker.date}}
         </div>
-        <div class="m-3 text-left card-subtitle font-italic">
-          {{speaker.abstract|safe}}
-        </div>
+        {% if speaker.video %}
+          <div class="m-3 text-left card-subtitle font-italic">
+            {{speaker.abstract|truncate(200)}}
+          </div>
+          <div class="videoWrapper">
+            <iframe width="300" height="200" src={{ speaker.video }} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+            {% else %}
+            <div class="m-3 text-left card-subtitle font-italic">
+                {{speaker.abstract|truncate(600)}}
+            </div>
+        {% endif %}
       </div>
     </div>
   </div>
