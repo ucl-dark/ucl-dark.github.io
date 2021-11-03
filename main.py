@@ -121,10 +121,15 @@ def format_paper(v):
     list_fields = {}
     for key in list_keys:
         list_fields[key] = extract_list_field(v, key)
+    if os.path.isfile("./static/images/papers/{}.jpg".format(v["UID"])):
+        image_path = "./static/images/papers/{}.jpg".format(v["UID"])
+    else:
+        image_path = "./static/images/papers/{}.png".format(v["UID"])
 
     return {
         "id": v["UID"],
         "forum": v["UID"],
+        "image": image_path,
         "content": {
             "title": v["title"],
             "authors": list_fields["authors"],
