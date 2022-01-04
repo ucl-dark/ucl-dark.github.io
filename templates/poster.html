@@ -45,7 +45,7 @@
       {% endfor %}
     </p>
     <div class="text-center p-3">
-        {% if paper.content.blog == blank %}
+        {% if paper.content.blog == "" %}
       <a class="card-link" data-toggle="collapse" role="button" href="#details">
         Abstract
       </a>
@@ -61,31 +61,32 @@
     </div>
   </div>
 </div>
-    {% if paper.content.blog == blank %}
-<div id="details" class="pp-card m-3">
-  <div class="card-body">
-    <div class="card-text">
-      <div id="abstractExample">
-        <span class="font-weight-bold">Abstract:</span>
-        {{paper.content.abstract}}
+{% if paper.content.blog == "" %}
+    <div id="details" class="pp-card m-3">
+      <div class="card-body">
+        <div class="card-text">
+          <div id="abstractExample">
+            <span class="font-weight-bold">Abstract:</span>
+            {{paper.content.abstract}}
+          </div>
+        </div>
+        <p></p>
       </div>
     </div>
-    <p></p>
-  </div>
-</div>
-    {% endif %}
+{% else %}
 <div class="pp-card m-3">
-<div class="card-body">
-    <div class="card-text">
-      <div id="abstractExample">
-          <div class="card-text">
-          <div class="blog">
-              <p>{{paper.content.blog | markdown}}</p>
-          </div>
-          </div>
-     </div>
-  </div>
-</div>
-</div>
+    <div class="card-body">
+        <div class="card-text">
+          <div id="abstractExample">
+              <div class="card-text">
+              <div class="blog">
+                  <p>{{paper.content.blog | markdown}}</p>
+              </div>
+              </div>
+         </div>
+      </div>
+    </div>
+    </div>
+{% endif %}
 
 {% endblock %}

@@ -145,11 +145,17 @@
                   {{openreview.content.title}}
                 </h5>
               </a>
+
               <h6 class="card-subtitle text-muted" align="center">
                 {% for a in openreview.content.authors %}
-                {{a}},
+                    {{a}},
                 {% endfor %}
               </h6>
+              {% if openreview.content.blog != "" %}
+                  <h6 class="card-subtitle text-muted m-1" align="center">
+                      blog inside
+                  </h6>
+              {% endif %}
               <center>
                 <img
                   class="cards_img lazy-load-img"
@@ -157,6 +163,7 @@
                   width="80%"
                 />
               </center>
+
             </div>
           </div>
         </div>
