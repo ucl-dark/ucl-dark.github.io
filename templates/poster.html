@@ -70,6 +70,27 @@
     <p></p>
   </div>
 </div>
+<div id="details" class="pp-card m-3">
+  <div class="card-body">
+    <div class="card-text">
+      <div id="abstractExample">
+        <span class="font-weight-bold">Abstract:</span>
+        {{paper.content.abstract}}
+      </div>
+    </div>
+    <p></p>
+  </div>
+
+  <div class="card-body">
+    <div class="card-text">
+      <div id="abstractExample">
+        {{paper.content.blog | markdown}}
+      </div>
+    </div>
+    <p></p>
+  </div>
+</div>
+
 
 
 {% endblock %}

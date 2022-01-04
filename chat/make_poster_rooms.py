@@ -10,7 +10,7 @@ from rocketchat_API.rocketchat import RocketChat
 def parse_arguments():
     parser = argparse.ArgumentParser(description="MiniConf Portal Command Line")
     parser.add_argument("--config", default="config.yml", help="Configuration yaml")
-    parser.add_argument("--papers", default="../sitedata/papers.csv", help="Papers CSV")
+    parser.add_argument("--papers", default="../sitedata/papers.yml", help="Papers CSV")
     parser.add_argument("--test", action="store_true")
     return parser.parse_args()
 

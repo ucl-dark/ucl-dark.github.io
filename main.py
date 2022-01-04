@@ -31,7 +31,10 @@ def main(site_data_path):
     for typ in ["papers", "speakers", "workshops"]:
         by_uid[typ] = {}
         for p in site_data[typ]:
-            by_uid[typ][p["UID"]] = p
+            try:
+                by_uid[typ][p["UID"]] = p
+            except KeyError as e:
+                print(p)
 
     print("Data Successfully Loaded")
     return extra_files
@@ -112,8 +115,10 @@ def extract_list_field(v, key):
     value = v.get(key, "")
     if isinstance(value, list):
         return value
-    else:
+    elif isinstance(value, str):
         return value.split("|")
+    else:
+        return value
 
 
 def format_paper(v):
@@ -125,6 +130,12 @@ def format_paper(v):
         image_path = "./static/images/papers/{}.jpg".format(v["UID"])
     else:
         image_path = "./static/images/papers/{}.png".format(v["UID"])
+
+    if "blog" in v:
+        with open("./static/blogs/{}".format(v["blog"]), "r") as f:
+            blog = f.read()
+    else:
+        blog = ""
 
     return {
         "id": v["UID"],
@@ -141,6 +152,7 @@ def format_paper(v):
             "proceedings": list_fields["proceedings"],
             "year": list_fields["year"],
             "url": v.get("url", ""),
+            "blog": blog,
         },
     }
 
