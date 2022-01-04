@@ -45,9 +45,11 @@
       {% endfor %}
     </p>
     <div class="text-center p-3">
+        {% if paper.content.blog == blank %}
       <a class="card-link" data-toggle="collapse" role="button" href="#details">
         Abstract
       </a>
+        {% endif %}
       <a class="card-link" target="_blank" href="{{paper.content.url}}">
         Paper
       </a>
@@ -59,6 +61,7 @@
     </div>
   </div>
 </div>
+    {% if paper.content.blog == blank %}
 <div id="details" class="pp-card m-3">
   <div class="card-body">
     <div class="card-text">
@@ -70,27 +73,19 @@
     <p></p>
   </div>
 </div>
-<div id="details" class="pp-card m-3">
-  <div class="card-body">
+    {% endif %}
+<div class="pp-card m-3">
+<div class="card-body">
     <div class="card-text">
       <div id="abstractExample">
-        <span class="font-weight-bold">Abstract:</span>
-        {{paper.content.abstract}}
-      </div>
-    </div>
-    <p></p>
-  </div>
-
-  <div class="card-body">
-    <div class="card-text">
-      <div id="abstractExample">
-        {{paper.content.blog | markdown}}
-      </div>
-    </div>
-    <p></p>
+          <div class="card-text">
+          <div class="blog">
+              <p>{{paper.content.blog | markdown}}</p>
+          </div>
+          </div>
+     </div>
   </div>
 </div>
-
-
+</div>
 
 {% endblock %}
