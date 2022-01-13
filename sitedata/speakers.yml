@@ -1,3 +1,11 @@
+- title: Understanding the World Through Action
+  speaker: Sergey Levine
+  institution: UC Berkeley
+  date: January 6, 2022
+  abstract: "The capabilities of modern machine learning systems are to a large extent determined by their ability to effectively utilize large and diverse datasets. However, such systems typically focus on making predictions rather than making decisions, with the aim of maximizing the likelihood of some data rather than a user-specified utility function. Reinforcement learning methods directly address the problem of utility maximization, but such methods are difficult to reconcile with modern data-driven learning, and typically require either active data collection or specially tailored datasets, both of which are not conducive for being able to use large datasets. In this talk, I will discuss how learning-based control can be performed with offline data, and how such offline RL algorithms can utilize comparatively less specialized datasets with general-purpose objectives to enable learning to make decisions at scale. I will discuss the algorithmic foundations of offline reinforcement learning, and present a number of robotics applications that use comparatively general data sources in the areas of robotic navigation and manipulation."
+  bio: "Sergey Levine received a BS and MS in Computer Science from Stanford University in 2009, and a Ph.D. in Computer Science from Stanford University in 2014. He joined the faculty of the Department of Electrical Engineering and Computer Sciences at UC Berkeley in fall 2016. His work focuses on machine learning for decision making and control, with an emphasis on deep learning and reinforcement learning algorithms. Applications of his work include autonomous robots and vehicles, as well as computer vision and graphics. His research includes developing algorithms for end-to-end training of deep neural network policies that combine perception and control, scalable algorithms for inverse reinforcement learning, deep reinforcement learning algorithms, and more. His work has been featured in many popular press outlets, including the New York Times, the BBC, MIT Technology Review, and Bloomberg Business."
+  video: https://www.youtube.com/embed/yXImQEMS77g
+  UID: "20"
 - title: Learning Structured Models of the World
   speaker: Thomas Kipf
   institution: Google Brain
