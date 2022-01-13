@@ -7,7 +7,6 @@
     year: 2021
     type: Conference
     url: https://arxiv.org/abs/2111.09794
-    blog: generalization_survey.md
 -   UID: samvelyan2021minihack
     title: "MiniHack the Planet: A Sandbox for Open-Ended Reinforcement Learning Research"
     authors: Mikayel Samvelyan|Robert Kirk|Vitaly Kurin|Jack Parker-Holder|Minqi Jiang|Eric Hambro|Fabio Petroni|Heinrich Küttler|Edward Grefenstette|Tim Rocktäschel
