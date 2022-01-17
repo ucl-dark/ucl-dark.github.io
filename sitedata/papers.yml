@@ -6,6 +6,7 @@
     proceedings: arXiv
     year: 2021
     type: Conference
+    blog: generalization_survey.md
     url: https://arxiv.org/abs/2111.09794
 -   UID: samvelyan2021minihack
     title: "MiniHack the Planet: A Sandbox for Open-Ended Reinforcement Learning Research"
