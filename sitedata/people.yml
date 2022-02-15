@@ -91,7 +91,11 @@ msc:
     im: static/images/people/jonathan.jpg
     github: jonathan-cook235
     scholar: scholar.google.com/citations?user=7tcPHHYAAAAJ&hl=en
-
+  - role: MSc Student (2022)
+    name: Newton Kwan
+    im: static/images/people/newton.jpg
+    github: newtonkwan
+    home: newtonkwan.com
 
 alumni:
   - role: MSc Student (2021)
