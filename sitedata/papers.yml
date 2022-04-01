@@ -1,3 +1,12 @@
+-   UID: mahajan2021generalization
+    title: "Generalization in Cooperative Multi-Agent Systems"
+    authors: Anuj Mahajan|Mikayel Samvelyan|Tarun Gupta|Benjamin Ellis|Mingfei Sun|Tim Rocktäschel|Shimon Whiteson
+    abstract: Collective intelligence is a fundamental trait shared by several species of living organisms. It has allowed them to thrive in the diverse environmental conditions that exist on our planet. From simple organisations in an ant colony to complex systems in human groups, collective intelligence is vital for solving complex survival tasks. As is commonly observed, such natural systems are flexible to changes in their structure. Specifically, they exhibit a high degree of generalization when the abilities or the total number of agents changes within a system. We term this phenomenon as Combinatorial Generalization (CG). CG is a highly desirable trait for autonomous systems as it can increase their utility and deployability across a wide range of applications. While recent works addressing specific aspects of CG have shown impressive results on complex domains, they provide no performance guarantees when generalizing towards novel situations. In this work, we shed light on the theoretical underpinnings of CG for cooperative multi-agent systems (MAS). Specifically, we study generalization bounds under a linear dependence of the underlying dynamics on the agent capabilities, which can be seen as a generalization of Successor Features to MAS. We then extend the results first for Lipschitz and then arbitrary dependence of rewards on team capabilities. Finally, empirical analysis on various domains using the framework of multi-agent reinforcement learning highlights important desiderata for multi-agent algorithms towards ensuring CG.
+    keywords: reinforcement learning|multi-agent|generalisation
+    proceedings: arXiv
+    year: 2022
+    type: Preprint
+    url: https://arxiv.org/abs/2202.00104
 -   UID: kirk2021survey
     title: A Survey of Generalisation in Deep Reinforcement Learning
     authors: Robert Kirk|Amy Zhang|Edward Grefenstette|Tim Rocktäschel
