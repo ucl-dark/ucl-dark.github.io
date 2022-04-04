@@ -60,11 +60,17 @@
       rel="stylesheet"
     />
 
-    <title>UCL DARK Lab: Prioritized Level Replay</title>
+    <title>UCL DARK Lab: Replay-Guided Adversarial Environment Design</title>
     
-<meta name="citation_title" content="Prioritized Level Replay" />
+<meta name="citation_title" content="Replay-Guided Adversarial Environment Design" />
 
 <meta name="citation_author" content="Minqi Jiang" />
+
+<meta name="citation_author" content="Michael Dennis" />
+
+<meta name="citation_author" content="Jack Parker-Holder" />
+
+<meta name="citation_author" content="Jakob Foerster" />
 
 <meta name="citation_author" content="Edward Grefenstette" />
 
@@ -73,17 +79,17 @@
 <meta name="citation_publication_date" content="None" />
 <meta name="citation_conference_title" content="Ucl Deciding, Acting, And Reasoning With Knowledge (Dark) Lab" />
 <meta name="citation_inbook_title" content="None" />
-<meta name="citation_abstract" content="Simulated environments with procedurally generated content have become popular benchmarks for testing systematic generalization of reinforcement learning agents. Every level in such an environment is algorithmically created, thereby exhibiting a unique configuration of underlying factors of variation, such as layout, positions of entities, asset appearances, or even the rules governing environment transitions. Fixed sets of training levels can be determined to aid comparison and reproducibility, and test levels can be held out to evaluate the generalization and robustness of agents. While prior work samples training levels in a direct way (e.g. uniformly) for the agent to learn from, we investigate the hypothesis that different levels provide different learning progress for an agent at specific times during training. We introduce Prioritized Level Replay, a general framework for estimating the future learning potential of a level given the current state of the agent&#39;s policy. We find that temporal-difference (TD) errors, while previously used to selectively sample past transitions, also prove effective for scoring a level&#39;s future learning potential when the agent replays (that is, revisits) that level to generate entirely new episodes of experiences from it. We report significantly improved sample-efficiency and generalization on the majority of Procgen Benchmark environments as well as two challenging MiniGrid environments. Lastly, we present a qualitative analysis showing that Prioritized Level Replay induces an implicit curriculum, taking the agent gradually from easier to harder levels" />
+<meta name="citation_abstract" content="Deep reinforcement learning (RL) agents may successfully generalize to new settings if trained on an appropriately diverse set of environment and task configurations. Unsupervised Environment Design (UED) is a promising self-supervised RL paradigm, wherein the free parameters of an underspecified environment are automatically adapted during training to the agent&#39;s capabilities, leading to the emergence of diverse training environments. Here, we cast Prioritized Level Replay (PLR), an empirically successful but theoretically unmotivated method that selectively samples randomly-generated training levels, as UED. We argue that by curating completely random levels, PLR, too, can generate novel and complex levels for effective training. This insight reveals a natural class of UED methods we call Dual Curriculum Design (DCD). Crucially, DCD includes both PLR and a popular UED algorithm, PAIRED, as special cases and inherits similar theoretical guarantees. This connection allows us to develop novel theory for PLR, providing a version with a robustness guarantee at Nash equilibria. Furthermore, our theory suggests a highly counterintuitive improvement to PLR: by stopping the agent from updating its policy on uncurated levels (training on less data), we can improve the convergence to Nash equilibria. Indeed, our experiments confirm that our new method, PLR⊥, obtains better results on a suite of out-of-distribution, zero-shot transfer tasks, in addition to demonstrating that PLR⊥ improves the performance of PAIRED, from which it inherited its theoretical framework." />
 
 <meta name="citation_keywords" content="reinforcement learning" />
 
-<meta name="citation_keywords" content="curriculum learning" />
-
 <meta name="citation_keywords" content="generalisation" />
 
-<meta name="citation_keywords" content="procedural content generation" />
+<meta name="citation_keywords" content="curriculum learning" />
 
-<meta name="citation_pdf_url" content="https://arxiv.org/abs/2010.03934" />
+<meta name="citation_keywords" content="environment design" />
+
+<meta name="citation_pdf_url" content="https://arxiv.org/abs/2110.02439" />
 
 
   </head>
@@ -158,12 +164,24 @@
 <div class="pp-card m-3" style="">
   <div class="card-header">
     <h2 class="card-title main-title text-center" style="">
-      Prioritized Level Replay
+      Replay-Guided Adversarial Environment Design
     </h2>
     <h3 class="card-subtitle mb-2 text-muted text-center">
       
       <a href="papers.html?filter=authors&search=Minqi Jiang" class="text-muted"
         >Minqi Jiang</a
+      >,
+      
+      <a href="papers.html?filter=authors&search=Michael Dennis" class="text-muted"
+        >Michael Dennis</a
+      >,
+      
+      <a href="papers.html?filter=authors&search=Jack Parker-Holder" class="text-muted"
+        >Jack Parker-Holder</a
+      >,
+      
+      <a href="papers.html?filter=authors&search=Jakob Foerster" class="text-muted"
+        >Jakob Foerster</a
       >,
       
       <a href="papers.html?filter=authors&search=Edward Grefenstette" class="text-muted"
@@ -185,21 +203,21 @@
       >,
       
       <a
-        href="papers.html?filter=keywords&search=curriculum learning"
-        class="text-secondary text-decoration-none"
-        >curriculum learning</a
-      >,
-      
-      <a
         href="papers.html?filter=keywords&search=generalisation"
         class="text-secondary text-decoration-none"
         >generalisation</a
       >,
       
       <a
-        href="papers.html?filter=keywords&search=procedural content generation"
+        href="papers.html?filter=keywords&search=curriculum learning"
         class="text-secondary text-decoration-none"
-        >procedural content generation</a
+        >curriculum learning</a
+      >,
+      
+      <a
+        href="papers.html?filter=keywords&search=environment design"
+        class="text-secondary text-decoration-none"
+        >environment design</a
       >
       
     </p>
@@ -209,7 +227,7 @@
         Abstract
       </a>
         
-      <a class="card-link" target="_blank" href="https://arxiv.org/abs/2010.03934">
+      <a class="card-link" target="_blank" href="https://arxiv.org/abs/2110.02439">
         Paper
       </a>
       
@@ -222,7 +240,7 @@
         <div class="card-text">
           <div id="abstractExample">
             <span class="font-weight-bold">Abstract:</span>
-            Simulated environments with procedurally generated content have become popular benchmarks for testing systematic generalization of reinforcement learning agents. Every level in such an environment is algorithmically created, thereby exhibiting a unique configuration of underlying factors of variation, such as layout, positions of entities, asset appearances, or even the rules governing environment transitions. Fixed sets of training levels can be determined to aid comparison and reproducibility, and test levels can be held out to evaluate the generalization and robustness of agents. While prior work samples training levels in a direct way (e.g. uniformly) for the agent to learn from, we investigate the hypothesis that different levels provide different learning progress for an agent at specific times during training. We introduce Prioritized Level Replay, a general framework for estimating the future learning potential of a level given the current state of the agent&#39;s policy. We find that temporal-difference (TD) errors, while previously used to selectively sample past transitions, also prove effective for scoring a level&#39;s future learning potential when the agent replays (that is, revisits) that level to generate entirely new episodes of experiences from it. We report significantly improved sample-efficiency and generalization on the majority of Procgen Benchmark environments as well as two challenging MiniGrid environments. Lastly, we present a qualitative analysis showing that Prioritized Level Replay induces an implicit curriculum, taking the agent gradually from easier to harder levels
+            Deep reinforcement learning (RL) agents may successfully generalize to new settings if trained on an appropriately diverse set of environment and task configurations. Unsupervised Environment Design (UED) is a promising self-supervised RL paradigm, wherein the free parameters of an underspecified environment are automatically adapted during training to the agent&#39;s capabilities, leading to the emergence of diverse training environments. Here, we cast Prioritized Level Replay (PLR), an empirically successful but theoretically unmotivated method that selectively samples randomly-generated training levels, as UED. We argue that by curating completely random levels, PLR, too, can generate novel and complex levels for effective training. This insight reveals a natural class of UED methods we call Dual Curriculum Design (DCD). Crucially, DCD includes both PLR and a popular UED algorithm, PAIRED, as special cases and inherits similar theoretical guarantees. This connection allows us to develop novel theory for PLR, providing a version with a robustness guarantee at Nash equilibria. Furthermore, our theory suggests a highly counterintuitive improvement to PLR: by stopping the agent from updating its policy on uncurated levels (training on less data), we can improve the convergence to Nash equilibria. Indeed, our experiments confirm that our new method, PLR⊥, obtains better results on a suite of out-of-distribution, zero-shot transfer tasks, in addition to demonstrating that PLR⊥ improves the performance of PAIRED, from which it inherited its theoretical framework.
           </div>
         </div>
         <p></p>

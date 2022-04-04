@@ -60,11 +60,19 @@
       rel="stylesheet"
     />
 
-    <title>UCL DARK Lab: Prioritized Level Replay</title>
+    <title>UCL DARK Lab: Evolving Curricula with Regret-Based Environment Design</title>
     
-<meta name="citation_title" content="Prioritized Level Replay" />
+<meta name="citation_title" content="Evolving Curricula with Regret-Based Environment Design" />
+
+<meta name="citation_author" content="Jack Parker-Holder" />
 
 <meta name="citation_author" content="Minqi Jiang" />
+
+<meta name="citation_author" content="Michael Dennis" />
+
+<meta name="citation_author" content="Mikayel Samvelyan" />
+
+<meta name="citation_author" content="Jakob Foerster" />
 
 <meta name="citation_author" content="Edward Grefenstette" />
 
@@ -73,17 +81,17 @@
 <meta name="citation_publication_date" content="None" />
 <meta name="citation_conference_title" content="Ucl Deciding, Acting, And Reasoning With Knowledge (Dark) Lab" />
 <meta name="citation_inbook_title" content="None" />
-<meta name="citation_abstract" content="Simulated environments with procedurally generated content have become popular benchmarks for testing systematic generalization of reinforcement learning agents. Every level in such an environment is algorithmically created, thereby exhibiting a unique configuration of underlying factors of variation, such as layout, positions of entities, asset appearances, or even the rules governing environment transitions. Fixed sets of training levels can be determined to aid comparison and reproducibility, and test levels can be held out to evaluate the generalization and robustness of agents. While prior work samples training levels in a direct way (e.g. uniformly) for the agent to learn from, we investigate the hypothesis that different levels provide different learning progress for an agent at specific times during training. We introduce Prioritized Level Replay, a general framework for estimating the future learning potential of a level given the current state of the agent&#39;s policy. We find that temporal-difference (TD) errors, while previously used to selectively sample past transitions, also prove effective for scoring a level&#39;s future learning potential when the agent replays (that is, revisits) that level to generate entirely new episodes of experiences from it. We report significantly improved sample-efficiency and generalization on the majority of Procgen Benchmark environments as well as two challenging MiniGrid environments. Lastly, we present a qualitative analysis showing that Prioritized Level Replay induces an implicit curriculum, taking the agent gradually from easier to harder levels" />
+<meta name="citation_abstract" content="It remains a significant challenge to train generally capable agents with reinforcement learning (RL). A promising avenue for improving the robustness of RL agents is through the use of curricula. One such class of methods frames environment design as a game between a student and a teacher, using regret-based objectives to produce environment instantiations (or levels) at the frontier of the student agent&#39;s capabilities. These methods benefit from their generality, with theoretical guarantees at equilibrium, yet they often struggle to find effective levels in challenging design spaces. By contrast, evolutionary approaches seek to incrementally alter environment complexity, resulting in potentially open-ended learning, but often rely on domain-specific heuristics and vast amounts of computational resources. In this paper we propose to harness the power of evolution in a principled, regret-based curriculum. Our approach, which we call Adversarially Compounding Complexity by Editing Levels (ACCEL), seeks to constantly produce levels at the frontier of an agent&#39;s capabilities, resulting in curricula that start simple but become increasingly complex. ACCEL maintains the theoretical benefits of prior regret-based methods, while providing significant empirical gains in a diverse set of environments. An interactive version of the paper is available at accelagent.github.io." />
 
 <meta name="citation_keywords" content="reinforcement learning" />
 
-<meta name="citation_keywords" content="curriculum learning" />
-
 <meta name="citation_keywords" content="generalisation" />
 
-<meta name="citation_keywords" content="procedural content generation" />
+<meta name="citation_keywords" content="open-endedness" />
 
-<meta name="citation_pdf_url" content="https://arxiv.org/abs/2010.03934" />
+<meta name="citation_keywords" content="environment design" />
+
+<meta name="citation_pdf_url" content="https://arxiv.org/abs/2203.01302" />
 
 
   </head>
@@ -158,12 +166,28 @@
 <div class="pp-card m-3" style="">
   <div class="card-header">
     <h2 class="card-title main-title text-center" style="">
-      Prioritized Level Replay
+      Evolving Curricula with Regret-Based Environment Design
     </h2>
     <h3 class="card-subtitle mb-2 text-muted text-center">
       
+      <a href="papers.html?filter=authors&search=Jack Parker-Holder" class="text-muted"
+        >Jack Parker-Holder</a
+      >,
+      
       <a href="papers.html?filter=authors&search=Minqi Jiang" class="text-muted"
         >Minqi Jiang</a
+      >,
+      
+      <a href="papers.html?filter=authors&search=Michael Dennis" class="text-muted"
+        >Michael Dennis</a
+      >,
+      
+      <a href="papers.html?filter=authors&search=Mikayel Samvelyan" class="text-muted"
+        >Mikayel Samvelyan</a
+      >,
+      
+      <a href="papers.html?filter=authors&search=Jakob Foerster" class="text-muted"
+        >Jakob Foerster</a
       >,
       
       <a href="papers.html?filter=authors&search=Edward Grefenstette" class="text-muted"
@@ -185,21 +209,21 @@
       >,
       
       <a
-        href="papers.html?filter=keywords&search=curriculum learning"
-        class="text-secondary text-decoration-none"
-        >curriculum learning</a
-      >,
-      
-      <a
         href="papers.html?filter=keywords&search=generalisation"
         class="text-secondary text-decoration-none"
         >generalisation</a
       >,
       
       <a
-        href="papers.html?filter=keywords&search=procedural content generation"
+        href="papers.html?filter=keywords&search=open-endedness"
         class="text-secondary text-decoration-none"
-        >procedural content generation</a
+        >open-endedness</a
+      >,
+      
+      <a
+        href="papers.html?filter=keywords&search=environment design"
+        class="text-secondary text-decoration-none"
+        >environment design</a
       >
       
     </p>
@@ -209,7 +233,7 @@
         Abstract
       </a>
         
-      <a class="card-link" target="_blank" href="https://arxiv.org/abs/2010.03934">
+      <a class="card-link" target="_blank" href="https://arxiv.org/abs/2203.01302">
         Paper
       </a>
       
@@ -222,7 +246,7 @@
         <div class="card-text">
           <div id="abstractExample">
             <span class="font-weight-bold">Abstract:</span>
-            Simulated environments with procedurally generated content have become popular benchmarks for testing systematic generalization of reinforcement learning agents. Every level in such an environment is algorithmically created, thereby exhibiting a unique configuration of underlying factors of variation, such as layout, positions of entities, asset appearances, or even the rules governing environment transitions. Fixed sets of training levels can be determined to aid comparison and reproducibility, and test levels can be held out to evaluate the generalization and robustness of agents. While prior work samples training levels in a direct way (e.g. uniformly) for the agent to learn from, we investigate the hypothesis that different levels provide different learning progress for an agent at specific times during training. We introduce Prioritized Level Replay, a general framework for estimating the future learning potential of a level given the current state of the agent&#39;s policy. We find that temporal-difference (TD) errors, while previously used to selectively sample past transitions, also prove effective for scoring a level&#39;s future learning potential when the agent replays (that is, revisits) that level to generate entirely new episodes of experiences from it. We report significantly improved sample-efficiency and generalization on the majority of Procgen Benchmark environments as well as two challenging MiniGrid environments. Lastly, we present a qualitative analysis showing that Prioritized Level Replay induces an implicit curriculum, taking the agent gradually from easier to harder levels
+            It remains a significant challenge to train generally capable agents with reinforcement learning (RL). A promising avenue for improving the robustness of RL agents is through the use of curricula. One such class of methods frames environment design as a game between a student and a teacher, using regret-based objectives to produce environment instantiations (or levels) at the frontier of the student agent&#39;s capabilities. These methods benefit from their generality, with theoretical guarantees at equilibrium, yet they often struggle to find effective levels in challenging design spaces. By contrast, evolutionary approaches seek to incrementally alter environment complexity, resulting in potentially open-ended learning, but often rely on domain-specific heuristics and vast amounts of computational resources. In this paper we propose to harness the power of evolution in a principled, regret-based curriculum. Our approach, which we call Adversarially Compounding Complexity by Editing Levels (ACCEL), seeks to constantly produce levels at the frontier of an agent&#39;s capabilities, resulting in curricula that start simple but become increasingly complex. ACCEL maintains the theoretical benefits of prior regret-based methods, while providing significant empirical gains in a diverse set of environments. An interactive version of the paper is available at accelagent.github.io.
           </div>
         </div>
         <p></p>
