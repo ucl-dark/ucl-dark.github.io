@@ -14,6 +14,8 @@ page_title:
   prefix: 'UCL DARK Lab'
   separator: ': '
 background_image: static/images/main.jpg
+group_photo: static/images/group_photo.jpg
+photo_width: 900px
 organization: UCL DARK Lab
 
 # Remove or change to your chat server.
