@@ -1,0 +1,220 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="static/css/main.css" type="text/css"/>
+    <link rel="stylesheet" href="static/css/lazy_load.css" />
+    <link rel="stylesheet" href="static/css/typeahead.css" />
+    <link rel="icon" href="static/images/logo.png">
+
+    <!-- External Javascript libs  -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js" integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c59ce62110.js" crossorigin="anonymous"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js" integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww=" crossorigin="anonymous"></script>
+
+
+    <!-- Library libs -->
+    <script src="static/js/typeahead.bundle.js"></script>
+
+    
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous">
+
+    <!-- External Fonts (no google for china) -->
+    <link
+      href="static/css/Lato.css"
+      rel="stylesheet"
+    />
+    <link href="static/css/Exo.css" rel="stylesheet" />
+    <link
+      href="static/css/Cuprum.css"
+      rel="stylesheet"
+    />
+
+    <title>UCL DARK Lab: Lifelong Learning for Robotics</title>
+    
+  </head>
+
+  <body>
+    <!-- NAV -->
+    
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
+      id="main-nav"
+    >
+        <div class="container">
+        <!--
+        <a class="navbar-brand" href="index.html">
+          <img
+             class="logo" src="static/images/logo.png"
+             height="auto"
+             width="130px"
+          />
+        </a>
+        -->
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-right flex-grow-1"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            
+            <li class="nav-item ">
+              <a class="nav-link" href="papers.html">Publications</a>
+            </li>
+            
+            <li class="nav-item ">
+              <a class="nav-link" href="speakers.html">Speakers</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+    
+    <!-- User Overrides -->
+     
+
+    <div class="container">
+      <!-- Tabs -->
+      <div class="tabs">
+         
+      </div>
+      <!-- Content -->
+      <div class="content">
+        
+
+<link rel="stylesheet" href="static/css/speaker.css" type="text/css"/>
+<!-- Title -->
+<div class="pp-card m-3" style="">
+  <div class="card-header">
+    <h2 class="card-title main-title text-center" style="">
+      Lifelong Learning for Robotics
+    </h2>
+    <h3 class="card-subtitle mb-2 text-muted text-center">
+      Franziska Meier / Meta AI
+    </h3>
+    <h3 class="card-subtitle mb-2 text-muted text-center">
+      Aug 24, 2022
+    </h3>
+    <div class="text-center p-3">
+      <a class="card-link" data-toggle="collapse" role="button" href="#details">
+        Abstract & Bio
+      </a>
+    </div>
+  </div>
+</div>
+<div id="details" class="pp-card m-3">
+  <div class="card-body">
+    <div class="card-text">
+      <div id="abstractExample">
+        <span class="font-weight-bold">Abstract:</span>
+        As interest in the field of open-endedness expands, ideas like continual discovery and increasingly complexity have gained significant attention. The aim of this talk is to bring attention to two lesser-known facets of open-endedness that nevertheless merit significantly more attention. First, evidence so far suggests that representations achieved through open-ended processes seem radically different from representations discovered through optimization, even if they solve the same problem. The implications of this observation are unknown but potentially significant. Second, while the agents themselves in an open-ended system are of course critical, in processes analogous to civilization (as opposed to evolution), the artifacts those agents put into and leave in the environment (e.g. houses and cars for humans) are also critical to the trajectory of the system, yet little studied or understood. New advances, such as Evolution through Large Models, make studying this issue more feasible. The hope is that this talk will inspire further investigation into both considerations. <br /><br />
+
+        <span class="font-weight-bold">Bio:</span>
+        Kenneth O. Stanley is currently deciding his next adventure after most recently leading a research team at OpenAI on the challenge of open-endedness. He was previously Charles Millican Professor of Computer Science at the University of Central Florida and was also a co-founder of Geometric Intelligence Inc., which was acquired by Uber to create Uber AI Labs, where he was head of Core AI research. He received a B.S.E. from the University of Pennsylvania and received a Ph.D. from the University of Texas at Austin. He is an inventor of the Neuroevolution of Augmenting Topologies (NEAT), HyperNEAT, novelty search, POET, and ELM algorithms, as well as the CPPN representation, among many others. His main research contributions are in neuroevolution (i.e. evolving neural networks), generative and developmental systems, coevolution, machine learning for video games, interactive evolution, quality diversity, and open-endedness. He has won best paper awards for his work on NEAT, NERO, NEAT Drummer, FSMC, HyperNEAT, novelty search, Galactic Arms Race, POET, and MCC. His original 2002 paper on NEAT also received the 2017 ISAL Award for Outstanding Paper of the Decade 2002 - 2012 from the International Society for Artificial Life. He is a coauthor of the popular science book, "Why Greatness Cannot Be Planned: The Myth of the Objective" (published by Springer), and has spoken widely on its subject.
+      </div>
+    </div>
+  
+      <div class="videoWrapper">
+          <iframe width="560" height="315" src=https://www.youtube.com/embed/T08wc4xD3KA frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+  
+  </div>
+</div>
+
+<!-- Presentation Embed -->
+
+
+      </div>
+    </div>
+    
+    
+
+    <!-- Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-");
+    </script>
+
+    <!-- Footer -->
+    <footer class="footer bg-light p-4">
+      <div class="container">
+        <p class="float-right"><a href="#">Back to Top</a></p>
+        <p class="text-center">© 2020 UCL DARK Lab</p>
+      </div>
+    </footer>
+
+    <!-- Code for hash tags -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        if (location.hash !== "") {
+          $('a[href="' + location.hash + '"]').tab("show");
+        }
+
+        $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+          var hash = $(e.target).attr("href");
+          if (hash.substr(0, 1) == "#") {
+            var position = $(window).scrollTop();
+            location.replace("#" + hash.substr(1));
+            $(window).scrollTop(position);
+          }
+        });
+      });
+    </script>
+    <script src="static/js/lazy_load.js"></script>
+    
+  </body>
+</html>

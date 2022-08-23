@@ -35,7 +35,14 @@
 {% endblock %}
 
 {% block content %}
-
+<h2>
+<center>
+<img
+  class="pull-left mr-5"
+  src="{{config.group_photo}}"
+  width={{config.photo_width | default("auto") | tojson}}
+/></center>
+</h2>
 {{ introduction | markdown }}
 
 <link rel="stylesheet" href="static/css/news.css" />

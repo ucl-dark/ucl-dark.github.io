@@ -7,6 +7,15 @@
     year: 2022
     type: Preprint
     url: https://arxiv.org/abs/2208.10291
+-   UID: matthews2022hierarchical
+    title: "Hierarchical Kickstarting for Skill Transfer in Reinforcement Learning"
+    authors: Michael Matthews|Mikayel Samvelyan|Jack Parker-Holder|Edward Grefenstette|Tim Rocktäschel
+    abstract: Practising and honing skills forms a fundamental component of how humans learn, yet artificial agents are rarely specifically trained to perform them. Instead, they are usually trained end-to-end, with the hope being that useful skills will be implicitly learned in order to maximise discounted return of some extrinsic reward function. In this paper, we investigate how skills can be incorporated into the training of reinforcement learning (RL) agents in complex environments with large state-action spaces and sparse rewards. To this end, we created SkillHack, a benchmark of tasks and associated skills based on the game of NetHack. We evaluate a number of baselines on this benchmark, as well as our own novel skill-based method Hierarchical Kickstarting (HKS), which is shown to outperform all other evaluated methods. Our experiments show that learning with a prior knowledge of useful skills can significantly improve the performance of agents on complex problems. We ultimately argue that utilising predefined skills provides a useful inductive bias for RL problems, especially those with large state-action spaces and sparse rewards.
+    keywords: reinforcement learning|transfer learning|environment
+    proceedings: CoLLAs
+    year: 2022
+    type: Conference
+    url: https://arxiv.org/pdf/2207.11584.pdf
 -   UID: jiang2022gb
     title: "Graph Backup: Data Efficient Backup Exploiting Markovian Transitions"
     authors: Zhengyao Jiang|Tianjun Zhang|Robert Kirk|Tim Rocktäschel|Edward Grefenstette
@@ -21,9 +30,9 @@
     authors: Jack Parker-Holder|Minqi Jiang|Michael Dennis|Mikayel Samvelyan|Jakob Foerster|Edward Grefenstette|Tim Rocktäschel
     abstract: It remains a significant challenge to train generally capable agents with reinforcement learning (RL). A promising avenue for improving the robustness of RL agents is through the use of curricula. One such class of methods frames environment design as a game between a student and a teacher, using regret-based objectives to produce environment instantiations (or levels) at the frontier of the student agent's capabilities. These methods benefit from their generality, with theoretical guarantees at equilibrium, yet they often struggle to find effective levels in challenging design spaces. By contrast, evolutionary approaches seek to incrementally alter environment complexity, resulting in potentially open-ended learning, but often rely on domain-specific heuristics and vast amounts of computational resources. In this paper we propose to harness the power of evolution in a principled, regret-based curriculum. Our approach, which we call Adversarially Compounding Complexity by Editing Levels (ACCEL), seeks to constantly produce levels at the frontier of an agent's capabilities, resulting in curricula that start simple but become increasingly complex. ACCEL maintains the theoretical benefits of prior regret-based methods, while providing significant empirical gains in a diverse set of environments. An interactive version of the paper is available at accelagent.github.io.
     keywords: reinforcement learning|generalisation|open-endedness|environment design
-    proceedings: arXiv
+    proceedings: ICML
     year: 2022
-    type: Preprint
+    type: Conference
     url: https://arxiv.org/abs/2203.01302
 -   UID: mahajan2022generalization
     title: "Generalization in Cooperative Multi-Agent Systems"
@@ -48,7 +57,7 @@
     title: "MiniHack the Planet: A Sandbox for Open-Ended Reinforcement Learning Research"
     authors: Mikayel Samvelyan|Robert Kirk|Vitaly Kurin|Jack Parker-Holder|Minqi Jiang|Eric Hambro|Fabio Petroni|Heinrich Küttler|Edward Grefenstette|Tim Rocktäschel
     abstract: The progress in deep reinforcement learning (RL) is heavily driven by the availability of challenging benchmarks used for training agents. However, benchmarks that are widely adopted by the community are not explicitly designed for evaluating specific capabilities of RL methods. While there exist environments for assessing particular open problems in RL (such as exploration, transfer learning, unsupervised environment design, or even language-assisted RL), it is generally difficult to extend these to richer, more complex environments once research goes beyond proof-of-concept results. We present MiniHack, a powerful sandbox framework for easily designing novel RL environments. MiniHack is a one-stop shop for RL experiments with environments ranging from small rooms to complex, procedurally generated worlds. By leveraging the full set of entities and environment dynamics from NetHack, one of the richest grid-based video games, MiniHack allows designing custom RL testbeds that are fast and convenient to use. With this sandbox framework, novel environments can be designed easily, either using a human-readable description language or a simple Python interface. In addition to a variety of RL tasks and baselines, MiniHack can wrap existing RL benchmarks and provide ways to seamlessly add additional complexity.
-    keywords: reinforcement learning|open-endedness|environment design
+    keywords: reinforcement learning|open-endedness|environment design|environment
     proceedings: NeurIPS
     year: 2021
     type: Conference
