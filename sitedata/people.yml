@@ -96,6 +96,12 @@ msc:
     im: static/images/people/newton.jpg
     github: newtonkwan
     home: newtonkwan.com
+  - role: MSc Student (2022)
+    name: Ben Woodyear
+    github: benwoodyear
+    im: static/images/people/ben.jpg
+    home: benwoodyear.com
+
 
 alumni:
   - role: MSc Student (2021)

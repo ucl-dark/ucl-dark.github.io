@@ -6,6 +6,14 @@
   bio: ''
   video: https://www.youtube.com/embed/RGH97toWiCk
   UID: "23"
+- title: Novel Opportunities in Open-Endedness
+  speaker: Franziska Meier
+  institution: Meta AI
+  date: Aug 24, 2022
+  abstract: "As interest in the field of open-endedness expands, ideas like continual discovery and increasingly complexity have gained significant attention. The aim of this talk is to bring attention to two lesser-known facets of open-endedness that nevertheless merit significantly more attention. First, evidence so far suggests that representations achieved through open-ended processes seem radically different from representations discovered through optimization, even if they solve the same problem. The implications of this observation are unknown but potentially significant. Second, while the agents themselves in an open-ended system are of course critical, in processes analogous to civilization (as opposed to evolution), the artifacts those agents put into and leave in the environment (e.g. houses and cars for humans) are also critical to the trajectory of the system, yet little studied or understood. New advances, such as Evolution through Large Models, make studying this issue more feasible. The hope is that this talk will inspire further investigation into both considerations."
+  bio: 'Kenneth O. Stanley is currently deciding his next adventure after most recently leading a research team at OpenAI on the challenge of open-endedness. He was previously Charles Millican Professor of Computer Science at the University of Central Florida and was also a co-founder of Geometric Intelligence Inc., which was acquired by Uber to create Uber AI Labs, where he was head of Core AI research. He received a B.S.E. from the University of Pennsylvania and received a Ph.D. from the University of Texas at Austin. He is an inventor of the Neuroevolution of Augmenting Topologies (NEAT), HyperNEAT, novelty search, POET, and ELM algorithms, as well as the CPPN representation, among many others. His main research contributions are in neuroevolution (i.e. evolving neural networks), generative and developmental systems, coevolution, machine learning for video games, interactive evolution, quality diversity, and open-endedness. He has won best paper awards for his work on NEAT, NERO, NEAT Drummer, FSMC, HyperNEAT, novelty search, Galactic Arms Race, POET, and MCC. His original 2002 paper on NEAT also received the 2017 ISAL Award for Outstanding Paper of the Decade 2002 - 2012 from the International Society for Artificial Life. He is a coauthor of the popular science book, "Why Greatness Cannot Be Planned: The Myth of the Objective" (published by Springer), and has spoken widely on its subject.'
+  video: https://www.youtube.com/embed/T08wc4xD3KA
+  UID: "22"
 - title: Lifelong Learning for Robotics
   speaker: Franziska Meier
   institution: Meta AI
