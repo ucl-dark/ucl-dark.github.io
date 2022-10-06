@@ -14,22 +14,6 @@ faculty:
     home: www.egrefen.com
     scholar: scholar.google.com/citations?user=ezllEwMAAAAJ&hl=en
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=ezllEwMAAAAJ&citpid=3
-  - role: Professor
-    name: Sebastian Riedel
-    tw: riedelcastro
-    home: www.riedelcastro.org
-    scholar: scholar.google.com/citations?user=AcCtcrsAAAAJ&hl=en
-    im: https://pbs.twimg.com/profile_images/1079788897134104576/HDrYfrub_400x400.jpg
-    note: Affiliated Faculty
-
-researchers:
-  - role: Senior Research Fellow
-    name: Pasquale Minervini
-    home: www.neuralnoise.com/
-    github: pminervini
-    scholar: scholar.google.it/citations?user=9sk6CSgAAAAJ&hl=it
-    im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=9sk6CSgAAAAJ&citpid=3
-    tw: pminervini
 
 phd:
   - role: PhD Student (2021—)
@@ -85,7 +69,23 @@ phd:
     github: minqi
     interests:
 
-msc:
+affiliated faculty:
+  - role: Associate Professor
+    name: Jakob Foerster
+    tw: j_foerst
+    home: https://www.jakobfoerster.com/
+    scholar: https://scholar.google.com/citations?user=6z4lQzMAAAAJ&hl=en
+    im: https://pbs.twimg.com/profile_images/1503832658085875715/hKPZMjaI_400x400.jpg
+    note: Associate Professor at University of Oxford, Affiliated Faculty
+  - role: Honorary Professor
+    name: Sebastian Riedel
+    tw: riedelcastro
+    home: www.riedelcastro.org
+    scholar: scholar.google.com/citations?user=AcCtcrsAAAAJ&hl=en
+    im: https://pbs.twimg.com/profile_images/1079788897134104576/HDrYfrub_400x400.jpg
+    note: Affiliated Faculty
+
+alumni:
   - role: MSc Student (2022)
     name: Jonathan Cook
     im: static/images/people/jonathan.jpg
@@ -101,9 +101,14 @@ msc:
     github: benwoodyear
     im: static/images/people/ben.jpg
     home: benwoodyear.com
-
-
-alumni:
+  - role: Senior Research Fellow
+    name: Pasquale Minervini
+    home: www.neuralnoise.com/
+    github: pminervini
+    scholar: scholar.google.it/citations?user=9sk6CSgAAAAJ&hl=it
+    im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=9sk6CSgAAAAJ&citpid=3
+    tw: pminervini
+    note: Now Faculty at the University of Edinburgh    
   - role: MSc Student (2021)
     name: Hannah Teufel
     im: static/images/people/hannah.jpg
