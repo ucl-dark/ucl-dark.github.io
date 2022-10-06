@@ -26,6 +26,7 @@ Edit `sitedata/people.yml`
 1. Append a new row to https://github.com/ucl-dark/ucl-dark.github.io/blob/master/sitedata/papers.csv
 2. Upload an image of the paper to https://github.com/ucl-dark/ucl-dark.github.io/tree/master/static/images/papers
     * file name should be "[YOUR PAPER UID].[jpg/png]"
+    * note the name of the image should be the same as paper id
 
 ## Add a news
 ### On commandline:
