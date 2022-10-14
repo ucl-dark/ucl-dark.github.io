@@ -108,7 +108,7 @@ alumni:
     scholar: scholar.google.it/citations?user=9sk6CSgAAAAJ&hl=it
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=9sk6CSgAAAAJ&citpid=3
     tw: pminervini
-    note: Now Faculty at the University of Edinburgh    
+    note: Next a faculty at the University of Edinburgh    
   - role: MSc Student (2021)
     name: Hannah Teufel
     im: static/images/people/hannah.jpg
@@ -116,23 +116,23 @@ alumni:
     name: Mikey Matthews
     tw: mitrma
     im: static/images/people/mikey.jpg
-    note: Now a Machine Learning Researcher at Vivacity Labs
+    note: Next a Machine Learning Researcher at Vivacity Labs
   - role: MSc Student (2021)
     name: Robert McHardy
     tw: robert_mchardy
     im: static/images/people/robertm.jpg
-    note: Now an AI Research Engineer at InstaDeep
+    note: Next an AI Research Engineer at InstaDeep
   - role: MSc Student (2021)
     name: Ian Wu
     tw: IanWu74457919
     im: static/images/people/ian.jpg
-    note: Now a Data Scientist at C3.ai
+    note: Next a Data Scientist at C3.ai
   - role: MSc Student (2021)
     name: Matthew Jackson
     tw: JacksonMattT
     im: static/images/people/matt.jpg
     home: https://matthewtjackson.com/
-    note: Now a PhD student at Oxford
+    note: Next a PhD student at Oxford
   - role: MSc Student (2021)
     name: Andy Ehrenberg
     tw: andy_ehrenberg
@@ -141,7 +141,7 @@ alumni:
     name: Christina Kouridi
     im: static/images/people/ck.jpeg
     tw: CKouridi
-    note: Now a Research Engineer at InstaDeep
+    note: Next a Research Engineer at InstaDeep
   - role: MSc Student (2020)
     name: Udeepa Meepegama
     im: https://pbs.twimg.com/profile_images/1201675803811037184/XXpnLd1e_400x400.jpg
@@ -150,24 +150,24 @@ alumni:
     name: Zhengyao Jiang
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=J8pFrgwAAAAJ&citpid=2
     tw: zhengyaojiang
-    note: Now PhD student at UCL DARK
+    note: Next a PhD student at UCL DARK
   - role: MSc Student (2019—2020)
     name: Yuchen Zhu
     im: 
     tw:
-    note: Now PhD student at UCL
+    note: Next a PhD student at UCL
   - role: MSc Student (2019)
     name: Joe Stacey
     im: 
     tw:
-    note: Now PhD student at Imperial College London
+    note: Next a PhD student at Imperial College London
   - role: MSc Student (2019)
     name: Isaac Kamlish
     im: 
     tw: isaacdkam
-    note: Now data scientist at Facebook
+    note: Next a data scientist at Facebook
   - role: MSc Student (2019)
     name: Artem Yurlov
     im: 
     tw:
-    note: Now intern at JPMorgan Chase & Co
+    note: Next an intern at JPMorgan Chase & Co
