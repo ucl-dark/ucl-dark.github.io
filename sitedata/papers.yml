@@ -1,3 +1,12 @@
+-   UID: bamford2022griddlyjs
+    title: "GriddlyJS: A Web IDE for Reinforcement Learning"
+    authors: Christopher Bamford|Minqi Jiang|Mikayel Samvelyan|Tim Rocktäschel
+    abstract: Progress in reinforcement learning (RL) research is often driven by the design of new, challenging environments—a costly undertaking requiring skills orthogonal to that of a typical machine learning researcher. The complexity of environment development has only increased with the rise of procedural-content generation (PCG) as the prevailing paradigm for producing varied environments capable of testing the robustness and generalization of RL agents. Moreover, existing environments often require complex build processes, making reproducing results difficult. To address these issues, we introduce GriddlyJS, a web-based Integrated Development Environment (IDE) based on the Griddly engine. GriddlyJS allows researchers to easily design and debug arbitrary, complex PCG grid-world environments, as well as visualize, evaluate, and record the performance of trained agent models. By connecting the RL workflow to the advanced functionality enabled by modern web standards, GriddlyJS allows publishing interactive agent-environment demos that reproduce experimental results directly to the web. To demonstrate the versatility of GriddlyJS, we use it to quickly develop a complex compositional puzzle-solving environment alongside arbitrary human-designed environment configurations and their solutions for use in a automatic curriculum learning and offline RL context. The GriddlyJS IDE is open source and freely available at https://griddly.ai.
+    keywords: reinforcement learning|open-endedness|environment design|environment
+    proceedings: NeurIPS
+    year: 2022
+    type: Preprint
+    url: https://arxiv.org/abs/2207.06105
 -   UID: jiang2022tap
     title: "Efficient Planning in a Compact Latent Action Space"
     authors: Zhengyao Jiang|Tianjun Zhang|Micheal Janner|Yueying Li|Tim Rocktäschel|Edward Grefenstette|Yuandong Tian
