@@ -116,7 +116,7 @@ alumni:
     name: Mikey Matthews
     tw: mitrma
     im: static/images/people/mikey.jpg
-    home: https://www.mtmatthews.com/
+    home: www.mtmatthews.com
     note: Next a Machine Learning Researcher at Vivacity Labs
   - role: MSc Student (2021)
     name: Robert McHardy
@@ -132,7 +132,7 @@ alumni:
     name: Matthew Jackson
     tw: JacksonMattT
     im: static/images/people/matt.jpg
-    home: https://matthewtjackson.com/
+    home: www.matthewtjackson.com
     note: Next a PhD student at Oxford
   - role: MSc Student (2021)
     name: Andy Ehrenberg
