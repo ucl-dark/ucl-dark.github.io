@@ -1,3 +1,12 @@
+-   UID: ruis2022implicature
+    title: "Large language models are not zero-shot communicators"
+    authors: Laura Ruis|Akbir Khan|Stella Biderman|Sara Hooker|Tim Rocktäschel|Edward Grefenstette
+    abstract: Despite widespread use of LLMs as conversational agents, evaluations of performance fail to capture a crucial aspect of communication: interpreting language in context. Humans interpret language using beliefs and prior knowledge about the world. For example, we intuitively understand the response "I wore gloves" to the question "Did you leave fingerprints?" as meaning "No". To investigate whether LLMs have the ability to make this type of inference, known as an implicature, we design a simple task and evaluate widely used state-of-the-art models. We find that, despite only evaluating on utterances that require a binary inference (yes or no), most perform close to random. Models adapted to be "aligned with human intent" perform much better, but still show a significant gap with human performance. We present our findings as the starting point for further research into evaluating how LLMs interpret language in context and to drive the development of more pragmatic and useful models of human discourse.
+    keywords: natural language processing|pragmatics|implicature|large language models
+    proceedings: arXiv
+    year: 2022
+    type: Preprint
+    url: https://arxiv.org/abs/2210.14986
 -   UID: bamford2022griddlyjs
     title: "GriddlyJS: A Web IDE for Reinforcement Learning"
     authors: Christopher Bamford|Minqi Jiang|Mikayel Samvelyan|Tim Rocktäschel
