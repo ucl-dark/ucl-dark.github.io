@@ -5,7 +5,7 @@
     keywords: reinforcement learning|world model|generalist agent|exploration|model-based|reward-free|unsupervised learning
     proceedings: NeurIPS
     year: 2022
-    type: Preprint
+    type: Conference
     url: https://arxiv.org/abs/2210.12719
 -   UID: ruis2022implicature
     title: "Large language models are not zero-shot communicators"
@@ -23,7 +23,7 @@
     keywords: reinforcement learning|open-endedness|environment design|environment
     proceedings: NeurIPS
     year: 2022
-    type: Preprint
+    type: Conference
     url: https://arxiv.org/abs/2207.06105
 -   UID: jiang2022tap
     title: "Efficient Planning in a Compact Latent Action Space"
