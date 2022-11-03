@@ -1,3 +1,12 @@
+-   UID: xu2022cascade
+    title: "Learning General World Models in a Handful of Reward-Free Deployments"
+    authors: Yingchen Xu|Jack Parker-Holder|Aldo Pacchiano|Philip J. Ball|Oleh Rybkin|Stephen J. Roberts|Tim Rocktäschel|Edward Grefenstette
+    abstract: Building generally capable agents is a grand challenge for deep reinforcement learning (RL). To approach this challenge practically, we outline two key desiderata: 1) to facilitate generalization, exploration should be task agnostic; 2) to facilitate scalability, exploration policies should collect large quantities of data without costly centralized retraining. Combining these two properties, we introduce the reward-free deployment efficiency setting, a new paradigm for RL research. We then present CASCADE, a novel approach for self-supervised exploration in this new setting. CASCADE seeks to learn a world model by collecting data with a population of agents, using an information theoretic objective inspired by Bayesian Active Learning. CASCADE achieves this by specifically maximizing the diversity of trajectories sampled by the population through a novel cascading objective. We provide theoretical intuition for CASCADE which we show in a tabular setting improves upon naïve approaches that do not account for population diversity. We then demonstrate that CASCADE collects diverse task-agnostic datasets and learns agents that generalize zero-shot to novel, unseen downstream tasks on Atari, MiniGrid, Crafter and the DM Control Suite.
+    keywords: reinforcement learning|world model|generalist agent|exploration|model-based|reward-free|unsupervised learning
+    proceedings: NeurIPS
+    year: 2022
+    type: Preprint
+    url: https://arxiv.org/abs/2210.12719
 -   UID: ruis2022implicature
     title: "Large language models are not zero-shot communicators"
     authors: Laura Ruis|Akbir Khan|Stella Biderman|Sara Hooker|Tim Rocktäschel|Edward Grefenstette
