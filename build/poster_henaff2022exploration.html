@@ -60,36 +60,26 @@
       rel="stylesheet"
     />
 
-    <title>UCL DARK Lab: Generalization in Cooperative Multi-Agent Systems</title>
+    <title>UCL DARK Lab: Exploration via Elliptical Episodic Bonuses</title>
     
-<meta name="citation_title" content="Generalization in Cooperative Multi-Agent Systems" />
+<meta name="citation_title" content="Exploration via Elliptical Episodic Bonuses" />
 
-<meta name="citation_author" content="Anuj Mahajan" />
+<meta name="citation_author" content="Mikael Henaff" />
 
-<meta name="citation_author" content="Mikayel Samvelyan" />
+<meta name="citation_author" content="Minqi Jiang" />
 
-<meta name="citation_author" content="Tarun Gupta" />
-
-<meta name="citation_author" content="Benjamin Ellis" />
-
-<meta name="citation_author" content="Mingfei Sun" />
-
-<meta name="citation_author" content="Tim Rocktäschel" />
-
-<meta name="citation_author" content="Shimon Whiteson" />
+<meta name="citation_author" content="Roberta Raileanu" />
 
 <meta name="citation_publication_date" content="None" />
 <meta name="citation_conference_title" content="Ucl Deciding, Acting, And Reasoning With Knowledge (Dark) Lab" />
 <meta name="citation_inbook_title" content="None" />
-<meta name="citation_abstract" content="Collective intelligence is a fundamental trait shared by several species of living organisms. It has allowed them to thrive in the diverse environmental conditions that exist on our planet. From simple organisations in an ant colony to complex systems in human groups, collective intelligence is vital for solving complex survival tasks. As is commonly observed, such natural systems are flexible to changes in their structure. Specifically, they exhibit a high degree of generalization when the abilities or the total number of agents changes within a system. We term this phenomenon as Combinatorial Generalization (CG). CG is a highly desirable trait for autonomous systems as it can increase their utility and deployability across a wide range of applications. While recent works addressing specific aspects of CG have shown impressive results on complex domains, they provide no performance guarantees when generalizing towards novel situations. In this work, we shed light on the theoretical underpinnings of CG for cooperative multi-agent systems (MAS). Specifically, we study generalization bounds under a linear dependence of the underlying dynamics on the agent capabilities, which can be seen as a generalization of Successor Features to MAS. We then extend the results first for Lipschitz and then arbitrary dependence of rewards on team capabilities. Finally, empirical analysis on various domains using the framework of multi-agent reinforcement learning highlights important desiderata for multi-agent algorithms towards ensuring CG." />
+<meta name="citation_abstract" content="In recent years, a number of reinforcement learning (RL) methods have been proposed to explore complex environments which differ across episodes. In this work, we show that the effectiveness of these methods critically relies on a count-based episodic term in their exploration bonus. As a result, despite their success in relatively simple, noise-free settings, these methods fall short in more realistic scenarios where the state space is vast and prone to noise. To address this limitation, we introduce Exploration via Elliptical Episodic Bonuses (E3B), a new method which extends count-based episodic bonuses to continuous state spaces and encourages an agent to explore states that are diverse under a learned embedding within each episode. The embedding is learned using an inverse dynamics model in order to capture controllable aspects of the environment. Our method sets a new state-of-the-art across 16 challenging tasks from the MiniHack suite, without requiring task-specific inductive biases. E3B also matches existing methods on sparse reward, pixel-based VizDoom environments, and outperforms existing methods in reward-free exploration on Habitat, demonstrating that it can scale to high-dimensional pixel-based observations and realistic environments." />
 
 <meta name="citation_keywords" content="reinforcement learning" />
 
-<meta name="citation_keywords" content="multi-agent" />
+<meta name="citation_keywords" content="exploration" />
 
-<meta name="citation_keywords" content="generalization" />
-
-<meta name="citation_pdf_url" content="https://arxiv.org/abs/2202.00104" />
+<meta name="citation_pdf_url" content="https://e3bagent.github.io/" />
 
 
   </head>
@@ -164,36 +154,20 @@
 <div class="pp-card m-3" style="">
   <div class="card-header">
     <h2 class="card-title main-title text-center" style="">
-      Generalization in Cooperative Multi-Agent Systems
+      Exploration via Elliptical Episodic Bonuses
     </h2>
     <h3 class="card-subtitle mb-2 text-muted text-center">
       
-      <a href="papers.html?filter=authors&search=Anuj Mahajan" class="text-muted"
-        >Anuj Mahajan</a
+      <a href="papers.html?filter=authors&search=Mikael Henaff" class="text-muted"
+        >Mikael Henaff</a
       >,
       
-      <a href="papers.html?filter=authors&search=Mikayel Samvelyan" class="text-muted"
-        >Mikayel Samvelyan</a
+      <a href="papers.html?filter=authors&search=Minqi Jiang" class="text-muted"
+        >Minqi Jiang</a
       >,
       
-      <a href="papers.html?filter=authors&search=Tarun Gupta" class="text-muted"
-        >Tarun Gupta</a
-      >,
-      
-      <a href="papers.html?filter=authors&search=Benjamin Ellis" class="text-muted"
-        >Benjamin Ellis</a
-      >,
-      
-      <a href="papers.html?filter=authors&search=Mingfei Sun" class="text-muted"
-        >Mingfei Sun</a
-      >,
-      
-      <a href="papers.html?filter=authors&search=Tim Rocktäschel" class="text-muted"
-        >Tim Rocktäschel</a
-      >,
-      
-      <a href="papers.html?filter=authors&search=Shimon Whiteson" class="text-muted"
-        >Shimon Whiteson</a
+      <a href="papers.html?filter=authors&search=Roberta Raileanu" class="text-muted"
+        >Roberta Raileanu</a
       >
       
     </h3>
@@ -207,15 +181,9 @@
       >,
       
       <a
-        href="papers.html?filter=keywords&search=multi-agent"
+        href="papers.html?filter=keywords&search=exploration"
         class="text-secondary text-decoration-none"
-        >multi-agent</a
-      >,
-      
-      <a
-        href="papers.html?filter=keywords&search=generalization"
-        class="text-secondary text-decoration-none"
-        >generalization</a
+        >exploration</a
       >
       
     </p>
@@ -225,7 +193,7 @@
         Abstract
       </a>
         
-      <a class="card-link" target="_blank" href="https://arxiv.org/abs/2202.00104">
+      <a class="card-link" target="_blank" href="https://e3bagent.github.io/">
         Paper
       </a>
       
@@ -238,7 +206,7 @@
         <div class="card-text">
           <div id="abstractExample">
             <span class="font-weight-bold">Abstract:</span>
-            Collective intelligence is a fundamental trait shared by several species of living organisms. It has allowed them to thrive in the diverse environmental conditions that exist on our planet. From simple organisations in an ant colony to complex systems in human groups, collective intelligence is vital for solving complex survival tasks. As is commonly observed, such natural systems are flexible to changes in their structure. Specifically, they exhibit a high degree of generalization when the abilities or the total number of agents changes within a system. We term this phenomenon as Combinatorial Generalization (CG). CG is a highly desirable trait for autonomous systems as it can increase their utility and deployability across a wide range of applications. While recent works addressing specific aspects of CG have shown impressive results on complex domains, they provide no performance guarantees when generalizing towards novel situations. In this work, we shed light on the theoretical underpinnings of CG for cooperative multi-agent systems (MAS). Specifically, we study generalization bounds under a linear dependence of the underlying dynamics on the agent capabilities, which can be seen as a generalization of Successor Features to MAS. We then extend the results first for Lipschitz and then arbitrary dependence of rewards on team capabilities. Finally, empirical analysis on various domains using the framework of multi-agent reinforcement learning highlights important desiderata for multi-agent algorithms towards ensuring CG.
+            In recent years, a number of reinforcement learning (RL) methods have been proposed to explore complex environments which differ across episodes. In this work, we show that the effectiveness of these methods critically relies on a count-based episodic term in their exploration bonus. As a result, despite their success in relatively simple, noise-free settings, these methods fall short in more realistic scenarios where the state space is vast and prone to noise. To address this limitation, we introduce Exploration via Elliptical Episodic Bonuses (E3B), a new method which extends count-based episodic bonuses to continuous state spaces and encourages an agent to explore states that are diverse under a learned embedding within each episode. The embedding is learned using an inverse dynamics model in order to capture controllable aspects of the environment. Our method sets a new state-of-the-art across 16 challenging tasks from the MiniHack suite, without requiring task-specific inductive biases. E3B also matches existing methods on sparse reward, pixel-based VizDoom environments, and outperforms existing methods in reward-free exploration on Habitat, demonstrating that it can scale to high-dimensional pixel-based observations and realistic environments.
           </div>
         </div>
         <p></p>

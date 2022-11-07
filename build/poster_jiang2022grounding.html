@@ -60,36 +60,42 @@
       rel="stylesheet"
     />
 
-    <title>UCL DARK Lab: Generalization in Cooperative Multi-Agent Systems</title>
+    <title>UCL DARK Lab: Grounding Aleatoric Uncertainty for Unsupervised Environment Design</title>
     
-<meta name="citation_title" content="Generalization in Cooperative Multi-Agent Systems" />
+<meta name="citation_title" content="Grounding Aleatoric Uncertainty for Unsupervised Environment Design" />
 
-<meta name="citation_author" content="Anuj Mahajan" />
+<meta name="citation_author" content="Minqi Jiang" />
 
-<meta name="citation_author" content="Mikayel Samvelyan" />
+<meta name="citation_author" content="Michael Dennis" />
 
-<meta name="citation_author" content="Tarun Gupta" />
+<meta name="citation_author" content="Jack Parker-Holder" />
 
-<meta name="citation_author" content="Benjamin Ellis" />
+<meta name="citation_author" content="Andrei Lupu" />
 
-<meta name="citation_author" content="Mingfei Sun" />
+<meta name="citation_author" content="Heinrich Küttler" />
+
+<meta name="citation_author" content="Edward Grefenstette" />
 
 <meta name="citation_author" content="Tim Rocktäschel" />
 
-<meta name="citation_author" content="Shimon Whiteson" />
+<meta name="citation_author" content="Jakob Foerster" />
 
 <meta name="citation_publication_date" content="None" />
 <meta name="citation_conference_title" content="Ucl Deciding, Acting, And Reasoning With Knowledge (Dark) Lab" />
 <meta name="citation_inbook_title" content="None" />
-<meta name="citation_abstract" content="Collective intelligence is a fundamental trait shared by several species of living organisms. It has allowed them to thrive in the diverse environmental conditions that exist on our planet. From simple organisations in an ant colony to complex systems in human groups, collective intelligence is vital for solving complex survival tasks. As is commonly observed, such natural systems are flexible to changes in their structure. Specifically, they exhibit a high degree of generalization when the abilities or the total number of agents changes within a system. We term this phenomenon as Combinatorial Generalization (CG). CG is a highly desirable trait for autonomous systems as it can increase their utility and deployability across a wide range of applications. While recent works addressing specific aspects of CG have shown impressive results on complex domains, they provide no performance guarantees when generalizing towards novel situations. In this work, we shed light on the theoretical underpinnings of CG for cooperative multi-agent systems (MAS). Specifically, we study generalization bounds under a linear dependence of the underlying dynamics on the agent capabilities, which can be seen as a generalization of Successor Features to MAS. We then extend the results first for Lipschitz and then arbitrary dependence of rewards on team capabilities. Finally, empirical analysis on various domains using the framework of multi-agent reinforcement learning highlights important desiderata for multi-agent algorithms towards ensuring CG." />
+<meta name="citation_abstract" content="Adaptive curricula in reinforcement learning (RL) have proven effective for producing policies robust to discrepancies between the train and test environment. Recently, the Unsupervised Environment Design (UED) framework generalized RL curricula to generating sequences of entire environments, leading to new methods with robust minimax regret properties. Problematically, in partially-observable or stochastic settings, optimal policies may depend on the ground-truth distribution over aleatoric parameters of the environment in the intended deployment setting, while curriculum learning necessarily shifts the training distribution. We formalize this phenomenon as curriculum-induced covariate shift (CICS), and describe how its occurrence in aleatoric parameters can lead to suboptimal policies. Directly sampling these parameters from the ground-truth distribution avoids the issue, but thwarts curriculum learning. We propose SAMPLR, a minimax regret UED method that optimizes the ground-truth utility function, even when the underlying training data is biased due to CICS. We prove, and validate on challenging domains, that our approach preserves optimality under the ground-truth distribution, while promoting robustness across the full range of environment settings." />
 
 <meta name="citation_keywords" content="reinforcement learning" />
 
-<meta name="citation_keywords" content="multi-agent" />
-
 <meta name="citation_keywords" content="generalization" />
 
-<meta name="citation_pdf_url" content="https://arxiv.org/abs/2202.00104" />
+<meta name="citation_keywords" content="environment design" />
+
+<meta name="citation_keywords" content="curriculum learning" />
+
+<meta name="citation_keywords" content="procedural content generation" />
+
+<meta name="citation_pdf_url" content="https://arxiv.org/abs/2207.05219" />
 
 
   </head>
@@ -164,36 +170,40 @@
 <div class="pp-card m-3" style="">
   <div class="card-header">
     <h2 class="card-title main-title text-center" style="">
-      Generalization in Cooperative Multi-Agent Systems
+      Grounding Aleatoric Uncertainty for Unsupervised Environment Design
     </h2>
     <h3 class="card-subtitle mb-2 text-muted text-center">
       
-      <a href="papers.html?filter=authors&search=Anuj Mahajan" class="text-muted"
-        >Anuj Mahajan</a
+      <a href="papers.html?filter=authors&search=Minqi Jiang" class="text-muted"
+        >Minqi Jiang</a
       >,
       
-      <a href="papers.html?filter=authors&search=Mikayel Samvelyan" class="text-muted"
-        >Mikayel Samvelyan</a
+      <a href="papers.html?filter=authors&search=Michael Dennis" class="text-muted"
+        >Michael Dennis</a
       >,
       
-      <a href="papers.html?filter=authors&search=Tarun Gupta" class="text-muted"
-        >Tarun Gupta</a
+      <a href="papers.html?filter=authors&search=Jack Parker-Holder" class="text-muted"
+        >Jack Parker-Holder</a
       >,
       
-      <a href="papers.html?filter=authors&search=Benjamin Ellis" class="text-muted"
-        >Benjamin Ellis</a
+      <a href="papers.html?filter=authors&search=Andrei Lupu" class="text-muted"
+        >Andrei Lupu</a
       >,
       
-      <a href="papers.html?filter=authors&search=Mingfei Sun" class="text-muted"
-        >Mingfei Sun</a
+      <a href="papers.html?filter=authors&search=Heinrich Küttler" class="text-muted"
+        >Heinrich Küttler</a
+      >,
+      
+      <a href="papers.html?filter=authors&search=Edward Grefenstette" class="text-muted"
+        >Edward Grefenstette</a
       >,
       
       <a href="papers.html?filter=authors&search=Tim Rocktäschel" class="text-muted"
         >Tim Rocktäschel</a
       >,
       
-      <a href="papers.html?filter=authors&search=Shimon Whiteson" class="text-muted"
-        >Shimon Whiteson</a
+      <a href="papers.html?filter=authors&search=Jakob Foerster" class="text-muted"
+        >Jakob Foerster</a
       >
       
     </h3>
@@ -207,15 +217,27 @@
       >,
       
       <a
-        href="papers.html?filter=keywords&search=multi-agent"
-        class="text-secondary text-decoration-none"
-        >multi-agent</a
-      >,
-      
-      <a
         href="papers.html?filter=keywords&search=generalization"
         class="text-secondary text-decoration-none"
         >generalization</a
+      >,
+      
+      <a
+        href="papers.html?filter=keywords&search=environment design"
+        class="text-secondary text-decoration-none"
+        >environment design</a
+      >,
+      
+      <a
+        href="papers.html?filter=keywords&search=curriculum learning"
+        class="text-secondary text-decoration-none"
+        >curriculum learning</a
+      >,
+      
+      <a
+        href="papers.html?filter=keywords&search=procedural content generation"
+        class="text-secondary text-decoration-none"
+        >procedural content generation</a
       >
       
     </p>
@@ -225,7 +247,7 @@
         Abstract
       </a>
         
-      <a class="card-link" target="_blank" href="https://arxiv.org/abs/2202.00104">
+      <a class="card-link" target="_blank" href="https://arxiv.org/abs/2207.05219">
         Paper
       </a>
       
@@ -238,7 +260,7 @@
         <div class="card-text">
           <div id="abstractExample">
             <span class="font-weight-bold">Abstract:</span>
-            Collective intelligence is a fundamental trait shared by several species of living organisms. It has allowed them to thrive in the diverse environmental conditions that exist on our planet. From simple organisations in an ant colony to complex systems in human groups, collective intelligence is vital for solving complex survival tasks. As is commonly observed, such natural systems are flexible to changes in their structure. Specifically, they exhibit a high degree of generalization when the abilities or the total number of agents changes within a system. We term this phenomenon as Combinatorial Generalization (CG). CG is a highly desirable trait for autonomous systems as it can increase their utility and deployability across a wide range of applications. While recent works addressing specific aspects of CG have shown impressive results on complex domains, they provide no performance guarantees when generalizing towards novel situations. In this work, we shed light on the theoretical underpinnings of CG for cooperative multi-agent systems (MAS). Specifically, we study generalization bounds under a linear dependence of the underlying dynamics on the agent capabilities, which can be seen as a generalization of Successor Features to MAS. We then extend the results first for Lipschitz and then arbitrary dependence of rewards on team capabilities. Finally, empirical analysis on various domains using the framework of multi-agent reinforcement learning highlights important desiderata for multi-agent algorithms towards ensuring CG.
+            Adaptive curricula in reinforcement learning (RL) have proven effective for producing policies robust to discrepancies between the train and test environment. Recently, the Unsupervised Environment Design (UED) framework generalized RL curricula to generating sequences of entire environments, leading to new methods with robust minimax regret properties. Problematically, in partially-observable or stochastic settings, optimal policies may depend on the ground-truth distribution over aleatoric parameters of the environment in the intended deployment setting, while curriculum learning necessarily shifts the training distribution. We formalize this phenomenon as curriculum-induced covariate shift (CICS), and describe how its occurrence in aleatoric parameters can lead to suboptimal policies. Directly sampling these parameters from the ground-truth distribution avoids the issue, but thwarts curriculum learning. We propose SAMPLR, a minimax regret UED method that optimizes the ground-truth utility function, even when the underlying training data is biased due to CICS. We prove, and validate on challenging domains, that our approach preserves optimality under the ground-truth distribution, while promoting robustness across the full range of environment settings.
           </div>
         </div>
         <p></p>
