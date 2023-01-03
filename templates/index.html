@@ -53,7 +53,7 @@
           <div class="row mb-3">
               <div class="col-12 card-text">
                 <ul class="news-list" style="font-family: 'Exo'">
-                    {% for info in news[:7] %}
+                    {% for info in news[:8] %}
                         <li style="margin-bottom: 10px"><span class="news-item-date" style="font-weight: bold; font-family: 'Lato'; display: inline-block; width: 96px;">
                             {{ info.date }}:</span>  {{ info.message | markdown }}</li>
                     {% endfor %}
@@ -64,7 +64,7 @@
         </div>
     </div>
     <div>
-        <a class="twitter-timeline" data-width="350" data-height="500" href="https://twitter.com/ucl_dark?ref_src=twsrc%5Etfw">
+        <a class="twitter-timeline" data-width="350" data-height="700" href="https://twitter.com/ucl_dark?ref_src=twsrc%5Etfw">
         Tweets by ucl_dark</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
 </div>

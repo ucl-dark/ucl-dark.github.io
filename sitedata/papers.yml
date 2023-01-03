@@ -1,3 +1,48 @@
+-   UID: jiang2022grounding 
+    title: "Grounding Aleatoric Uncertainty for Unsupervised Environment Design"
+    authors: Minqi Jiang|Michael Dennis|Jack Parker-Holder|Andrei Lupu|Heinrich Küttler|Edward Grefenstette|Tim Rocktäschel|Jakob Foerster
+    abstract: 'Adaptive curricula in reinforcement learning (RL) have proven effective for producing policies robust to discrepancies between the train and test environment. Recently, the Unsupervised Environment Design (UED) framework generalized RL curricula to generating sequences of entire environments, leading to new methods with robust minimax regret properties. Problematically, in partially-observable or stochastic settings, optimal policies may depend on the ground-truth distribution over aleatoric parameters of the environment in the intended deployment setting, while curriculum learning necessarily shifts the training distribution. We formalize this phenomenon as curriculum-induced covariate shift (CICS), and describe how its occurrence in aleatoric parameters can lead to suboptimal policies. Directly sampling these parameters from the ground-truth distribution avoids the issue, but thwarts curriculum learning. We propose SAMPLR, a minimax regret UED method that optimizes the ground-truth utility function, even when the underlying training data is biased due to CICS. We prove, and validate on challenging domains, that our approach preserves optimality under the ground-truth distribution, while promoting robustness across the full range of environment settings.'
+    keywords: reinforcement learning|generalization|environment design|curriculum learning|procedural content generation
+    proceedings: NeurIPS
+    year: 2022
+    type: Conference
+    url: https://arxiv.org/abs/2207.05219
+-   UID: henaff2022exploration 
+    title: "Exploration via Elliptical Episodic Bonuses"
+    authors: Mikael Henaff|Minqi Jiang|Roberta Raileanu
+    abstract: 'In recent years, a number of reinforcement learning (RL) methods have been proposed to explore complex environments which differ across episodes. In this work, we show that the effectiveness of these methods critically relies on a count-based episodic term in their exploration bonus. As a result, despite their success in relatively simple, noise-free settings, these methods fall short in more realistic scenarios where the state space is vast and prone to noise. To address this limitation, we introduce Exploration via Elliptical Episodic Bonuses (E3B), a new method which extends count-based episodic bonuses to continuous state spaces and encourages an agent to explore states that are diverse under a learned embedding within each episode. The embedding is learned using an inverse dynamics model in order to capture controllable aspects of the environment. Our method sets a new state-of-the-art across 16 challenging tasks from the MiniHack suite, without requiring task-specific inductive biases. E3B also matches existing methods on sparse reward, pixel-based VizDoom environments, and outperforms existing methods in reward-free exploration on Habitat, demonstrating that it can scale to high-dimensional pixel-based observations and realistic environments.'
+    keywords: reinforcement learning|exploration
+    proceedings: NeurIPS
+    year: 2022
+    type: Conference
+    url: https://e3bagent.github.io/
+-   UID: mu2022improving
+    title: "Improving Intrinsic Exploration with Language Abstractions"
+    authors: Jesse Mu|Victor Zhong|Roberta Raileanu|Minqi Jiang|Noah Goodman|Tim Rocktäschel|Edward Grefenstette
+    abstract: 'Reinforcement learning (RL) agents are particularly hard to train when rewards are sparse. One common solution is to use intrinsic rewards to encourage agents to explore their environment. However, recent intrinsic exploration methods often use state-based novelty measures which reward low-level exploration and may not scale to domains requiring more abstract skills. Instead, we explore natural language as a general medium for highlighting relevant abstractions in an environment. Unlike previous work, we evaluate whether language can improve over existing exploration methods by directly extending (and comparing to) competitive intrinsic exploration baselines: AMIGo (Campero et al., 2021) and NovelD (Zhang et al., 2021). These language-based variants outperform their non-linguistic forms by 45-85% across 13 challenging tasks from the MiniGrid and MiniHack environment suites.'
+    keywords: reinforcement learning|exploration|language
+    proceedings: NeurIPS
+    year: 2022
+    type: Conference
+    url: https://arxiv.org/abs/2202.08938
+-   UID: zhong2022improving
+    title: "Improving Policy Learning via Language Dynamics Distillation"
+    authors: Victor Zhong|Jesse Mu|Luke Zettlemoyer|Edward Grefenstette|Tim Rocktäschel
+    abstract: 'Recent work has shown that augmenting environments with language descriptions improves policy learning. However, for environments with complex language abstractions, learning how to ground language to observations is difficult due to sparse, delayed rewards. We propose Language Dynamics Distillation (LDD), which pretrains a model to predict environment dynamics given demonstrations with language descriptions, and then fine-tunes these language-aware pretrained representations via reinforcement learning (RL). In this way, the model is trained to both maximize expected reward and retain knowledge about how language relates to environment dynamics. On SILG, a benchmark of five tasks with language descriptions that evaluate distinct generalization challenges on unseen environments (NetHack, ALFWorld, RTFM, Messenger, and Touchdown), LDD outperforms tabula-rasa RL, VAE pretraining, and methods that learn from unlabeled demonstrations in inverse RL and reward shaping with pretrained experts. In our analyses, we show that language descriptions in demonstrations improve sample-efficiency and generalization across environments, and that dynamics modelling with expert demonstrations is more effective than with non-experts.'
+    keywords: reinforcement learning|language|transfer learning
+    proceedings: NeurIPS
+    year: 2022
+    type: Conference
+    url: https://arxiv.org/abs/2210.00066
+-   UID: hambro2022dungeons
+    title: "Dungeons and Data: A Large-Scale NetHack Dataset"
+    authors: Eric Hambro|Roberta Raileanu|Danielle Rothermel|Vegard Mella|Tim Rocktäschel|Heinrich Küttler|Naila Murray
+    abstract: 'Recent breakthroughs in the development of agents to solve challenging sequential decision making problems such as Go, StarCraft, or DOTA, have relied on both simulated environments and large-scale datasets. However, progress on this research has been hindered by the scarcity of open-sourced datasets and the prohibitive computational cost to work with them. Here we present the NetHack Learning Dataset (NLD), a large and highly-scalable dataset of trajectories from the popular game of NetHack, which is both extremely challenging for current methods and very fast to run. NLD consists of three parts: 10 billion state transitions from 1.5 million human trajectories collected on the NAO public NetHack server from 2009 to 2020; 3 billion state-action-score transitions from 100,000 trajectories collected from the symbolic bot winner of the NetHack Challenge 2021; and, accompanying code for users to record, load and stream any collection of such trajectories in a highly compressed form. We evaluate a wide range of existing algorithms including online and offline RL, as well as learning from demonstrations, showing that significant research advances are needed to fully leverage large-scale datasets for challenging sequential decision making tasks.'
+    keywords: reinforcement learning|offline learning|environments|dataset
+    proceedings: NeurIPS
+    year: 2022
+    type: Conference
+    url: https://arxiv.org/abs/2211.00539
 -   UID: xu2022cascade
     title: "Learning General World Models in a Handful of Reward-Free Deployments"
     authors: Yingchen Xu|Jack Parker-Holder|Aldo Pacchiano|Philip J. Ball|Oleh Rybkin|Stephen J. Roberts|Tim Rocktäschel|Edward Grefenstette
@@ -5,7 +50,7 @@
     keywords: reinforcement learning|world model|generalist agent|exploration|model-based|reward-free|unsupervised learning
     proceedings: NeurIPS
     year: 2022
-    type: Preprint
+    type: Conference
     url: https://arxiv.org/abs/2210.12719
 -   UID: ruis2022implicature
     title: "Large language models are not zero-shot communicators"
@@ -23,8 +68,17 @@
     keywords: reinforcement learning|open-endedness|environment design|environment
     proceedings: NeurIPS
     year: 2022
-    type: Preprint
+    type: Conference
     url: https://arxiv.org/abs/2207.06105
+-   UID: chen2022refactor
+    title: "ReFactor GNNs: Revisiting Factorisation-based Models from a Message-Passing Perspective"
+    authors: Yihong Chen|Pushkar Mishra|Luca Franceschi|Pasquale Minervini|Pontus Stenetorp|Sebastian Riedel
+    abstract: Factorisation-based Models (FMs), such as DistMult, have enjoyed enduring success for Knowledge Graph Completion (KGC) tasks, often outperforming Graph Neural Networks (GNNs). However, unlike GNNs, FMs struggle to incorporate node features and generalise to unseen nodes in inductive settings. Our work bridges the gap between FMs and GNNs by proposing ReFactor GNNs. This new architecture draws upon both modelling paradigms, which previously were largely thought of as disjoint. Concretely, using a message-passing formalism, we show how FMs can be cast as GNNs by reformulating the gradient descent procedure as message-passing operations, which forms the basis of our ReFactor GNNs. Across a multitude of well-established KGC benchmarks, our ReFactor GNNs achieve comparable transductive performance to FMs, and state-of-the-art inductive performance while using an order of magnitude fewer parameters.
+    keywords: reinforcement learning|offline RL|sequence modelling RL|continuous control
+    proceedings: NeurIPS
+    year: 2022
+    type: Conference
+    url: https://arxiv.org/abs/2207.09980
 -   UID: jiang2022tap
     title: "Efficient Planning in a Compact Latent Action Space"
     authors: Zhengyao Jiang|Tianjun Zhang|Micheal Janner|Yueying Li|Tim Rocktäschel|Edward Grefenstette|Yuandong Tian
@@ -56,7 +110,7 @@
     title: "Evolving Curricula with Regret-Based Environment Design"
     authors: Jack Parker-Holder|Minqi Jiang|Michael Dennis|Mikayel Samvelyan|Jakob Foerster|Edward Grefenstette|Tim Rocktäschel
     abstract: It remains a significant challenge to train generally capable agents with reinforcement learning (RL). A promising avenue for improving the robustness of RL agents is through the use of curricula. One such class of methods frames environment design as a game between a student and a teacher, using regret-based objectives to produce environment instantiations (or levels) at the frontier of the student agent's capabilities. These methods benefit from their generality, with theoretical guarantees at equilibrium, yet they often struggle to find effective levels in challenging design spaces. By contrast, evolutionary approaches seek to incrementally alter environment complexity, resulting in potentially open-ended learning, but often rely on domain-specific heuristics and vast amounts of computational resources. In this paper we propose to harness the power of evolution in a principled, regret-based curriculum. Our approach, which we call Adversarially Compounding Complexity by Editing Levels (ACCEL), seeks to constantly produce levels at the frontier of an agent's capabilities, resulting in curricula that start simple but become increasingly complex. ACCEL maintains the theoretical benefits of prior regret-based methods, while providing significant empirical gains in a diverse set of environments. An interactive version of the paper is available at accelagent.github.io.
-    keywords: reinforcement learning|generalisation|open-endedness|environment design
+    keywords: reinforcement learning|generalization|open-endedness|environment design|curriculum learning|procedural content generation
     proceedings: ICML
     year: 2022
     type: Conference
@@ -65,7 +119,7 @@
     title: "Generalization in Cooperative Multi-Agent Systems"
     authors: Anuj Mahajan|Mikayel Samvelyan|Tarun Gupta|Benjamin Ellis|Mingfei Sun|Tim Rocktäschel|Shimon Whiteson
     abstract: Collective intelligence is a fundamental trait shared by several species of living organisms. It has allowed them to thrive in the diverse environmental conditions that exist on our planet. From simple organisations in an ant colony to complex systems in human groups, collective intelligence is vital for solving complex survival tasks. As is commonly observed, such natural systems are flexible to changes in their structure. Specifically, they exhibit a high degree of generalization when the abilities or the total number of agents changes within a system. We term this phenomenon as Combinatorial Generalization (CG). CG is a highly desirable trait for autonomous systems as it can increase their utility and deployability across a wide range of applications. While recent works addressing specific aspects of CG have shown impressive results on complex domains, they provide no performance guarantees when generalizing towards novel situations. In this work, we shed light on the theoretical underpinnings of CG for cooperative multi-agent systems (MAS). Specifically, we study generalization bounds under a linear dependence of the underlying dynamics on the agent capabilities, which can be seen as a generalization of Successor Features to MAS. We then extend the results first for Lipschitz and then arbitrary dependence of rewards on team capabilities. Finally, empirical analysis on various domains using the framework of multi-agent reinforcement learning highlights important desiderata for multi-agent algorithms towards ensuring CG.
-    keywords: reinforcement learning|multi-agent|generalisation
+    keywords: reinforcement learning|multi-agent|generalization
     proceedings: arXiv
     year: 2022
     type: Preprint
@@ -74,7 +128,7 @@
     title: A Survey of Generalisation in Deep Reinforcement Learning
     authors: Robert Kirk|Amy Zhang|Edward Grefenstette|Tim Rocktäschel
     abstract: The study of generalisation in deep Reinforcement Learning (RL) aims to produce RL algorithms whose policies generalise well to novel unseen situations at deployment time, avoiding overfitting to their training environments. Tackling this is vital if we are to deploy reinforcement learning algorithms in real world scenarios, where the environment will be diverse, dynamic and unpredictable. This survey is an overview of this nascent field. We provide a unifying formalism and terminology for discussing different generalisation problems, building upon previous works. We go on to categorise existing benchmarks for generalisation, as well as current methods for tackling the generalisation problem. Finally, we provide a critical discussion of the current state of the field, including recommendations for future work. Among other conclusions, we argue that taking a purely procedural content generation approach to benchmark design is not conducive to progress in generalisation, we suggest fast online adaptation and tackling RL-specific problems as some areas for future work on methods for generalisation, and we recommend building benchmarks in underexplored problem settings such as offline RL generalisation and reward-function variation.
-    keywords: reinforcement learning|generalisation|survey|review
+    keywords: reinforcement learning|generalization|survey|review
     proceedings: arXiv
     year: 2021
     type: Preprint
@@ -93,7 +147,7 @@
     title: "Replay-Guided Adversarial Environment Design"
     authors: Minqi Jiang|Michael Dennis|Jack Parker-Holder|Jakob Foerster|Edward Grefenstette|Tim Rocktäschel
     abstract: "Deep reinforcement learning (RL) agents may successfully generalize to new settings if trained on an appropriately diverse set of environment and task configurations. Unsupervised Environment Design (UED) is a promising self-supervised RL paradigm, wherein the free parameters of an underspecified environment are automatically adapted during training to the agent's capabilities, leading to the emergence of diverse training environments. Here, we cast Prioritized Level Replay (PLR), an empirically successful but theoretically unmotivated method that selectively samples randomly-generated training levels, as UED. We argue that by curating completely random levels, PLR, too, can generate novel and complex levels for effective training. This insight reveals a natural class of UED methods we call Dual Curriculum Design (DCD). Crucially, DCD includes both PLR and a popular UED algorithm, PAIRED, as special cases and inherits similar theoretical guarantees. This connection allows us to develop novel theory for PLR, providing a version with a robustness guarantee at Nash equilibria. Furthermore, our theory suggests a highly counterintuitive improvement to PLR: by stopping the agent from updating its policy on uncurated levels (training on less data), we can improve the convergence to Nash equilibria. Indeed, our experiments confirm that our new method, PLR⊥, obtains better results on a suite of out-of-distribution, zero-shot transfer tasks, in addition to demonstrating that PLR⊥ improves the performance of PAIRED, from which it inherited its theoretical framework."
-    keywords: reinforcement learning|generalisation|curriculum learning|environment design
+    keywords: reinforcement learning|generalization|curriculum learning|environment design|procedural content generation
     proceedings: NeurIPS
     year: 2021
     type: Conference
@@ -102,7 +156,7 @@
     title: Prioritized Level Replay
     authors: Minqi Jiang|Edward Grefenstette|Tim Rocktäschel
     abstract: 'Simulated environments with procedurally generated content have become popular benchmarks for testing systematic generalization of reinforcement learning agents. Every level in such an environment is algorithmically created, thereby exhibiting a unique configuration of underlying factors of variation, such as layout, positions of entities, asset appearances, or even the rules governing environment transitions. Fixed sets of training levels can be determined to aid comparison and reproducibility, and test levels can be held out to evaluate the generalization and robustness of agents. While prior work samples training levels in a direct way (e.g. uniformly) for the agent to learn from, we investigate the hypothesis that different levels provide different learning progress for an agent at specific times during training. We introduce Prioritized Level Replay, a general framework for estimating the future learning potential of a level given the current state of the agent''s policy. We find that temporal-difference (TD) errors, while previously used to selectively sample past transitions, also prove effective for scoring a level''s future learning potential when the agent replays (that is, revisits) that level to generate entirely new episodes of experiences from it. We report significantly improved sample-efficiency and generalization on the majority of Procgen Benchmark environments as well as two challenging MiniGrid environments. Lastly, we present a qualitative analysis showing that Prioritized Level Replay induces an implicit curriculum, taking the agent gradually from easier to harder levels'
-    keywords: reinforcement learning|curriculum learning|generalisation|procedural content generation
+    keywords: reinforcement learning|curriculum learning|generalization|procedural content generation
     proceedings: ICML
     year: 2021
     type: Conference

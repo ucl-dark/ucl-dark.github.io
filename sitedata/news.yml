@@ -1,7 +1,19 @@
-- date: 3/11/2022
+- date: 8/11/2022
+  message: "[Grounding Aleatoric Uncertainty for Unsupervised Environment Design](https://arxiv.org/abs/2207.05219) has been accepted to NeurIPS 2022."
+- date: 8/11/2022
   message: "[Learning General World Models in a Handful of Reward-Free Deployments](https://arxiv.org/abs/2210.12719) has been accepted to NeurIPS 2022."
-- date: 31/10/2022
+- date: 8/11/2022
+  message: "[Exploration via Elliptical Episodic Bonuses](https://arxiv.org/abs/2210.05805) has been accepted to NeurIPS 2022."
+- date: 8/11/2022
+  message: "[Improving Intrinsic Exploration with Language Abstractions](https://arxiv.org/abs/2202.08938) has been accepted to NeurIPS 2022."
+- date: 8/11/2022
   message: "[GriddlyJS: A Web IDE for Reinforcement Learning](https://arxiv.org/abs/2207.06105) has been accepted to NeurIPS 2022."
+- date: 8/11/2022
+  message: "[Dungeons and Data: A Large-Scale NetHack Dataset](https://arxiv.org/abs/2211.00539) has been accepted to NeurIPS 2022."
+- date: 8/11/2022
+  message: "[Improving Policy Learning via Language Dynamics Distillation](https://arxiv.org/abs/2210.00066) has been accepted to NeurIPS 2022."
+- date: 8/11/2022
+  message: "[ReFactor GNNs: Revisiting Factorisation-based Models from a Message-Passing Perspective](https://arxiv.org/abs/2207.09980) has been accepted to NeurIPS 2022."
 - date: 12/08/2022
   message: "[Hierarchical Kickstarting for Skill Transfer in Reinforcement Learning](https://arxiv.org/abs/2207.11584) has been accepted to CoLLAs 2022."
 - date: 15/05/2022
