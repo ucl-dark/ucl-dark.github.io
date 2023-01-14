@@ -54,7 +54,7 @@ phd:
     interests:
   - role: PhD Student (2020—)
     name: Mikayel Samvelyan
-    home: www.samvelyan.com
+    home: samvelyan.com
     scholar: scholar.google.co.uk/citations?user=2Qs19WAAAAAJ&hl=en
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=2Qs19WAAAAAJ&citpid=11
     tw: samveIyan
@@ -68,6 +68,24 @@ phd:
     tw: MinqiJiang
     github: minqi
     interests:
+
+msc:
+  - role: Msc Student
+    name: Shavindra Jayasekera
+    linkedin: shavindra-jayasekera-8140bb1b7
+    im: https://media.licdn.com/dms/image/C4E03AQF6pyDFXPMxkw/profile-displayphoto-shrink_400_400/0/1599755463413?e=1678320000&v=beta&t=XWpdrj6Ly9eLHH75QnXn1J8fe7ocNQxR9pk6S0warDE
+  - role: Msc Student
+    name: Alexandra Souly
+    github: alexandrasouly
+    im: https://avatars.githubusercontent.com/u/33074042?v=4
+    scholar: scholar.google.com/citations?user=ylO2-BwAAAAJ&hl=hu
+    tw: AlexandraSouly
+  - role: Msc Student
+    name: Raunakk Banerjee
+    tw: BanerjeeRaunakk
+    github: raunakkbanerjee
+    linkedin: raunakk-banerjee
+    im: https://media.licdn.com/dms/image/D4E03AQGsE-eQLyYVhA/profile-displayphoto-shrink_400_400/0/1672178823877?e=1678320000&v=beta&t=luiE7W48nltYoq7e4zGBnmxcfU_3CvjLit7h3Cc1Yhk
 
 affiliated faculty:
   - role: Associate Professor
