@@ -16,6 +16,11 @@ faculty:
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=ezllEwMAAAAJ&citpid=3
 
 phd:
+  - role: PhD Student (2022—)
+    name: Davide Paglieri
+    im: static/images/people/davide.jpeg
+    tw: Pagli98
+    scholar: https://scholar.google.com/citations?user=d545-VYAAAAJ&hl=en
   - role: PhD Student (2021—)
     name: Akbir Khan
     im: static/images/people/Akbir.png
