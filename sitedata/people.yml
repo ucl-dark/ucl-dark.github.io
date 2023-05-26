@@ -16,9 +16,9 @@ faculty:
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=ezllEwMAAAAJ&citpid=3
 
 phd:
-  - role: PhD Student (2022—)
+  - role: PhD Student (2023—)
     name: Davide Paglieri
-    im: static/images/people/davide.jpeg
+    im: static/images/people/davide.jpg
     tw: Pagli98
     scholar: https://scholar.google.com/citations?user=d545-VYAAAAJ&hl=en
   - role: PhD Student (2021—)
