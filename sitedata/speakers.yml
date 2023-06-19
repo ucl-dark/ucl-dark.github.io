@@ -1,3 +1,27 @@
+- title: "Towards Automating ML Research with general-purpose meta-learners"
+  speaker: Louis Kirsch
+  institution: Swiss AI Lab IDSIA
+  date: May 11, 2023
+  abstract: "A core ingredient of general artificial intelligence is the ability of AI to improve itself, including its own learning algorithm.In recent years meta-learning has made large progress in producing models that can learn very quickly from a few examples using in-context learning, fast weights, and optimization-based methods. This tremendously helps in adapting to new, similar, problems, but it does not automate ML Research itself. In this talk, I discuss meta-learning general-purpose learning algorithms. I present different approaches to meta-generalization from learned loss functions, weight-shared LSTMs that implement gradient descent in their recurrent dynamics, to black-box Transformers that learn how to learn generally. We discover phase transitions where models suddenly transition from memorization to task identification, to general learning to learn. We identify crucial ingredients such as memory capacity and practical interventions in meta-training."
+  bio: 'Louis is a final-year PhD student at the Swiss AI Lab IDSIA, advised by Prof. Jürgen Schmidhuber. He received his MRes in Computational Statistics and Machine Learning from University College London (1st rank) and interned at Google and DeepMind. His research focus is on meta-learning general-purpose learning algorithms. This describes learning algorithms that generalize across significantly different tasks and environments, towards automating ML research itself. In his works MetaGenRL, VSML, SymLA, GPICL, and others he investigates how to meta-learn RL algorithms, discover novel general learning algorithms that do not rely on gradient descent, general-purpose in-context learning, and self-referential meta-learning without meta optimization. Louis has co-organized several workshops at ICLR and has been an invited speaker for workshops at NeurIPS and ICML. Further, he won several GPU compute awards for the Swiss national supercomputer.'
+  video: https://www.youtube.com/embed/vjj-xZa1tPc
+  UID: "28"
+- title: "Comparing Language Models to Humans: Reasoning & Grammer"
+  speaker: Andrew Lampinen
+  institution: DeepMind
+  date: Mar 23, 2023
+  abstract: "Everyone is now talking about Language Models (LMs), and arguing about whether they can reason or produce original content. Is there value in comparing the behavior of language models and humans? And if so, how should we make such comparisons? In this talk, I will draw inspiration from comparative psychology, to suggest that careful methods are needed to ensure that comparisons between humans and models are made fairly, and to highlight an important distinction between LMs and cognitive models that can lead to unfair comparisons. But I will also argue that careful comparisons of LMs to humans offer an opportunity to reconsider our assumptions about the origin and nature of human capabilities. I will illustrate these arguments by focusing on two of our recent papers comparing language models to humans: we find that LMs can process recursive grammar structures more reliably than prior work has suggested (https://arxiv.org/abs/2210.15303), and that LMs show human-like content effects on logical reasoning tasks (https://arxiv.org/abs/2207.07051)."
+  bio: 'Andrew Lampinen is a Senior Research Scientist at DeepMind. He completed my PhD in Cognitive Psychology at Stanford University. Prior to that, his background was background is in mathematics, physics, and machine learning.'
+  video: https://www.youtube.com/embed/vjj-xZa1tPc
+  UID: "27"
+- title: "Reinforcement Learning from Human Feedback"
+  speaker: Nathan Lambert
+  institution: HuggingFace
+  date: Mar 09, 2023
+  abstract: "With the emergence of impressive and general-purpose chatbots, increasingly attention has concentrated on a specific training method for both Anthropic’s Claude and OpenAI's ChatGPT — reinforcement learning from human feedback (RLHF). RLHF works by using a traditional RL optimizer to fine-tune a language model policy with respect to another learned reward model. This talk will cover two parts: first, a review of RLHF and common problems in training these systems and second, a review of progress in recreating high-impact RLHF artifacts in open and academic labs. This will cover base models, preference and instruction datasets, RL training code, and more. The talk will conclude with a discussion of the best opportunities for academic researchers in the area"
+  bio: 'Nathan Lambert is a research scientist and RLHF team lead at HuggingFace. He received his PhD from the University of California, Berkeley working at the intersection of machine learning and robotics. He was advised by Professor Kristofer Pister in the Berkeley Autonomous Microsystems Lab and Roberto Calandra at Meta AI Research. He was lucky to intern at Facebook AI and DeepMind during his Ph.D. Nathan was was awarded the UC Berkeley EECS Demetri Angelakos Memorial Achievement Award for Altruism for his efforts to better community norms.'
+  video: https://www.youtube.com/embed/8SgKDSX-Me0
+  UID: "26"
 - title: "Uni[MASK]: Unified Inference in Sequential Decision Problems"
   speaker: Micah Carroll
   institution: UC Berkeley
