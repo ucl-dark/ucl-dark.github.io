@@ -96,6 +96,8 @@ msc:
   - role: Msc Student
     name: Dominik Schmidt
     im: static/images/people/Dominik.jpg
+    tw: schmidtdominik_
+    github: schmidtdominik
   - role: Msc Student
     name: Raunakk Banerjee
     tw: BanerjeeRaunakk
