@@ -14,14 +14,14 @@ faculty:
     home: www.egrefen.com
     scholar: scholar.google.com/citations?user=ezllEwMAAAAJ&hl=en
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=ezllEwMAAAAJ&citpid=3
-  - role: Honorary Professor
+  - role: Honorary Lecturer
     name: Roberta Raileanu
     tw: robertarail
     github: rraileanu
     home: rraileanu.github.io
     scholar: scholar.google.com/citations?user=462OoekAAAAJ&hl=en
     im: https://rraileanu.github.io/images/headshot_green.jpg
-  - role: Honorary Professor
+  - role: Honorary Lecturer
     name: Jack Parker-Holder
     tw: jparkerholder
     github: jparkerholder
@@ -81,14 +81,6 @@ phd:
     tw: _samvelyan
     github: samvelyan
     interests:
-  - role: PhD Student (2019—)
-    name: Minqi Jiang
-    im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=b7LglM0AAAAJ&citpid=1
-    scholar: scholar.google.com/citations?user=b7LglM0AAAAJ&hl=en
-    home: minch.co
-    tw: MinqiJiang
-    github: minqi
-    interests:
 
 
 affiliated faculty:
@@ -108,6 +100,14 @@ affiliated faculty:
     note: Affiliated Faculty
 
 alumni:
+  - role: PhD Student (2019—)
+    name: Minqi Jiang
+    im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=b7LglM0AAAAJ&citpid=1
+    scholar: scholar.google.com/citations?user=b7LglM0AAAAJ&hl=en
+    home: minch.co
+    tw: MinqiJiang
+    github: minqi
+    interests:
   - role: Msc Student
     name: Garðar Ingvarsson
     tw: gardaring
