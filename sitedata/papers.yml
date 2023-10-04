@@ -9,12 +9,12 @@
     url: https://arxiv.org/abs/2303.03376
 -   UID: ellis2022smacv2
     title: "SMACv2: An Improved Benchmark for Cooperative Multi-Agent Reinforcement Learning"
-    authors: Benjamin Ellis|Skander Moalla|Mikayel Samvelyan|Mingfei Sun|Anuj Mahajan|Jakob Foerster|Shimon Whiteson
+    authors: Benjamin Ellis|Jonathan Cook|Skander Moalla|Mikayel Samvelyan|Mingfei Sun|Anuj Mahajan|Jakob Foerster|Shimon Whiteson
     abstract: The availability of challenging benchmarks has played a key role in the recent progress of machine learning. In cooperative multi-agent reinforcement learning, the StarCraft Multi-Agent Challenge (SMAC) has become a popular testbed for centralised training with decentralised execution. However, after years of sustained improvement on SMAC, algorithms now achieve near-perfect performance. In this work, we conduct new analysis demonstrating that SMAC is not sufficiently stochastic to require complex closed-loop policies. In particular, we show that an open-loop policy conditioned only on the timestep can achieve non-trivial win rates for many SMAC scenarios. To address this limitation, we introduce SMACv2, a new version of the benchmark where scenarios are procedurally generated and require agents to generalise to previously unseen settings (from the same distribution) during evaluation. We show that these changes ensure the benchmark requires the use of closed-loop policies. We evaluate state-of-the-art algorithms on SMACv2 and show that it presents significant challenges not present in the original benchmark. Our analysis illustrates that SMACv2 addresses the discovered deficiencies of SMAC and can help benchmark the next generation of MARL methods. Videos of training are available at https://sites.google.com/view/smacv2.
     keywords: reinforcement learning|multi-agent|generalization|benchmark
-    proceedings: arXiv
-    year: 2022
-    type: Preprint
+    proceedings: NeurIPS
+    year: 2023
+    type: Conference
     url: https://arxiv.org/abs/2212.07489
 -   UID: jiang2022grounding 
     title: "Grounding Aleatoric Uncertainty for Unsupervised Environment Design"
