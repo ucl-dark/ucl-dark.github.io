@@ -14,6 +14,20 @@ faculty:
     home: www.egrefen.com
     scholar: scholar.google.com/citations?user=ezllEwMAAAAJ&hl=en
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=ezllEwMAAAAJ&citpid=3
+  - role: Honorary Professor
+    name: Roberta Raileanu
+    tw: robertarail
+    github: rraileanu
+    home: rraileanu.github.io
+    scholar: scholar.google.com/citations?user=462OoekAAAAJ&hl=en
+    im: https://rraileanu.github.io/images/headshot_green.jpg
+  - role: Honorary Professor
+    name: Jack Parker-Holder
+    tw: jparkerholder
+    github: jparkerholder
+    home: jparkerholder.github.io
+    scholar: scholar.google.com/citations?user=2O_ESc4AAAAJ&hl=en
+    im: https://jparkerholder.github.io/img/jack+doris.png
 
 phd:
   - role: PhD Student (2023—)
@@ -76,7 +90,24 @@ phd:
     github: minqi
     interests:
 
-msc:
+
+affiliated faculty:
+  - role: Associate Professor
+    name: Jakob Foerster
+    tw: j_foerst
+    home: https://www.jakobfoerster.com/
+    scholar: https://scholar.google.com/citations?user=6z4lQzMAAAAJ&hl=en
+    im: https://pbs.twimg.com/profile_images/1503832658085875715/hKPZMjaI_400x400.jpg
+    note: Associate Professor at University of Oxford, Affiliated Faculty
+  - role: Honorary Professor
+    name: Sebastian Riedel
+    tw: riedelcastro
+    home: www.riedelcastro.org
+    scholar: scholar.google.com/citations?user=AcCtcrsAAAAJ&hl=en
+    im: https://pbs.twimg.com/profile_images/1079788897134104576/HDrYfrub_400x400.jpg
+    note: Affiliated Faculty
+
+alumni:
   - role: Msc Student
     name: Garðar Ingvarsson
     tw: gardaring
@@ -104,24 +135,6 @@ msc:
     github: raunakkbanerjee
     linkedin: raunakk-banerjee
     im: static/images/people/Raunakk.png
-
-affiliated faculty:
-  - role: Associate Professor
-    name: Jakob Foerster
-    tw: j_foerst
-    home: https://www.jakobfoerster.com/
-    scholar: https://scholar.google.com/citations?user=6z4lQzMAAAAJ&hl=en
-    im: https://pbs.twimg.com/profile_images/1503832658085875715/hKPZMjaI_400x400.jpg
-    note: Associate Professor at University of Oxford, Affiliated Faculty
-  - role: Honorary Professor
-    name: Sebastian Riedel
-    tw: riedelcastro
-    home: www.riedelcastro.org
-    scholar: scholar.google.com/citations?user=AcCtcrsAAAAJ&hl=en
-    im: https://pbs.twimg.com/profile_images/1079788897134104576/HDrYfrub_400x400.jpg
-    note: Affiliated Faculty
-
-alumni:
   - role: MSc Student (2022)
     name: Jonathan Cook
     im: static/images/people/jonathan.jpg
