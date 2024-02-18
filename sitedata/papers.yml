@@ -1,3 +1,12 @@
+-   UID: samvelyan2024multiagent
+    title: "Multi-Agent Diagnostics for Robustness via Illuminated Diversity"
+    authors: Mikayel Samvelyan|Davide Paglieri|Minqi Jiang|Jack Parker-Holder|Tim Rocktäschel
+    abstract: In the rapidly advancing field of multi-agent systems, ensuring robustness in unfamiliar and adversarial settings is crucial. Notwithstanding their outstanding performance in familiar environments, these systems often falter in new situations due to overfitting during the training phase. This is especially pronounced in settings where both cooperative and competitive behaviours are present, encapsulating a dual nature of overfitting and generalisation challenges. To address this issue, we present Multi-Agent Diagnostics for Robustness via Illuminated Diversity (MADRID), a novel approach for generating diverse adversarial scenarios that expose strategic vulnerabilities in pre-trained multi-agent policies. Leveraging the concepts from open-ended learning, MADRID navigates the vast space of adversarial settings, employing a target policy's regret to gauge the vulnerabilities of these settings. We evaluate the effectiveness of MADRID on the 11vs11 version of Google Research Football, one of the most complex environments for multi-agent reinforcement learning. Specifically, we employ MADRID for generating a diverse array of adversarial settings for TiZero, the state-of-the-art approach which "masters" the game through 45 days of training on a large-scale distributed infrastructure. We expose key shortcomings in TiZero's tactical decision-making, underlining the crucial importance of rigorous evaluation in multi-agent systems.
+    keywords: reinforcement learning|multi-agent|open-endedness|environment design
+    proceedings: AAMAS
+    year: 2024
+    type: Conference
+    url: https://arxiv.org/abs/2401.13460
 -   UID: samvelyan2023maestro
     title: "MAESTRO: Open-Ended Environment Design for Multi-Agent Reinforcement Learning"
     authors: Mikayel Samvelyan|Akbir Khan|Michael Dennis|Minqi Jiang|Jack Parker-Holder|Jakob Foerster|Roberta Raileanu|Tim Rocktäschel
