@@ -1,3 +1,5 @@
+- date: 19/02/2024
+  message: "[Understanding the Effects of RLHF on LLM Generalisation and Diversity](https://arxiv.org/abs/2310.06452), [Mechanistically analyzing the effects of fine-tuning on procedurally defined tasks](https://arxiv.org/abs/2311.12786) and [Reward Model Ensembles Help Mitigate Overoptimization](https://arxiv.org/abs/2310.02743) have been accepted to ICLR 2024."
 - date: 18/02/2024
   message: "[Multi-Agent Diagnostics for Robustness via Illuminated Diversity](https://arxiv.org/abs/2401.13460) has been accepted to AAMAS 2024 (oral)."
 - date: 25/09/2023
