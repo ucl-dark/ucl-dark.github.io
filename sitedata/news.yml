@@ -1,3 +1,7 @@
+- data: 19/02/2024
+  message: "[IQL-TD-MPC: Implicit Q-Learning for Hierarchical Model Predictive Control](https://arxiv.org/abs/2306.00867) has been accepted to ICRA 2024 (oral)."
+- data: 19/02/2024
+  message: "[H-GAP: Humanoid Control with a Generalist Planner](https://arxiv.org/abs/2312.02682) has been accepted to ICLR 2024 (spotlight)."
 - date: 19/02/2024
   message: "[Understanding the Effects of RLHF on LLM Generalisation and Diversity](https://arxiv.org/abs/2310.06452), [Mechanistically analyzing the effects of fine-tuning on procedurally defined tasks](https://arxiv.org/abs/2311.12786) and [Reward Model Ensembles Help Mitigate Overoptimization](https://arxiv.org/abs/2310.02743) have been accepted to ICLR 2024."
 - date: 18/02/2024
