@@ -1,0 +1,315 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="static/css/main.css" type="text/css"/>
+    <link rel="stylesheet" href="static/css/lazy_load.css" />
+    <link rel="stylesheet" href="static/css/typeahead.css" />
+    <link rel="icon" href="static/images/logo.png">
+
+    <!-- External Javascript libs  -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js" integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c59ce62110.js" crossorigin="anonymous"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js" integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww=" crossorigin="anonymous"></script>
+
+
+    <!-- Library libs -->
+    <script src="static/js/typeahead.bundle.js"></script>
+
+    
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY=" crossorigin="anonymous">
+
+    <!-- External Fonts (no google for china) -->
+    <link
+      href="static/css/Lato.css"
+      rel="stylesheet"
+    />
+    <link href="static/css/Exo.css" rel="stylesheet" />
+    <link
+      href="static/css/Cuprum.css"
+      rel="stylesheet"
+    />
+
+    <title>UCL DARK Lab: Mechanistically analyzing the effects of fine-tuning on procedurally defined tasks</title>
+    
+<meta name="citation_title" content="Mechanistically analyzing the effects of fine-tuning on procedurally defined tasks" />
+
+<meta name="citation_author" content="Samyak Jain" />
+
+<meta name="citation_author" content="Robert Kirk" />
+
+<meta name="citation_author" content="Ekdeep Singh Lubana" />
+
+<meta name="citation_author" content="Robert P. Dick" />
+
+<meta name="citation_author" content="Hidenori Tanaka" />
+
+<meta name="citation_author" content="Edward Grefenstette" />
+
+<meta name="citation_author" content="Tim Rocktäschel" />
+
+<meta name="citation_author" content="David Scott Krueger" />
+
+<meta name="citation_publication_date" content="None" />
+<meta name="citation_conference_title" content="Ucl Deciding, Acting, And Reasoning With Knowledge (Dark) Lab" />
+<meta name="citation_inbook_title" content="None" />
+<meta name="citation_abstract" content="Fine-tuning large pre-trained models has become the de facto strategy for developing both task-specific and general-purpose machine learning systems, including developing models that are safe to deploy. Despite its clear importance, there has been minimal work that explains how fine-tuning alters the underlying capabilities learned by a model during pretraining&#34;:&#34; does fine-tuning yield entirely novel capabilities or does it just modulate existing ones? We address this question empirically in synthetic, controlled settings where we can use mechanistic interpretability tools (e.g., network pruning and probing) to understand how the model&#39;s underlying capabilities are changing. We perform an extensive analysis of the effects of fine-tuning in these settings, and show that&#34;:&#34; (i) fine-tuning rarely alters the underlying model capabilities; (ii) a minimal transformation, which we call a &#39;wrapper&#39;, is typically learned on top of the underlying model capabilities, creating the illusion that they have been modified; and (iii) further fine-tuning on a task where such hidden capabilities are relevant leads to sample-efficient &#39;revival&#39; of the capability, i.e., the model begins reusing these capability after only a few gradient steps. This indicates that practitioners can unintentionally remove a model&#39;s safety wrapper merely by fine-tuning it on a, e.g., superficially unrelated, downstream task. We additionally perform analysis on language models trained on the TinyStories dataset to support our claims in a more realistic setup." />
+
+<meta name="citation_keywords" content="large language models" />
+
+<meta name="citation_keywords" content="fine-tuning" />
+
+<meta name="citation_keywords" content="generalisation" />
+
+<meta name="citation_keywords" content="interpretability" />
+
+<meta name="citation_pdf_url" content="https://arxiv.org/abs/2311.12786" />
+
+
+  </head>
+
+  <body>
+    <!-- NAV -->
+    
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-light bg-light mr-auto"
+      id="main-nav"
+    >
+        <div class="container">
+        <!--
+        <a class="navbar-brand" href="index.html">
+          <img
+             class="logo" src="static/images/logo.png"
+             height="auto"
+             width="130px"
+          />
+        </a>
+        -->
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-right flex-grow-1"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            
+            <li class="nav-item ">
+              <a class="nav-link" href="papers.html">Publications</a>
+            </li>
+            
+            <li class="nav-item ">
+              <a class="nav-link" href="speakers.html">Speakers</a>
+            </li>
+            
+            <li class="nav-item ">
+              <a class="nav-link" href="https://blog.ucldark.com/">Blog</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+    
+    <!-- User Overrides -->
+     
+
+    <div class="container">
+      <!-- Tabs -->
+      <div class="tabs">
+         
+      </div>
+      <!-- Content -->
+      <div class="content">
+        
+
+<!-- Title -->
+<div class="pp-card m-3" style="">
+  <div class="card-header">
+    <h2 class="card-title main-title text-center" style="">
+      Mechanistically analyzing the effects of fine-tuning on procedurally defined tasks
+    </h2>
+    <h3 class="card-subtitle mb-2 text-muted text-center">
+      
+      <a href="papers.html?filter=authors&search=Samyak Jain" class="text-muted"
+        >Samyak Jain</a
+      >,
+      
+      <a href="papers.html?filter=authors&search=Robert Kirk" class="text-muted"
+        >Robert Kirk</a
+      >,
+      
+      <a href="papers.html?filter=authors&search=Ekdeep Singh Lubana" class="text-muted"
+        >Ekdeep Singh Lubana</a
+      >,
+      
+      <a href="papers.html?filter=authors&search=Robert P. Dick" class="text-muted"
+        >Robert P. Dick</a
+      >,
+      
+      <a href="papers.html?filter=authors&search=Hidenori Tanaka" class="text-muted"
+        >Hidenori Tanaka</a
+      >,
+      
+      <a href="papers.html?filter=authors&search=Edward Grefenstette" class="text-muted"
+        >Edward Grefenstette</a
+      >,
+      
+      <a href="papers.html?filter=authors&search=Tim Rocktäschel" class="text-muted"
+        >Tim Rocktäschel</a
+      >,
+      
+      <a href="papers.html?filter=authors&search=David Scott Krueger" class="text-muted"
+        >David Scott Krueger</a
+      >
+      
+    </h3>
+    <p class="card-text text-center">
+      <span class="">Keywords:</span>
+      
+      <a
+        href="papers.html?filter=keywords&search=large language models"
+        class="text-secondary text-decoration-none"
+        >large language models</a
+      >,
+      
+      <a
+        href="papers.html?filter=keywords&search=fine-tuning"
+        class="text-secondary text-decoration-none"
+        >fine-tuning</a
+      >,
+      
+      <a
+        href="papers.html?filter=keywords&search=generalisation"
+        class="text-secondary text-decoration-none"
+        >generalisation</a
+      >,
+      
+      <a
+        href="papers.html?filter=keywords&search=interpretability"
+        class="text-secondary text-decoration-none"
+        >interpretability</a
+      >
+      
+    </p>
+    <div class="text-center p-3">
+        
+      <a class="card-link" data-toggle="collapse" role="button" href="#details">
+        Abstract
+      </a>
+        
+      <a class="card-link" target="_blank" href="https://arxiv.org/abs/2311.12786">
+        Paper
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+    <div id="details" class="pp-card m-3">
+      <div class="card-body">
+        <div class="card-text">
+          <div id="abstractExample">
+            <span class="font-weight-bold">Abstract:</span>
+            Fine-tuning large pre-trained models has become the de facto strategy for developing both task-specific and general-purpose machine learning systems, including developing models that are safe to deploy. Despite its clear importance, there has been minimal work that explains how fine-tuning alters the underlying capabilities learned by a model during pretraining&#34;:&#34; does fine-tuning yield entirely novel capabilities or does it just modulate existing ones? We address this question empirically in synthetic, controlled settings where we can use mechanistic interpretability tools (e.g., network pruning and probing) to understand how the model&#39;s underlying capabilities are changing. We perform an extensive analysis of the effects of fine-tuning in these settings, and show that&#34;:&#34; (i) fine-tuning rarely alters the underlying model capabilities; (ii) a minimal transformation, which we call a &#39;wrapper&#39;, is typically learned on top of the underlying model capabilities, creating the illusion that they have been modified; and (iii) further fine-tuning on a task where such hidden capabilities are relevant leads to sample-efficient &#39;revival&#39; of the capability, i.e., the model begins reusing these capability after only a few gradient steps. This indicates that practitioners can unintentionally remove a model&#39;s safety wrapper merely by fine-tuning it on a, e.g., superficially unrelated, downstream task. We additionally perform analysis on language models trained on the TinyStories dataset to support our claims in a more realistic setup.
+          </div>
+        </div>
+        <p></p>
+      </div>
+    </div>
+
+
+
+      </div>
+    </div>
+    
+    
+
+    <!-- Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-");
+    </script>
+
+    <!-- Footer -->
+    <footer class="footer bg-light p-4">
+      <div class="container">
+        <p class="float-right"><a href="#">Back to Top</a></p>
+        <p class="text-center">© 2020 UCL DARK Lab</p>
+      </div>
+    </footer>
+
+    <!-- Code for hash tags -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        if (location.hash !== "") {
+          $('a[href="' + location.hash + '"]').tab("show");
+        }
+
+        $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+          var hash = $(e.target).attr("href");
+          if (hash.substr(0, 1) == "#") {
+            var position = $(window).scrollTop();
+            location.replace("#" + hash.substr(1));
+            $(window).scrollTop(position);
+          }
+        });
+      });
+    </script>
+    <script src="static/js/lazy_load.js"></script>
+    
+  </body>
+</html>
