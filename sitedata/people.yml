@@ -99,7 +99,7 @@ pastphd:
     home: minch.co
     tw: MinqiJiang
     github: minqi
-    note: Next Research Scientist at Google DeepMind
+    note: Next a Research Scientist at Google DeepMind
 
 alumni:
   - role: MSc Student
@@ -124,21 +124,25 @@ alumni:
     github: gardarjuto
     linkedin: gardarjuto
     im: static/images/people/gardar.jpeg
+    note: Next a Machine Learning Researcher at Miðeind 
   - role: MSc Student
     name: Shavindra Jayasekera
     linkedin: shavindra-jayasekera-8140bb1b7
     im: static/images/people/Shavindra.jpeg
+    note: Next a PhD student at Imperial College London
   - role: MSc Student
     name: Alexandra Souly
     github: alexandrasouly
     im: https://avatars.githubusercontent.com/u/33074042?v=4
     scholar: scholar.google.com/citations?user=ylO2-BwAAAAJ&hl=hu
     tw: AlexandraSouly
+    note: Next a Technical Staff at AI Safety Institute
   - role: MSc Student
     name: Dominik Schmidt
     im: static/images/people/Dominik.jpg
     tw: schmidtdominik_
     github: schmidtdominik
+    note: Next a Research Engineer at Weco AI
   - role: MSc Student
     name: Raunakk Banerjee
     tw: BanerjeeRaunakk
