@@ -70,7 +70,7 @@ def home():
     data["introduction"] = open("introduction.md").read()
     data["news"] = site_data["news"]
     for group_name, content in site_data["people"].items():
-        data[group_name] = content
+        data[group_name] = content if content else []  # Ensure it's always a list
     return render_template("index.html", **data)
 
 
