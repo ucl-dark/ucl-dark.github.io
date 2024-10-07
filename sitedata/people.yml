@@ -32,6 +32,12 @@ faculty:
 
 phd:
   - role: PhD Student (2023—)
+    name: Nathan Herr
+    scholar: scholar.google.com/citations?user=zLT4AOQAAAAJ&hl=en
+    im: static/images/people/nathan.jpg
+    github: NathanHerr
+    note: Co-advised by Roberta Raileanu
+  - role: PhD Student (2023—)
     name: Davide Paglieri
     im: static/images/people/davide.jpg
     tw: Pagli98
@@ -83,41 +89,9 @@ phd:
     github: samvelyan
     interests:
 
-affiliated faculty:
-  - role: Associate Professor
-    name: Jakob Foerster
-    tw: j_foerst
-    home: https://www.jakobfoerster.com/
-    scholar: https://scholar.google.com/citations?user=6z4lQzMAAAAJ&hl=en
-    im: https://pbs.twimg.com/profile_images/1503832658085875715/hKPZMjaI_400x400.jpg
-    note: Associate Professor at University of Oxford, Affiliated Faculty
-  - role: Honorary Professor
-    name: Sebastian Riedel
-    tw: riedelcastro
-    home: www.riedelcastro.org
-    scholar: scholar.google.com/citations?user=AcCtcrsAAAAJ&hl=en
-    im: https://pbs.twimg.com/profile_images/1079788897134104576/HDrYfrub_400x400.jpg
-    note: Affiliated Faculty
-
 msc:
-  - role: Msc Student
-    name: Rob Moss
-    github: rjmoss
-    im: static/images/people/rob_moss.jpg
-  - role: Msc Student
-    name: Yi Xu
-    tw: _yixu
-    github: yix8
-    home: yix8.github.io
-    im: static/images/people/yi_xu.jpg
-  - role: Msc Student
-    name: Efstathios Siatras
-    github: efsiatras
-    tw: efsiatras
-    home: efsiatras.github.io
-    im: static/images/people/efstathios_siatras.jpg
 
-alumni:
+pastphd:
   - role: PhD Student (2019—2023)
     name: Minqi Jiang
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=b7LglM0AAAAJ&citpid=1
@@ -125,29 +99,51 @@ alumni:
     home: minch.co
     tw: MinqiJiang
     github: minqi
-    interests:
-  - role: Msc Student
+    note: Next a Research Scientist at Google DeepMind
+
+alumni:
+  - role: MSc Student
+    name: Rob Moss
+    github: rjmoss
+    im: static/images/people/rob_moss.jpg
+  - role: MSc Student
+    name: Yi Xu
+    tw: _yixu
+    github: yix8
+    home: yix8.github.io
+    im: static/images/people/yi_xu.jpg
+  - role: MSc Student
+    name: Efstathios Siatras
+    github: efsiatras
+    tw: efsiatras
+    home: efsiatras.github.io
+    im: static/images/people/efstathios_siatras.jpg
+  - role: MSc Student
     name: Garðar Ingvarsson
     tw: gardaring
     github: gardarjuto
     linkedin: gardarjuto
     im: static/images/people/gardar.jpeg
-  - role: Msc Student
+    note: Next a Machine Learning Researcher at Miðeind 
+  - role: MSc Student
     name: Shavindra Jayasekera
     linkedin: shavindra-jayasekera-8140bb1b7
     im: static/images/people/Shavindra.jpeg
-  - role: Msc Student
+    note: Next a PhD student at Imperial College London
+  - role: MSc Student
     name: Alexandra Souly
     github: alexandrasouly
     im: https://avatars.githubusercontent.com/u/33074042?v=4
     scholar: scholar.google.com/citations?user=ylO2-BwAAAAJ&hl=hu
     tw: AlexandraSouly
-  - role: Msc Student
+    note: Next a Technical Staff at AI Safety Institute
+  - role: MSc Student
     name: Dominik Schmidt
     im: static/images/people/Dominik.jpg
     tw: schmidtdominik_
     github: schmidtdominik
-  - role: Msc Student
+    note: Next a Research Engineer at Weco AI
+  - role: MSc Student
     name: Raunakk Banerjee
     tw: BanerjeeRaunakk
     github: raunakkbanerjee
