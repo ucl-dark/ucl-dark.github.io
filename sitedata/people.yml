@@ -31,12 +31,19 @@ faculty:
     im: https://jparkerholder.github.io/img/jack+doris.png
 
 phd:
-  - role: PhD Student (2023—)
+  - role: Affiliated PhD Student (2024—)
+    name: Ahmet H. Güzel
+    scholar: scholar.google.com/citations?user=fwq9yQ4AAAAJ&hl=en
+    im: static/images/people/amhet.png
+    tw: ahguzelUK
+    github: aguzel
+    home: aguzel.github.io
+    linkedin: ahmethamdiguzel
+  - role: Affiliated PhD Student (2023—)
     name: Nathan Herr
     scholar: scholar.google.com/citations?user=zLT4AOQAAAAJ&hl=en
     im: static/images/people/nathan.jpg
     github: NathanHerr
-    note: Co-advised by Roberta Raileanu
   - role: PhD Student (2023—)
     name: Davide Paglieri
     im: static/images/people/davide.jpg
@@ -79,7 +86,6 @@ phd:
     scholar: https://scholar.google.com/citations?hl=en&user=PL5KWdYAAAAJ
     github: RobertKirk
     home: robertkirk.github.io
-    interests:
   - role: PhD Student (2020—)
     name: Mikayel Samvelyan
     home: samvelyan.com
@@ -87,7 +93,7 @@ phd:
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=2Qs19WAAAAAJ&citpid=11
     tw: _samvelyan
     github: samvelyan
-    interests:
+    linkedin: samvelyan
 
 msc:
 
