@@ -7,6 +7,15 @@
     year: 2024
     type: Conference
     url: https://arxiv.org/abs/2402.16822
+-   UID: rutherford2024jaxmarl
+    title: "JaxMARL: Multi-Agent RL Environments in JAX"
+    authors: Alexander Rutherford|Benjamin Ellis|Matteo Gallici|Jonathan Cook|Andrei Lupu|Gardar Ingvarsson|Timon Willi|Akbir Khan|Christian Schroeder de Witt|Alexandra Souly|Saptarashmi Bandyopadhyay|Mikayel Samvelyan|Minqi Jiang|Robert Tjarko Lange|Shimon Whiteson|Bruno Lacerda|Nick Hawes|Tim Rocktaschel|Chris Lu|Jakob Nicolaus Foerster
+    abstract: Benchmarks play an important role in the development of machine learning algorithms. For example, research in reinforcement learning (RL) has been heavily influenced by available environments and benchmarks. However, RL environments are traditionally run on the CPU, limiting their scalability with typical academic compute. Recent advancements in JAX have enabled the wider use of hardware acceleration to overcome these computational hurdles, enabling massively parallel RL training pipelines and environments. This is particularly useful for multi-agent reinforcement learning (MARL) research. First of all, multiple agents must be considered at each environment step, adding computational burden, and secondly, the sample complexity is increased due to non-stationarity, decentralised partial observability, or other MARL challenges. In this paper, we present JaxMARL, the first open-source code base that combines ease-of-use with GPU enabled efficiency, and supports a large number of commonly used MARL environments as well as popular baseline algorithms. When considering wall clock time, our experiments show that per-run our JAX-based training pipeline is up to 12500x faster than existing approaches. This enables efficient and thorough evaluations, with the potential to alleviate the evaluation crisis of the field. We also introduce and benchmark SMAX, a vectorised, simplified version of the popular StarCraft Multi-Agent Challenge, which removes the need to run the StarCraft II game engine. This not only enables GPU acceleration, but also provides a more flexible MARL environment, unlocking the potential for self-play, meta-learning, and other future applications in MARL.
+    keywords: reinforcement learning|multi-agent|jax|environment
+    proceedings: NeurIPS
+    year: 2024
+    type: Conference
+    url: https://arxiv.org/abs/2311.10090
 -   UID: jiang2023hgap
     title: "H-GAP: Humanoid Control with a Generalist Planner"
     authors: Zhengyao Jiang|Yingchen Xu|Nolan Wagener|Yicheng Luo|Michael Janner|Edward Grefenstette|Tim Rocktäschel|Yuandong Tian
