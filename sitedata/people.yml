@@ -39,11 +39,13 @@ phd:
     github: aguzel
     home: aguzel.github.io
     linkedin: ahmethamdiguzel
+    note: Co-advised by Ilija Bogunovic
   - role: Affiliated PhD Student (2023—)
     name: Nathan Herr
     scholar: scholar.google.com/citations?user=zLT4AOQAAAAJ&hl=en
     im: static/images/people/nathan.jpg
     github: NathanHerr
+    note: Co-advised by Alex Zhibin and Maria Perez Ortiz
   - role: PhD Student (2023—)
     name: Davide Paglieri
     im: static/images/people/davide.jpg
