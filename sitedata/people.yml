@@ -48,9 +48,12 @@ phd:
     note: Co-advised by Alex Zhibin and Maria Perez Ortiz
   - role: PhD Student (2023—)
     name: Davide Paglieri
+    home: https://davidepaglieri.github.io/
+    scholar: https://scholar.google.com/citations?user=d545-VYAAAAJ&hl=en
     im: static/images/people/davide.jpg
     tw: Pagli98
-    scholar: https://scholar.google.com/citations?user=d545-VYAAAAJ&hl=en
+    github: davidepaglieri
+    linkedin: davidepaglieri
   - role: PhD Student (2021—)
     name: Akbir Khan
     im: static/images/people/Akbir.png
