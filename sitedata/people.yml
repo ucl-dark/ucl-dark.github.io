@@ -46,6 +46,13 @@ phd:
     im: static/images/people/nathan.jpg
     github: NathanHerr
     note: Co-advised by Alex Zhibin and Maria Perez Ortiz
+  - role: Affiliated PhD Student (2023-)
+    name: Jonathan Cook
+    im: static/images/people/jonathan.jpg
+    github: jonathan-cook235
+    scholar: scholar.google.com/citations?user=7tcPHHYAAAAJ&hl=en
+    tw: JonnyCoook
+    note: Co-advised by Jakob Foerster
   - role: PhD Student (2023—)
     name: Davide Paglieri
     home: davidepaglieri.github.io/
