@@ -46,13 +46,6 @@ phd:
     im: static/images/people/nathan.jpg
     github: NathanHerr
     note: Co-advised by Alex Zhibin and Maria Perez Ortiz
-  - role: Affiliated PhD Student (2023-)
-    name: Jonathan Cook
-    im: static/images/people/jonathan.jpg
-    github: jonathan-cook235
-    scholar: scholar.google.com/citations?user=7tcPHHYAAAAJ&hl=en
-    tw: JonnyCoook
-    note: Co-advised by Jakob Foerster
   - role: PhD Student (2023—)
     name: Davide Paglieri
     home: davidepaglieri.github.io/
@@ -61,6 +54,21 @@ phd:
     tw: Pagli98
     github: davidepaglieri
     linkedin: davidepaglieri
+  - role: Affiliated PhD Student (2022-)
+    name: Jonathan Cook
+    im: static/images/people/jonathan.jpg
+    github: jonathan-cook235
+    scholar: scholar.google.com/citations?user=7tcPHHYAAAAJ&hl=en
+    tw: JonnyCoook
+    note: Co-advised by Jakob Foerster
+  - role: Affiliated PhD Student (2022—)
+    name: Sam Coward
+    scholar: scholar.google.com/citations?user=-0_t2_EAAAAJ&hl=en
+    im: static/images/people/sam.png
+    tw: scowardai
+    home: dramacow.github.io
+    linkedin: sam-coward-aa91b2124
+    note: Co-advised by Jakob Foerster
   - role: PhD Student (2021—)
     name: Akbir Khan
     im: static/images/people/Akbir.png
