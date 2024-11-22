@@ -98,7 +98,11 @@ phd:
     scholar: https://scholar.google.com/citations?hl=en&user=PL5KWdYAAAAJ
     github: RobertKirk
     home: robertkirk.github.io
-  - role: PhD Student (2020—)
+
+msc:
+
+pastphd:
+  - role: PhD Student (2020—2024)
     name: Mikayel Samvelyan
     home: samvelyan.com
     scholar: scholar.google.co.uk/citations?user=2Qs19WAAAAAJ&hl=en
@@ -106,10 +110,7 @@ phd:
     tw: _samvelyan
     github: samvelyan
     linkedin: samvelyan
-
-msc:
-
-pastphd:
+    note: Next a Research Scientist at Google DeepMind
   - role: PhD Student (2019—2023)
     name: Minqi Jiang
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=b7LglM0AAAAJ&citpid=1
