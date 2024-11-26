@@ -1,5 +1,9 @@
 make freeze
 echo "UCLDARK.COM" > build/CNAME
+# Create .well-known directory and atproto-did file
+mkdir -p build/.well-known
+echo "did:plc:2fi6utohtpd5o34epmryabcz" > build/.well-known/atproto-did
+
 git add build
 git add static
 git commit -am "update build"
