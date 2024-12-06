@@ -130,6 +130,11 @@ pastphd:
 
 alumni:
   - role: MSc Student
+    name: Nina Singiri
+    github: nsingiri
+    linkedin: ninasingiri
+    im: static/images/people/Nina.jpg
+  - role: MSc Student
     name: Rob Moss
     github: rjmoss
     im: static/images/people/rob_moss.jpg
