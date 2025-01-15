@@ -31,6 +31,12 @@ faculty:
     im: https://jparkerholder.github.io/img/jack+doris.png
 
 phd:
+  - role: Visiting PhD Student (2025)
+    name: Bartłomiej Cupiał
+    github: bartekcupial
+    tw: CupiaBart
+    scholar: BartekCupial
+    im: static/images/people/bartek.jpg
   - role: Affiliated PhD Student (2024—)
     name: Ahmet H. Güzel
     scholar: scholar.google.com/citations?user=fwq9yQ4AAAAJ&hl=en
@@ -108,6 +114,12 @@ phd:
     home: robertkirk.github.io
 
 msc:
+  - role: MSc Student
+    name: Umberto Borso
+    im: static/images/people/umberto.jpeg
+    github: uborso
+    tw: UBorso
+    linkedin: umberto-borso
 
 pastphd:
   - role: PhD Student (2020—2024)
