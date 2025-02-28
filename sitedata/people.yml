@@ -97,21 +97,6 @@ phd:
     home: yingchenxu.com
     scholar: scholar.google.com/citations?user=-CqyjXEAAAAJ&hl=en
     interests:
-  - role: PhD Student (2020—)
-    name: Zhengyao Jiang
-    im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=J8pFrgwAAAAJ&citpid=2
-    tw: zhengyaojiang
-    home: zhengyaojiang.github.io
-    scholar: scholar.google.co.jp/citations?user=J8pFrgwAAAAJ&hl=en
-    github: ZhengyaoJiang
-    interests: neural-symbolic methods; model-based reinforcement learning; generalization in reinforcement learning
-  - role: PhD Student (2020—)
-    name: Robert Kirk
-    im: https://pbs.twimg.com/profile_images/1219003032270245888/Wt4oxa_g_400x400.jpg 
-    tw: _robertkirk
-    scholar: https://scholar.google.com/citations?hl=en&user=PL5KWdYAAAAJ
-    github: RobertKirk
-    home: robertkirk.github.io
 
 msc:
   - role: MSc Student
@@ -122,6 +107,21 @@ msc:
     linkedin: umberto-borso
 
 pastphd:
+  - role: PhD Student (2020—2025)
+    name: Robert Kirk
+    im: https://pbs.twimg.com/profile_images/1219003032270245888/Wt4oxa_g_400x400.jpg 
+    tw: _robertkirk
+    scholar: https://scholar.google.com/citations?hl=en&user=PL5KWdYAAAAJ
+    github: RobertKirk
+    home: robertkirk.github.io
+  - role: PhD Student (2020—2024)
+    name: Zhengyao Jiang
+    im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=J8pFrgwAAAAJ&citpid=2
+    tw: zhengyaojiang
+    home: zhengyaojiang.github.io
+    scholar: scholar.google.co.jp/citations?user=J8pFrgwAAAAJ&hl=en
+    github: ZhengyaoJiang
+    interests: neural-symbolic methods; model-based reinforcement learning; generalization in reinforcement learning
   - role: PhD Student (2020—2024)
     name: Mikayel Samvelyan
     home: samvelyan.com
