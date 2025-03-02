@@ -100,6 +100,12 @@ phd:
 
 msc:
   - role: MSc Student
+    name: Ryan Pégoud
+    im: static/images/people/ryan.jpg
+    github: RPegoud
+    linkedin: ryan-pégoud
+    home: https://ryanpegoud.netlify.app
+  - role: MSc Student
     name: Umberto Borso
     im: static/images/people/umberto.jpeg
     github: uborso
