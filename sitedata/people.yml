@@ -111,6 +111,11 @@ msc:
     github: uborso
     tw: UBorso
     linkedin: umberto-borso
+  - role: MSc Student
+    name: Adam Vawda-Oomerjee
+    im: static/images/people/adam.jpeg
+    github: avawdaoomerjee
+    linkedin: adam-vawda-oomerjee
 
 pastphd:
   - role: PhD Student (2020—2025)
