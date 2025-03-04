@@ -111,6 +111,12 @@ msc:
     github: uborso
     tw: UBorso
     linkedin: umberto-borso
+  - role: MSc Student
+    name: Alexander Stern
+    im: static/images/people/alex_img.jpg  
+    github: alexkstern
+    tw: alexkrstern
+    linkedin: alexkstern
 
 pastphd:
   - role: PhD Student (2020—2025)
