@@ -111,6 +111,12 @@ msc:
     github: uborso
     tw: UBorso
     linkedin: umberto-borso
+  - role: MSc Student
+    name: Xu Chen
+    im: static/images/people/xu.jpeg
+    github: XuChenCatkin
+    tw: 
+    linkedin: xuchencatkin
 
 pastphd:
   - role: PhD Student (2020—2025)
