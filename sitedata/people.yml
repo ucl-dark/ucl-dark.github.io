@@ -112,6 +112,11 @@ msc:
     tw: UBorso
     linkedin: umberto-borso
   - role: MSc Student
+    name: Adam Vawda-Oomerjee
+    im: static/images/people/adam.jpg
+    github: avawdaoomerjee
+    linkedin: adam-vawda-oomerjee
+  - role: MSc Student
     name: Alexander Stern
     im: static/images/people/alex_img.jpg  
     github: alexkstern
