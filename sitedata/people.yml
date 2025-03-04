@@ -112,6 +112,11 @@ msc:
     tw: UBorso
     linkedin: umberto-borso
   - role: MSc Student
+    name: Xu Chen
+    im: static/images/people/xu.jpeg
+    github: XuChenCatkin
+    linkedin: xuchencatkin
+  - role: MSc Student
     name: Adam Vawda-Oomerjee
     im: static/images/people/adam.jpg
     github: avawdaoomerjee
