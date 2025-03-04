@@ -112,6 +112,12 @@ msc:
     tw: UBorso
     linkedin: umberto-borso
   - role: MSc Student
+    name: Russell de Roeper
+    im: static/images/people/russell.jpg
+    github: deror007
+    home: https://deror007.github.io
+    linkedin: russellderoeper
+  - role: MSc Student
     name: Xu Chen
     im: static/images/people/xu.jpeg
     github: XuChenCatkin
