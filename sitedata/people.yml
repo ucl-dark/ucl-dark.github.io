@@ -133,6 +133,12 @@ msc:
     github: alexkstern
     tw: alexkrstern
     linkedin: alexkstern
+  - role: MSc Student 
+    name: Can Ertugrul 
+    im: static/images/people/can.jpg
+    github: canrertugrul
+    tw: canrertugrul
+    linkedin: canrertugrul
 
 pastphd:
   - role: PhD Student (2020—2025)
