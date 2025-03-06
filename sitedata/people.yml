@@ -100,6 +100,11 @@ phd:
 
 msc:
   - role: MSc Student
+    name: Hannah Erlebach
+    im: static/images/people/hannah_er.jpg
+    github: hannaherlebach
+    tw: hannaherlebach
+  - role: MSc Student
     name: Ryan Pégoud
     im: static/images/people/ryan.jpg
     github: RPegoud
@@ -118,6 +123,12 @@ msc:
     home: https://deror007.github.io
     linkedin: russellderoeper
   - role: MSc Student
+    name: Roman Negri
+    im: static/images/people/roman.jpeg
+    github: romanoneg
+    linkedin: romanoneg
+    tw: romanoneg
+  - role: MSc Student
     name: Xu Chen
     im: static/images/people/xu.jpeg
     github: XuChenCatkin
@@ -133,11 +144,12 @@ msc:
     github: alexkstern
     tw: alexkrstern
     linkedin: alexkstern
-  - role: MSc Student
-    name: Hannah Erlebach
-    im: static/images/people/hannah_er.jpg
-    github: hannaherlebach
-    tw: hannaherlebach
+  - role: MSc Student 
+    name: Can Ertugrul 
+    im: static/images/people/can.jpg
+    github: canrertugrul
+    tw: canrertugrul
+    linkedin: canrertugrul
 
 pastphd:
   - role: PhD Student (2020—2025)
