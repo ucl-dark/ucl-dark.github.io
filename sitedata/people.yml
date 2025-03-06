@@ -118,6 +118,12 @@ msc:
     home: https://deror007.github.io
     linkedin: russellderoeper
   - role: MSc Student
+    name: Roman Negri
+    im: static/images/people/roman.jpeg
+    github: romanoneg
+    linkedin: romanoneg
+    tw: romanoneg
+  - role: MSc Student
     name: Xu Chen
     im: static/images/people/xu.jpeg
     github: XuChenCatkin
