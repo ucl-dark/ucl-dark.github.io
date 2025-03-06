@@ -133,6 +133,11 @@ msc:
     github: alexkstern
     tw: alexkrstern
     linkedin: alexkstern
+  - role: MSc Student
+    name: Hannah Erlebach
+    im: static/images/people/hannah_er.jpg
+    github: hannaherlebach
+    tw: hannaherlebach
 
 pastphd:
   - role: PhD Student (2020—2025)
