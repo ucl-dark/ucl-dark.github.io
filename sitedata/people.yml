@@ -33,10 +33,10 @@ faculty:
 phd:
   - role: Visiting PhD Student (2025)
     name: Bartłomiej Cupiał
+    im: static/images/people/bartek.jpg
     github: bartekcupial
     tw: CupiaBart
     scholar: BartekCupial
-    im: static/images/people/bartek.jpg
   - role: Affiliated PhD Student (2024—)
     name: Ahmet H. Güzel
     scholar: scholar.google.com/citations?user=fwq9yQ4AAAAJ&hl=en
