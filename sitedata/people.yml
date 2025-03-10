@@ -33,10 +33,10 @@ faculty:
 phd:
   - role: Visiting PhD Student (2025)
     name: Bartłomiej Cupiał
+    im: static/images/people/bartek.jpg
     github: bartekcupial
     tw: CupiaBart
     scholar: BartekCupial
-    im: static/images/people/bartek.jpg
   - role: Affiliated PhD Student (2024—)
     name: Ahmet H. Güzel
     scholar: scholar.google.com/citations?user=fwq9yQ4AAAAJ&hl=en
@@ -154,11 +154,12 @@ msc:
 pastphd:
   - role: PhD Student (2020—2025)
     name: Robert Kirk
-    im: https://pbs.twimg.com/profile_images/1219003032270245888/Wt4oxa_g_400x400.jpg 
+    im: static/images/people/rob_kirk.jpg
     tw: _robertkirk
     scholar: https://scholar.google.com/citations?hl=en&user=PL5KWdYAAAAJ
     github: RobertKirk
     home: robertkirk.github.io
+    note: Next a Research Scientist at AI Security Institute
   - role: PhD Student (2020—2024)
     name: Zhengyao Jiang
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=J8pFrgwAAAAJ&citpid=2
@@ -166,7 +167,7 @@ pastphd:
     home: zhengyaojiang.github.io
     scholar: scholar.google.co.jp/citations?user=J8pFrgwAAAAJ&hl=en
     github: ZhengyaoJiang
-    interests: neural-symbolic methods; model-based reinforcement learning; generalization in reinforcement learning
+    note: Next Co-founder and CEO of Weco AI
   - role: PhD Student (2020—2024)
     name: Mikayel Samvelyan
     home: samvelyan.com
