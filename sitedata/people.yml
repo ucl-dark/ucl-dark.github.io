@@ -31,6 +31,14 @@ faculty:
     im: https://jparkerholder.github.io/img/jack+doris.png
 
 phd:
+  - role: Affiliated PhD Student (2025—)
+    name: Ross Murphy
+    scholar: https://scholar.google.com/citations?user=1IaWMfcAAAAJ&hl=en&oi=sra
+    im: static/images/people/ross.jpg
+    github: rossamurphy
+    home: rossamurphy.com
+    linkedin: ross-murphy-2b378039
+    note: Co-advised by Gabriel Brostow
   - role: Visiting PhD Student (2025)
     name: Bartłomiej Cupiał
     im: static/images/people/bartek.jpg
