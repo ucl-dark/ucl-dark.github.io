@@ -76,14 +76,6 @@ phd:
     linkedin: sam-coward-aa91b2124
     note: Co-advised by Jakob Foerster
   - role: PhD Student (2021—)
-    name: Akbir Khan
-    im: static/images/people/Akbir.png
-    tw: akbirkhan
-    scholar: https://scholar.google.co.uk/citations?user=zRyMIW0AAAAJ&hl=en
-    github: akbir
-    home: www.akbir.dev/about
-    interests:
-  - role: PhD Student (2021—)
     name: Laura Ruis
     im: static/images/people/laura.jpg
     tw: LauraRuis
@@ -152,6 +144,14 @@ msc:
     linkedin: canrertugrul
 
 pastphd:
+  - role: PhD Student (2021—2025)
+    name: Akbir Khan
+    im: static/images/people/Akbir.png
+    tw: akbirkhan
+    scholar: https://scholar.google.co.uk/citations?user=zRyMIW0AAAAJ&hl=en
+    github: akbir
+    home: www.akbir.dev/about
+    note: Next a Member of Technical Staff at Anthropic
   - role: PhD Student (2020—2025)
     name: Robert Kirk
     im: static/images/people/rob_kirk.jpg
