@@ -36,7 +36,7 @@ phd:
     scholar: https://scholar.google.com/citations?user=1IaWMfcAAAAJ&hl=en&oi=sra
     im: static/images/people/ross.jpg
     github: rossamurphy
-    home: rossamurphy.com
+    home: rossamurphy.com/
     linkedin: ross-murphy-2b378039
     note: Co-advised by Gabriel Brostow
   - role: Visiting PhD Student (2025)
@@ -140,12 +140,12 @@ msc:
     linkedin: adam-vawda-oomerjee
   - role: MSc Student
     name: Alexander Stern
-    im: static/images/people/alex_img.jpg  
+    im: static/images/people/alex_img.jpg
     github: alexkstern
     tw: alexkrstern
     linkedin: alexkstern
-  - role: MSc Student 
-    name: Can Ertugrul 
+  - role: MSc Student
+    name: Can Ertugrul
     im: static/images/people/can.jpg
     github: canrertugrul
     tw: canrertugrul
@@ -222,7 +222,7 @@ alumni:
     github: gardarjuto
     linkedin: gardarjuto
     im: static/images/people/gardar.jpeg
-    note: Next a Machine Learning Researcher at Miðeind 
+    note: Next a Machine Learning Researcher at Miðeind
   - role: MSc Student
     name: Shavindra Jayasekera
     linkedin: shavindra-jayasekera-8140bb1b7
@@ -270,7 +270,7 @@ alumni:
     scholar: scholar.google.it/citations?user=9sk6CSgAAAAJ&hl=it
     im: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=9sk6CSgAAAAJ&citpid=3
     tw: pminervini
-    note: Next a faculty at the University of Edinburgh    
+    note: Next a faculty at the University of Edinburgh
   - role: MSc Student (2021)
     name: Hannah Teufel
     im: static/images/people/hannah.jpg
